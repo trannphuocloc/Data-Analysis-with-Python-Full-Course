@@ -1,0 +1,7838 @@
+ 1/1: 1 + 1
+ 1/2: 1 + 1
+ 1/3: print"Hello, World!"
+ 1/4: print("Hello, World!")
+ 1/5:
+print("Hello, World!")
+x = 1
+x = x + 1
+ 1/6:
+print("Hello, World!")
+x = 1
+x = x + 1
+ 1/7:
+# example: write program to check a number is positive/zero/negative
+num = -1
+if num > 0:
+    print("Positive Number")
+elif num == 0:
+    print("Zero")
+else:
+    print("Negative Number")
+ 1/8:
+# example: write program to check a number is positive/zero/negative
+num = 9
+if num > 0:
+    print("Positive Number")
+elif num == 0:
+    print("Zero")
+else:
+    print("Negative Number")
+ 1/9:
+# example: write program to check a number is positive/zero/negative
+abc = 9 #variable, can change name
+if abc > 0:
+    print("Positive Number")
+elif abc == 0:
+    print("Zero")
+else:
+    print("Negative Number")
+1/10:
+# example: write program to check a number is positive/zero/negative
+abc = 9 #variable, can change name
+if abc > 0:
+    print("Positi Number")
+elif abc == 0:
+    print("Zero")
+else:
+    print("Negative Number")
+1/11:
+# example: write program to check a number is positive/non-positive
+num = 9 #variable, can change name
+if num > 0:
+    print("Positive Number")
+else:
+    print("non Positive Number")
+1/12:
+# example: write program to check a number is positive/non-positive
+num = -99 #variable, can change name
+if num > 0:
+    print("Positive Number")
+else:
+    print("non Positive Number")
+1/13:
+# example: write program to check a number is positive/non-positive
+num = 9 #variable, can change name
+if num > 0
+    print("Positive Number")
+else:
+    print("non Positive Number")
+1/14:
+# example: write program to check a number is positive/non-positive
+num = 9 #variable, can change name
+if num > 0:
+    print("Positive Number")
+else:
+    print("non Positive Number")
+1/15:
+# example: write program to check a number is positive/non-positive
+num = 9 #variable, can change name
+int(input("Nhap so:")
+if num > 0:
+    print("Positive Number")
+else:
+    print("non Positive Number")
+1/16:
+# example: write program to check a number is positive/non-positive
+num = 9 #variable, can change name
+int(input("Nhap so:"))
+if num > 0:
+    print("Positive Number")
+else:
+    print("non Positive Number")
+1/17:
+# example: write program to check a number is positive/non-positive
+#variable, can change name
+num = int(input("Nhap so:"))
+if num > 0:
+    print("Positive Number")
+else:
+    print("non Positive Number")
+1/18: 10 / 2
+1/19: 9 // 2
+1/20: 2 ** 2
+1/21: 2 ** 5 # 2 ** là lũy thừa (mũ)
+1/22: (1==1)&(2==3)
+1/23:
+(1==1)&(2==3)
+# == đang check xem 1 có bằng 1 ko => 1 = 1, nhưng 2 != 3
+# điều kiện & , đồng thời 2 về đều đúng => True
+1/24:
+(1==1)&(2==3)
+# == đang check xem 1 có bằng 1 ko => 1 = 1, nhưng 2 != 3
+# điều kiện & , đồng thời 2 về đều đúng => True
+1/25:
+(1==1)|(2==3)
+# điều kiện or | , chỉ cần 1 trong 2 về đúng -> True
+1/26: 1!=2
+1/27:
+(1==1)&(2==3)
+# == đang check xem 1 có bằng 1 ko => 1 = 1, nhưng 2 != 3
+# điều kiện and & , đồng thời 2 về đều đúng => True
+                        # 1 trong 2 sai -> False
+1/28:
+(1==1)&(2==3)
+(1==1)and(2==3)
+# == đang check xem 1 có bằng 1 ko => 1 = 1, nhưng 2 != 3
+# điều kiện and & , đồng thời 2 về đều đúng => True
+                        # 1 trong 2 sai -> False
+1/29:
+1!=2
+# viết lại
+(1==1or1<1)
+# toán tử 'khác'
+1/30:
+1 <= 1
+# viết lại
+(1=1or1<1)
+# toán tử lớn hơn hoặc bằng
+1/31:
+1 <= 1
+# viết lại
+(1==1)or(1<1)
+# toán tử lớn hơn hoặc bằng
+1/32:
+a = 1
+b = 1
+a is b
+1/33:
+1!=2
+# toán tử 'khác'
+1/34: True or False and False or True
+1/35:
+True or False and False or True
+True or False and False and True and False or True
+1/36:
+False or False and False or True
+True or False and False and True and False or True
+1/37:
+False or False and False or True
+#True or False and False and True and False or True
+1/38: True and True
+1/39: True and False
+1/40: True or False
+1/41: True or True
+1/42: False or True
+1/43: False or False
+1/44: False and False
+1/45: False and True
+1/46:
+False or False and False or True
+#True or False and False and True and False or True
+1/47: False and True
+1/48:
+# In formatted text
+age = 50
+name = "Kim Jong Un"
+
+print("This is {}. He is {} years old".format(name, age))
+
+# age 50 là kết quả của nhiều hàm khác sau khi mình query dữ liệu
+# để chèn age=50, name=Kim va câu print -> để trống và thay bằng {} -> chèn.format bên trong print
+1/49:
+# In formatted text
+age = 50
+name = "Kim Jong Un"
+birthyear = 2024 - age
+
+print("This is {}. He is {} years old, and his birthyear is {}.".format(name, age, birthyear))
+
+# age 50 là kết quả của nhiều hàm khác sau khi mình query dữ liệu
+# để chèn age=50, name=Kim va câu print -> để trống và thay bằng {} -> chèn.format bên trong print
+1/50:
+# In fomatted text với biến được sử dụng lại nhiều lần
+x = 5
+
+print("{0} multiplied by {0} is equal to {1}".format(x, x * x))
+
+# có thể gán 1 biến, dùng biến đó trong format mà ko cần tính lại x*x=25 bên trên khi khai báo
+# python index vị trí đầu trong format là 0 -> x, tới vị trí 1 -> x * x
+1/51:
+# Yêu cầu người dùng nhập vào tên, lưu vào biến tên name
+# In ra Hello tên người dùng
+name = input("Hay nhap vao ten cua ban: ")
+print("Hello {}!".format(name))
+1/52:
+age = input("Hay nhap vao tuoi cua ban: ")
+age = int(age)
+
+print(age)
+print(type(age))
+1/53:
+age = input("Hay nhap vao tuoi cua ban: ")
+age = float(age)
+
+print(age)
+print(type(age))
+1/54:
+# Calculate the multiplication and sum of two numbers
+# number1 = 20
+# number2 = 30
+
+num1 = 20
+num2 = 30
+print(num1 + num2)
+print(num1 * num2)
+1/55:
+# Calculate the multiplication and sum of two numbers
+# number1 = 20
+# number2 = 30
+
+num1 = 20
+num2 = 30
+num1 + num2
+print(num1 * num2)
+1/56:
+# Calculate the multiplication and sum of two numbers
+# number1 = 20
+# number2 = 30
+
+num1 = 20
+num2 = 30
+print(num1 + num2)
+print(num1 * num2)
+1/57:
+# Display three string “Name”, “Is”, “James” as “Name**Is**James”
+
+print("Name  Is  James")
+1/58:
+# Display float number with 2 decimal places using print()
+
+x = 10
+
+print(float(x))
+1/59:
+# Display float number with 2 decimal places using print()
+
+x = 10
+
+print(float(x),2)
+1/60:
+# Display float number with 2 decimal places using print()
+
+x = 10
+
+print(decimal(x),2)
+1/61:
+# Display float number with 2 decimal places using print()
+
+x = 10
+
+print(decimal(x))
+1/62:
+# Display float number with 2 decimal places using print()
+
+x = 10
+
+print(dec(x))
+1/63:
+# Display float number with 2 decimal places using print()
+
+x = 10
+
+print(float(x))
+1/64:
+# Yêu cầu người dùng nhập vào tên, lưu vào biến tên name
+# In ra Hello tên người dùng
+name = input("Hay nhap vao ten cua ban: ")
+print("Hello {}!".format(name))
+1/65:
+temperature = input("Hãy nhập độ C:")
+print("Độ F tương ứng là {}.".format(temperature * 9/5 + 32))
+1/66:
+temperature = int(input("Hãy nhập độ C:"))
+print("Độ F tương ứng là {}.".format(temperature * 9/5 + 32))
+1/67:
+temperature = float(input("Hãy nhập độ C:"))
+print("Độ F tương ứng là {}.".format(temperature * 9/5 + 32))
+1/68:
+'''EXERCISE 2'''
+a = 3
+b = 4
+c = 5
+p = 1/2(a+b+c)
+
+print("S = {}".format(sqrt(p*(p-a)*(p-b)*(p-c)))
+1/69:
+'''EXERCISE 2'''
+a = 3
+b = 4
+c = 5
+p = 1/2(a+b+c)
+s = sqrt(p*(p-a)*(p-b)*(p-c))
+print(s)
+1/70:
+'''EXERCISE 2'''
+a = 3
+b = 4
+c = 5
+p = 1/2(a + b + c)
+s = sqrt(p*(p-a)*(p-b)*(p-c))
+print(s)
+1/71:
+'''EXERCISE 2'''
+a = 3
+b = 4
+c = 5
+p = 0.5 * (a + b + c)
+s = sqrt(p*(p-a)*(p-b)*(p-c))
+print(s)
+1/72:
+# Bad Practice as width of this code is too much.
+ 
+#code
+x = 10
+y = 20
+z = 30
+no_of_teachers = x
+no_of_male_students = y
+no_of_female_students = z
+ 
+if (no_of_teachers == 10 and no_of_female_students == 30 and no_of_male_students == 20 and (x + y) == 30):
+    print('The course is valid')
+
+# This could be done instead:
+ 
+if (no_of_teachers == 10 and no_of_female_students == 30
+    and no_of_male_students == 20 and x + y == 30):
+    print('The course is valid')
+1/73:
+'''EXERCISE 2'''
+import math
+a = 3
+b = 4
+c = 5
+p = 0.5 * (a + b + c)
+s = sqrt(p*(p-a)*(p-b)*(p-c))
+print("S = {}".format(s))
+1/74:
+'''EXERCISE 2'''
+import math
+a = 3
+b = 4
+c = 5
+p = 0.5 * (a + b + c)
+s = math.sqrt(p*(p-a)*(p-b)*(p-c))
+print("S = {}".format(s))
+1/75:
+'''EXERCISE 2'''
+import math
+a = 3
+b = 4
+c = 5
+p = 0.5 * (a + b + c)
+# s = math.sqrt(p*(p-a)*(p-b)*(p-c))
+print(math.sqrt(p*(p-a)*(p-b)*(p-c)))
+1/76:
+'''EXERCISE 3'''
+num = input("Hãy nhập số nguyên:")
+1/77:
+'''EXERCISE 3'''
+num = input("Hãy nhập số nguyên:")
+x = int
+if num == x * 5
+    print("{} là bội số của 5".format(num))
+1/78:
+'''EXERCISE 3'''
+num = input("Hãy nhập số nguyên:")
+x = int
+if num == x * 5:
+    print("{} là bội số của 5".format(num))
+1/79:
+'''EXERCISE 3'''
+num = input("Hãy nhập số nguyên:")
+multiple = 5
+if num % multiple == 0:
+    print("{} là bội số của 5".format(num))
+else:
+    print("{} không phải là bội số của 5".format(num))
+1/80:
+# Phép gán biểu thức mà kết quả trả về là số nguyên (2)
+x = 100 // 2
+y = 100 % 2
+
+print(x)
+print(y)
+
+print(type(x))
+print(type(y))
+1/81:
+number = 15
+multiple = 5
+
+if number % multiple == 0:
+    print(f"{number} là bội số của {multiple}")
+else:
+    print(f"{number} không là bội số của {multiple}")
+1/82:
+'''EXERCISE 3'''
+num = int(input("Hãy nhập số nguyên:"))
+multiple = 5
+if num % multiple == 0:
+    print("{} là bội số của 5".format(num))
+else:
+    print("{} không phải là bội số của 5".format(num))
+1/83:
+'''EXERCISE 3'''
+num = int(input("Hãy nhập số nguyên:"))
+multiple = 5
+if num % multiple == 0:
+    print("{} là bội số của 5".format(num))
+else:
+    print("{} không phải là bội số của 5".format(num))
+1/84:
+'''EXERCISE 3'''
+num = int(input("Hãy nhập số nguyên:"))
+multiple = 5
+if num % multiple == 0:
+    print("{} là bội số của 5".format(num))
+else:
+    print("{} không phải là bội số của 5".format(num))
+1/85:
+'''EXERCISE 3'''
+num = int(input("Hãy nhập số nguyên:"))
+multiple = 5
+if num % multiple == 0:
+    print("{} là bội số của 5".format(num))
+else:
+    print("{} không phải là bội số của 5".format(num))
+1/86:
+number = 8
+
+for i in range(1, 11):  ## Liệt kê 10 bội số đầu tiên
+    if number * i <= 100:
+        print(number * i)
+1/87:
+number = 8
+
+for i in range(1, 11):  ## Liệt kê 10 bội số đầu tiên
+    if number * i <= 100:
+        print(number, number * i)
+1/88:
+number = 8
+
+for i in range(1, 11):  ## Liệt kê 10 bội số đầu tiên
+    if number * i <= 100:
+        print(i, number * i)
+1/89:
+number = 8
+
+for i in range(1, 11):  ## Liệt kê 10 bội số đầu tiên
+    if number * i <= 200:
+        print(i, number * i)
+1/90:
+number = 8
+
+for i in range(1, 20):  ## Liệt kê 10 bội số đầu tiên
+    if number * i <= 200:
+        print(i, number * i)
+1/91:
+'''EXERCISE 2'''
+import math
+a = float(input("Hãy nhập độ dài cạnh a:"))
+b = 4
+c = 5
+p = 0.5 * (a + b + c)
+# s = math.sqrt(p*(p-a)*(p-b)*(p-c))
+print(math.sqrt(p*(p-a)*(p-b)*(p-c)))
+1/92:
+'''EXERCISE 2'''
+import math
+a = float(input("Hãy nhập độ dài cạnh a:"))
+b = float(input("Hãy nhập độ dài cạnh b:"))
+c = float(input("Hãy nhập độ dài cạnh c:"))
+p = 0.5 * (a + b + c)
+# s = math.sqrt(p*(p-a)*(p-b)*(p-c))
+print(s)
+print(math.sqrt(p*(p-a)*(p-b)*(p-c)))
+1/93:
+'''EXERCISE 2'''
+import math
+a = float(input("Hãy nhập độ dài cạnh a:"))
+b = float(input("Hãy nhập độ dài cạnh b:"))
+c = float(input("Hãy nhập độ dài cạnh c:"))
+p = 0.5 * (a + b + c)
+# s = math.sqrt(p*(p-a)*(p-b)*(p-c))
+print(s)
+print(math.sqrt(p*(p-a)*(p-b)*(p-c)))
+1/94:
+'''EXERCISE 2'''
+import math
+a = float(input("Hãy nhập độ dài cạnh a:"))
+b = float(input("Hãy nhập độ dài cạnh b:"))
+c = float(input("Hãy nhập độ dài cạnh c:"))
+p = 0.5 * (a + b + c)
+s = math.sqrt(p*(p-a)*(p-b)*(p-c))
+
+print(s)
+print("Diện tích tam giác là")
+1/95:
+'''EXERCISE 2'''
+import math
+a = float(input("Hãy nhập độ dài cạnh a:"))
+b = float(input("Hãy nhập độ dài cạnh b:"))
+c = float(input("Hãy nhập độ dài cạnh c:"))
+p = 0.5 * (a + b + c)
+s = math.sqrt(p*(p-a)*(p-b)*(p-c))
+
+print(s)
+print("Diện tích tam giác là {:2f}".format(s)
+1/96:
+'''EXERCISE 2'''
+import math
+a = float(input("Hãy nhập độ dài cạnh a:"))
+b = float(input("Hãy nhập độ dài cạnh b:"))
+c = float(input("Hãy nhập độ dài cạnh c:"))
+p = 0.5 * (a + b + c)
+s = math.sqrt(p*(p-a)*(p-b)*(p-c))
+
+print(s)
+print("Diện tích tam giác là {:2f}".format(s))
+1/97:
+'''EXERCISE 2'''
+import math
+a = float(input("Hãy nhập độ dài cạnh a:"))
+b = float(input("Hãy nhập độ dài cạnh b:"))
+c = float(input("Hãy nhập độ dài cạnh c:"))
+p = 0.5 * (a + b + c)
+s = math.sqrt(p*(p-a)*(p-b)*(p-c))
+
+print(s)
+print("Diện tích tam giác là {:.2f}".format(s))
+1/98:
+'''EXERCISE 2'''
+import math
+a = float(input("Hãy nhập độ dài cạnh a:"))
+b = float(input("Hãy nhập độ dài cạnh b:"))
+c = float(input("Hãy nhập độ dài cạnh c:"))
+p = 0.5 * (a + b + c)
+s = math.sqrt(p*(p-a)*(p-b)*(p-c))
+
+print(s)
+print("Diện tích tam giác là {:.2f}".format(s))
+print("Diện tích tam giác là",round(s,2))
+1/99:
+'''EXERCISE 3'''
+num = int(input("Hãy nhập số nguyên:"))
+multiple = 5
+if num % multiple == 0:
+    print("{} là bội số của 5".format(num))
+else:
+    print("{} không phải là bội số của 5".format(num))
+1/100:
+'''EXERCISE 2'''
+import math
+a = float(input("Hãy nhập độ dài cạnh a:"))
+b = float(input("Hãy nhập độ dài cạnh b:"))
+c = float(input("Hãy nhập độ dài cạnh c:"))
+p = 0.5 * (a + b + c)
+s = math.sqrt(p*(p-a)*(p-b)*(p-c))
+
+print(s)
+print("Diện tích tam giác là {:.4f}".format(s))
+print("Diện tích tam giác là",round(s,2))
+ 2/1:
+a = [1, 2, 3, 4, 5]
+print(a)
+print(type(a))
+ 2/2:
+'''List các số nguyên'''
+l = [1,2,3,4,5]
+ 2/3: '''Truy vấn phần tử đầu tiên'''
+ 2/4:
+'''Truy vấn phần tử đầu tiên'''
+print(l[0])
+ 2/5:
+'''Truy vấn phần tử đầu tiên'''
+print(l[0])
+
+'''Truy vấn phần tử thứ 3'''
+print(l[3])
+ 2/6:
+'''Truy vấn phần tử đầu tiên'''
+print(l[0])
+
+'''Truy vấn phần tử thứ 3'''
+print(l[2])
+ 2/7:
+'''Truy vấn phần tử đầu tiên'''
+print(l[0])
+
+'''Truy vấn phần tử thứ 3'''
+print(l[2])
+
+'''Truy vấn phần tử cuối cùng'''
+print(l[-1]
+ 2/8:
+'''Truy vấn phần tử đầu tiên'''
+print(l[0])
+
+'''Truy vấn phần tử thứ 3'''
+print(l[2])
+
+'''Truy vấn phần tử cuối cùng'''
+print(l[-1])
+ 2/9:
+'''Truy vấn phần tử đầu tiên'''
+l[0]
+print(l[0])
+
+'''Truy vấn phần tử thứ 3'''
+print(l[2])
+
+'''Truy vấn phần tử cuối cùng'''
+print(l[-1])
+2/10:
+'''Truy vấn phần tử đầu tiên'''
+print(l[0])
+
+'''Truy vấn phần tử thứ 3'''
+print(l[2])
+
+'''Truy vấn phần tử cuối cùng'''
+print(l[-1])
+
+'''Truy vấn phần tử thứ 2 kể từ phần tử cuối cùng'''
+print(l[-2])
+2/11:
+'''Truy vấn element thứ 3, gán thành 99, print list'''
+l[2] = 99
+print(l)
+2/12:
+'''Truy vấn element thứ 3, gán thành 99, print list'''
+l[2] = 99
+print(l)
+
+'''Truy vấn element thứ 3, gán thành "Hello", print list'''
+l[2] = "Hello, World!"
+print(l)
+2/13:
+'''Truy vấn element thứ 3, gán thành 99, print list'''
+l[2] = 99
+print(l)
+2/14:
+'''Truy vấn element thứ 3, gán thành "Hello", print list'''
+l[2] = "Hello, World!"
+print(l)
+2/15: print(l)
+2/16:
+'''Truy vấn element thứ 3, gán thành [8,9], print list'''
+l[2] = [8, 9]
+print(l)
+2/17:
+'''Truy vấn element thứ 3, gán thành [8,9], print list'''
+l[2] = [8,9]
+print(l)
+2/18:
+'''Truy vấn element thứ 3, gán thành [8,9], print list'''
+l[2] = [8,9]
+print(l)
+2/19:
+'''Swap the first and the last element position'''
+print(l[0[)
+2/20:
+'''Swap the first and the last element position'''
+print(l[0])
+2/21:
+'''Swap the first and the last element position'''
+print(l[-1],)
+2/22:
+'''Swap the first and the last element position'''
+print(l[-1],l[2],l[3],l[4],l[1],)
+2/23:
+'''Swap the first and the last element position'''
+print(l[-1],l[2],l[3],l[4],l[0],)
+2/24:
+'''Swap the first and the last element position'''
+print(l[-1],l[1],l[2],l[3],l[4],l[0],)
+2/25:
+'''Swap the first and the last element position'''
+print(l[-1],l[1],l[2],l[3],l[0],)
+2/26:
+'''Swap the first and the last element position'''
+test = [3, 10, 6, 5, 20]
+# -> [20, 10, 6, 5, 3]
+
+test(l[0]), test(l[-1]) = test(l[-1]), test(l[0])
+2/27:
+'''Swap the first and the last element position'''
+test = [3, 10, 6, 5, 20]
+# -> [20, 10, 6, 5, 3]
+
+test(l[0]), test(l[-1]) = test(l[-1]), test(l[0])
+test
+2/28:
+'''Swap the first and the last element position'''
+test = [3, 10, 6, 5, 20]
+# -> [20, 10, 6, 5, 3]
+
+test[0], test[-1] = test[-1], test[0]
+test
+2/29:
+'''Replace element at given position by user input'''
+test = [3, 10, 6, 5, 20]
+# -> user muốn thay đổi element ở vị trí nào
+# -> thay bằng số mới là số nào
+
+i = input("Hãy nhập vị trí của index mà bạn muốn thay đổi:")
+n = input("Hãy nhập số mới:")
+
+test[i] = n
+print(test)
+2/30:
+'''Replace element at given position by user input'''
+test = [3, 10, 6, 5, 20]
+# -> user muốn thay đổi element ở vị trí nào
+# -> thay bằng số mới là số nào
+
+i = input("Hãy nhập vị trí của index mà bạn muốn thay đổi:")
+n = input("Hãy nhập số mới:")
+
+test[i] = n
+print(test)
+2/31:
+'''Replace element at given position by user input'''
+test = [3, 10, 6, 5, 20]
+# -> user muốn thay đổi element ở vị trí nào
+# -> thay bằng số mới là số nào
+
+i = input("Hãy nhập vị trí của index mà bạn muốn thay đổi:")
+n = int(input("Hãy nhập số mới:"))
+
+test[i] = n
+print(test)
+2/32:
+'''Replace element at given position by user input'''
+test = [3, 10, 6, 5, 20]
+# -> user muốn thay đổi element ở vị trí nào
+# -> thay bằng số mới là số nào
+
+i = input("Hãy nhập vị trí của index mà bạn muốn thay đổi:")
+n = int(input("Hãy nhập số mới:"))
+
+test[i] = n
+test
+2/33:
+'''Replace element at given position by user input'''
+test = [3, 10, 6, 5, 20]
+# -> user muốn thay đổi element ở vị trí nào
+# -> thay bằng số mới là số nào
+
+i = int(input("Hãy nhập vị trí của index mà bạn muốn thay đổi:"))
+n = int(input("Hãy nhập số mới:"))
+
+test[i] = n
+test
+2/34:
+'''Replace element at given position by user input'''
+test = [3, 10, 6, 5, 20]
+# -> user muốn thay đổi element ở vị trí nào
+# -> thay bằng số mới là số nào
+
+i = int(input("Hãy nhập vị trí của index mà bạn muốn thay đổi:"))
+n = int(input("Hãy nhập số mới:"))
+
+test[i] = n
+print(test)
+2/35:
+test = [3, 10, 6, 5, 20]
+5 -> 100
+
+test[3] = 100
+print(test)
+2/36:
+# test = [3, 10, 6, 5, 20]
+# 5 -> 100
+
+test[3] = 100
+print(test)
+2/37:
+test = [3, 10, 6, 5, 20]
+# 5 -> 100
+
+test[3] = 100
+print(test)
+2/38:
+'''Find length of a list'''
+#w1 : use len()
+#w2 : use index()
+index(test)
+2/39:
+'''Find length of a list'''
+test = [3, 10, 6, 5, 20]
+#w1 : use len()
+#w2 : use index()
+index(test)
+2/40:
+'''Find length of a list'''
+test = [3, 10, 6, 5, 20]
+#w1 : use len()
+#w2 : use index()
+len(test)
+2/41:
+'''Find length of a list'''
+test = [3, 10, 6, 5, 20]
+#w1 : use len()
+#w2 : use index()
+len(test)
+test.index(20)
+2/42:
+'''Find length of a list'''
+test = [3, 10, 6, 5, 20]
+#w1 : use len()
+#w2 : use index()
+len(test)
+test.index(-1)
+2/43:
+'''Find length of a list'''
+test = [3, 10, 6, 5, 20]
+#w1 : use len()
+#w2 : use index()
+len(test)
+test.index(-1)+1
+2/44:
+'''Find length of a list'''
+test = [3, 10, 6, 5, 20]
+#w1 : use len()
+#w2 : use index()
+len(test)
+test.index(test[-1])+1
+2/45:
+'''Find length of a list'''
+test = [3, 10, 6, 5, 20]
+#w1 : use len()
+#w2 : use index()
+len(test)
+test.index(test[-1])
+2/46:
+'''Find length of a list'''
+test = [3, 10, 6, 5, 20]
+#w1 : use len()
+#w2 : use index()
+len(test)
+test.index(test[-1])
+
+'''thêm 1 số 20 vào '''
+test2 = [3, 10, 6, 5, 20, 20]
+test2.index(test[-1])
+2/47:
+'''Find length of a list'''
+# test = [3, 10, 6, 5, 20]
+# #w1 : use len()
+# #w2 : use index()
+# len(test)
+# test.index(test[-1])
+
+'''thêm 1 số 20 vào '''
+test2 = [3, 10, 6, 5, 20, 20]
+test2.index(test[-1])
+2/48:
+'''Find maximum of the first, middle, last element of a list'''
+#w1: use max()
+#w2: not using max()
+
+l = [3, 10, 6, 5, 20]
+
+max(l)
+2/49:
+'''Find maximum of the first, middle, last element of a list'''
+#w1: use max()
+#w2: not using max()
+
+l = [3, 10, 6, 5, 20]
+
+l[0], l[2], l[4]
+2/50:
+'''Find maximum of the first, middle, last element of a list'''
+#w1: use max()
+#w2: not using max()
+
+l = [3, 10, 6, 5, 20]
+
+a = l[0], l[2], l[4]
+2/51:
+'''Find maximum of the first, middle, last element of a list'''
+#w1: use max()
+#w2: not using max()
+
+l = [3, 10, 6, 5, 20]
+
+a = l[0], l[2], l[4]
+2/52:
+'''Find maximum of the first, middle, last element of a list'''
+#w1: use max()
+#w2: not using max()
+
+l = [3, 10, 6, 5, 20]
+
+a = l[0], l[2], l[4]
+print(a)
+2/53:
+'''Find maximum of the first, middle, last element of a list'''
+#w1: use max()
+#w2: not using max()
+
+l = [3, 10, 6, 5, 20]
+
+a = l[0], l[2], l[4]
+print(a)
+max(a)
+2/54:
+'''Find maximum of the first, middle, last element of a list'''
+#w1: use max()
+#w2: not using max()
+
+l = [3, 10, 6, 5, 20]
+
+a = l[0], l[-1], len(l)/2
+print(a)
+max(a)
+2/55:
+'''Find maximum of the first, middle, last element of a list'''
+#w1: use max()
+#w2: not using max()
+
+l = [3, 10, 6, 5, 20]
+
+a = l[0], l[-1], len(l)//2
+print(a)
+max(a)
+2/56:
+'''Find maximum of the first, middle, last element of a list'''
+#w1: use max()
+#w2: not using max()
+
+l = [3, 10, 6, 5, 20]
+
+#w1:
+# a = l[0], l[-1], len(l)//2
+# print(a)
+# max(a)
+
+#w2
+a = l[0]
+b = l[-1]
+c = len(l)//2
+
+if a > b and a > c
+    print(a)
+elif b > a and b > c
+    print(b)
+else
+    print(c)
+2/57:
+'''Find maximum of the first, middle, last element of a list'''
+#w1: use max()
+#w2: not using max()
+
+l = [3, 10, 6, 5, 20]
+
+#w1:
+# a = l[0], l[-1], len(l)//2
+# print(a)
+# max(a)
+
+#w2
+a = l[0]
+b = l[-1]
+c = len(l)//2
+
+if a > b and a > c:
+    print(a)
+elif b > a and b > c:
+    print(b)
+else:
+    print(c)
+ 7/1:
+# In nhiều biến
+x = 5
+y = 7
+z = 9
+print(x, y, z)
+ 7/2:
+# Yêu cầu người dùng nhập vào tên, lưu vào biến tên name
+# In ra Hello tên người dùng
+name = input("Hay nhap vao ten cua ban: ")
+print("Hello {}!".format(name))
+ 7/3:
+a = 10; b = 20; c = b + a 
+  
+print(a); print(b); print(c)
+ 7/4:
+a = 10
+b = 20
+c = b + a 
+  
+print(a)
+print(b)
+print(c)
+ 7/5:
+# The following code is valid 
+a = [
+    [1, 2, 3],
+    [3, 4, 5], 
+    [5, 6, 7]
+    ] 
+  
+print(a)
+ 7/6:
+# This is correct but whitespace can improve readability 
+  
+a = 2-1  # Better way is a = 2 - 1 
+  
+print(a)
+ 7/7:
+# Biểu thức so sánh >
+x = 10 > 2
+print(x)
+ 7/8:
+# Biểu thức so sánh ==
+x = (10 == 5)
+print(x)
+ 7/9:
+# True ứng với 1, False ứng với 0
+print(int(True))
+print(int(False))
+7/10:
+# Số thực bị cắt phần thập phân
+print(int(10.99))
+7/11:
+# Write a program to accept two numbers from the user and calculate multiplication
+Hay nhap so thu nhat: = input()
+7/12:
+# Write a program to accept two numbers from the user and calculate multiplication
+input("Hay nhap so thu nhat:" )
+7/13:
+# Write a program to accept two numbers from the user and calculate multiplication
+a = input("Hay nhap so thu nhat:" )
+b = input("Hay nhap so thu hai:" )
+print("Day la ket qua khi nhan hai so: {}".format(a * b))
+7/14:
+# Write a program to accept two numbers from the user and calculate multiplication
+a = int(input("Hay nhap so thu nhat:" ))
+b = int(input("Hay nhap so thu hai:" ))
+print("Day la ket qua khi nhan hai so: {}".format(a * b))
+7/15:
+# Write a program to accept two numbers from the user and calculate multiplication
+a = int(input("Hay nhap so thu nhat:" ))
+b = int(input("Hay nhap so thu hai:" ))
+print("Day la ket qua khi nhan hai so: {}".format(a * b))
+7/16:
+'''EXERCISE 3'''
+num = int(input("Hãy nhập số nguyên:"))
+multiple = 5
+if num % multiple == 0:
+    print("{} là bội số của 5".format(num))
+else:
+    print("{} không phải là bội số của 5".format(num))
+7/17:
+'''EXERCISE 3'''
+num = int(input("Hãy nhập số nguyên:"))
+multiple = 5
+if num % multiple == 0:
+    print("{} là bội số của 5".format(num))
+else:
+    print("{} không phải là bội số của 5".format(num))
+ 8/1:
+#khoi tao lai list
+l = [1, 2, 3, 4, 5]
+ 8/2: print(l[0:3])
+ 8/3:
+#Slice từ phần tử đầu tiên đến phần tử thứ 3
+print(l[0:3])
+print(l[:3])
+ 8/4:
+#Slice từ phần tử đầu tiên đến phần tử thứ 3
+print(l[0:3])
+print(l[:4:2])
+ 8/5:
+#Slice từ phần tử đầu tiên đến phần tử thứ 3
+print(l[0:3])
+print(l[:5:2])
+ 8/6:
+#Slice từ phần tử đầu tiên đến phần tử thứ 3
+print(l[0:3])
+print(l[:5:2])
+ 8/7:
+#Slice từ phần tử đầu tiên đến phần tử thứ 3
+print(l[0:3])
+print(l[:5:2])
+#bước nhảy 2: nhảy 1 - 3 - 5
+ 8/8:
+#Slice từ phần tử đầu tiên đến phần tử thứ 3
+print(l[0:3])
+print(l[:5:2])
+#bước nhảy 2: nhảy 1 - 3 - 5
+ 8/9:
+#Slice từ phần tử đầu tiên đến phần tử thứ 3
+print(l[0:3])
+print(l[:5:2])
+#bước nhảy 2: nhảy 1 - 3 - 5
+
+print(l[1:5])
+8/10:
+#Slice từ phần tử đầu tiên đến phần tử thứ 3
+print(l[0:3])
+print(l[:5:2])
+#bước nhảy 2: nhảy 1 - 3 - 5
+
+print(l[1:4])
+8/11:
+#khác nhau giữa 2 câu
+print(l[0])
+print(l[0:1])
+8/12:
+#lấy element từ trong print(l[0:1])
+l[0]
+8/13:
+#lấy element từ trong print(l[0:1])
+l[0]
+print(l[0:1])[0]
+8/14:
+#lấy element từ trong print(l[0:1])
+l[0]
+print(l[0:1])[0]
+8/15:
+#lấy element từ trong print(l[0:1])
+l[0]
+l[0:1][0]
+8/16:
+#lấy element từ trong print(l[0:1])
+l[0]
+l[0:1][0]
+8/17:
+#lấy element từ trong print(l[0:1])
+#l[0]
+l[0:1][0]
+8/18:
+#lấy element từ trong print(l[0:1])
+l[0] = l[0:1][0]
+8/19:
+#slice đảo ngược list
+print(l[::-1])
+8/20:
+#slice phần tử từ 2 đến 4, và thay bằng [99, 100] 
+(l[1:3]) = [99,100]
+print(l)
+8/21:
+#slice phần tử từ 2 đến 4, và thay bằng [99, 100] 
+print(l)
+(l[1:3]) = [99,100]
+print(l)
+8/22:
+#slice phần tử từ 2 đến 4, và thay bằng [99, 100] 
+(l[1:3]) = [99,100]
+print(l)
+8/23:
+#slice phần tử từ 2 đến 4, và thay bằng [99, 100] 
+#insert nhiều hơn 2 phần tử gốc là 2 và 3
+(l[1:3]) = [99,100,101,"Apple"]
+print(l)
+8/24:
+#lấy n phần tử cuối cùng
+print(l[-2])
+8/25:
+#lấy n phần tử cuối cùng
+print(l[-2])
+print(l[-2:])
+8/26:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(L[3:9:2])
+8/27:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(L[3:9:2])
+print(L[::2])
+8/28:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(L[3:9:2])
+print(L[::2])
+8/29:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(L[3:9:2])
+print(L[::2])
+print(L[:::])
+8/30:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(L[3:9:2])
+print(L[::2])
+print(L[::])
+8/31:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(L[3:9:2])
+print(L[::2])
+print(L[::])
+8/32:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(L[3:9:2])
+print(L[::2])
+print(L[::])
+print(L)
+8/33:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(L[3:9:2])
+print(L[::2])
+print(L[::])
+print(L)
+8/34:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(L[3:9:2])
+print(L[::2])
+print(L[::])
+print(L)
+print(L[::-1])
+8/35:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(L[3:9:2])
+print(L[::2])
+print(L[::])
+print(L)
+print(L[::-1])
+8/36:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(L[3:9:2])
+print(L[::2])
+print(L[::])
+print(L)
+print(L[::-1])
+print(L[::-2])
+8/37:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(L[3:9:2])
+print(L[::2])
+print(L[::])
+print(L)
+print(L[::-1])
+print(L[::-2])
+print(l[::-3])
+8/38:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(L[3:9:2])
+print(L[::2])
+print(L[::])
+print(L)
+print(L[::-1])
+print(L[::-2])
+print(L[::-3])
+8/39:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(L[3:9:2])
+print(L[::2])
+print(L[::])
+print(L)
+print(L[::-1])
+print(L[::-2])
+print(L[::-3])
+print(L[:1:-1])
+8/40: #in 3 element cuối, theo thứ tự desc
+8/41:
+#in 3 element cuối, theo thứ tự desc
+print(L[-3:])
+8/42:
+#in 3 element cuối, theo thứ tự desc
+print(L[-3:-1])
+8/43:
+#in 3 element cuối, theo thứ tự desc
+print(L[[-3:]:-1])
+8/44:
+#in 3 element cuối, theo thứ tự desc
+a = L[-3:]
+print(a[::-1])
+8/45:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+if len(L) % 2 > 0:
+    print(L[3:6])
+else len(L) % 2 = 0
+    print(L[3:5])
+8/46:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+if len(L) % 2 > 0:
+    print(L[3:6])
+else len(L) % 2 = 0:
+    print(L[3:5])
+8/47: len(L)
+8/48: len(L)%2
+8/49:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+if len(L) % 2 > 0:
+    print(L[3:6])
+else :
+    print(L[3:5])
+8/50:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+if len(L) % 2 > 0:
+    print(L[3:6])
+else :
+    print(L[3:5])
+8/51:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+if len(L) % 2 > 0:
+    print(L[3:6])
+else :
+    print(L[3:5])
+8/52: print(L)
+8/53:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+print(L)
+if len(L) % 2 > 0:
+    print(L[3:6])
+else :
+    print(L[3:5])
+8/54:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(L[3:9:2])
+print(L[::2])
+print(L[::])
+print(L)
+print(L[::-1])
+print(L[::-2])
+print(L[::-3])
+print(L[:1:-1])
+8/55:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+print(L)
+if len(L) % 2 > 0:
+    print(L[3:6])
+else :
+    print(L[3:5])
+8/56:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+print(L[3:9:2])
+print(L[::2])
+print(L[::])
+print(L)
+print(L[::-1])
+print(L[::-2])
+print(L[::-3])
+print(L[:1:-1])
+8/57:
+#in 3 element cuối, theo thứ tự desc
+a = L[-3:]
+print(a[::-1])
+8/58:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+print(L)
+if len(L) % 2 > 0:
+    print(L[3:6])
+else :
+    print(L[3:5])
+8/59: (L(1)+L(-1))/2
+8/60: (int(L(1))+int(L(-1)))/2
+8/61: (L[0]+L[-1])/2
+8/62: (L[0]+L[-1])%2
+8/63:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+print(L)
+if len(L) % 2 > 0
+    and mid = (L[0]+L[-1])/2:
+    print(L[3:mid])
+else :
+    print(L[3:5])
+8/64:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+print(L)
+if len(L) % 2 > 0
+    and (L[0]+L[-1]) % 2 = 0:
+    print(L[3:(L[0]+L[-1])])
+else :
+    print(L[3:5])
+8/65: (L[0]+L[-1])%2
+8/66:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+print(L)
+if len(L) % 2 > 0
+    and (L[0]+L[-1]) % 2 = 0:
+    print(L[3:(L[0]+L[-1])])
+else :
+    print(L[3:5])
+8/67:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+print(L)
+if len(L) % 2 > 0 and 
+    (L[0]+L[-1]) % 2 = 0:
+    print(L[3:(L[0]+L[-1])])
+else :
+    print(L[3:5])
+8/68:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+print(L)
+if len(L) % 2 > 0 and 
+    (L[0]+L[-1]) % 2 = 0:
+    print(L[3:(L[0]+L[-1])/2])
+else :
+    print(L[3:5])
+8/69:
+print(L)
+if len(L) % 2 > 0 
+    print(L[3:6])
+else :
+    print(L[3:5])
+8/70:
+print(L)
+if len(L) % 2 > 0 :
+    print(L[3:5])
+else :
+    print(L[3:5])
+8/71:
+print(L)
+if len(L) % 2 > 0 :
+    print(L[4:6])
+else :
+    print(L[3:5])
+8/72:
+print(L)
+if len(L) % 2 > 0 :
+    print(L[4:7])
+else :
+    print(L[4:6])
+8/73:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(L[3:9:2])
+print(L[::2])
+print(L[::])
+print(L)
+print(L[::-1])
+print(L[::-2])
+print(L[::-3])
+print(L[:1:-1])
+8/74:
+print(L)
+if len(L) % 2 > 0 :
+    print(L[4:7])
+else :
+    print(L[4:6])
+8/75:
+#in 3 element cuối, theo thứ tự desc
+a = L[-3:][::-1]
+print(a[::-1])
+8/76:
+#in 3 element cuối, theo thứ tự desc
+a = L[-3:][::-1]
+8/77:
+#in 3 element cuối, theo thứ tự desc
+a = L[-3:][::-1]
+8/78:
+#in 3 element cuối, theo thứ tự desc
+a = L[-3:][::-1]
+print(a)
+8/79:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+print(L)
+if len(L) % 2 > 0 :
+    print(L[4:7])
+else :
+    print(L[4:6])
+''' Phát triển để nó tự động
+print(L)
+if len(L) % 2 > 0 and 
+    (L[0]+L[-1]) % 2 = 0:
+    print(L[3:(L[0]+L[-1])/2])
+else :
+    print(L[3:5])
+''''
+8/80:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+
+print(L)
+if len(L) % 2 > 0 :
+    print(L[4:7])
+else :
+    print(L[4:6])
+    
+''' Phát triển để nó tự động
+print(L)
+if len(L) % 2 > 0 and 
+    (L[0]+L[-1]) % 2 = 0:
+    print(L[3:(L[0]+L[-1])/2])
+else :
+    print(L[3:5])
+''''
+8/81:
+print(L)
+if len(L) % 2 > 0 :
+    print(L[4:7])
+else :
+    print(L[4:6])
+8/82:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(L[3:9:2])
+print(L[::2])
+print(L[::])
+print(L)
+print(L[::-1])
+print(L[::-2])
+print(L[::-3])
+print(L[:1:-1])
+8/83:
+#in 3 element cuối, theo thứ tự desc
+a = L[-3:][::-1]
+print(a)
+8/84:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+
+print(L)
+if len(L) % 2 > 0 :
+    print(L[4:7])
+else :
+    print(L[4:6])
+    
+''' Phát triển để nó tự động
+print(L)
+if len(L) % 2 > 0 and 
+    (L[0]+L[-1]) % 2 = 0:
+    print(L[3:(L[0]+L[-1])/2])
+else :
+    print(L[3:5])
+''''
+8/85:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+
+print(L)
+# if len(L) % 2 > 0 :
+#     print(L[4:7])
+# else :
+#     print(L[4:6])
+    
+''' Phát triển để nó tự động
+print(L)
+if len(L) % 2 > 0 and 
+    (L[0]+L[-1]) % 2 = 0:
+    print(L[3:(L[0]+L[-1])/2])
+else :
+    print(L[3:5])
+''''
+8/86:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+
+print(L)
+if len(L) % 2 > 0 :
+    print(L[4:7])
+else :
+    print(L[4:6])
+    
+''' Phát triển để nó tự động
+print(L)
+if len(L) % 2 > 0 and 
+    (L[0]+L[-1]) % 2 = 0:
+    print(L[3:(L[0]+L[-1])/2])
+else :
+    print(L[3:5])
+'''
+8/87:
+#in ra 3 element ở giữa nếu tổng số element là lẻ, nếu là chẵn in ra 2 element ở giữa
+#[1, 2, 3, 4, 5, 6, 7, 8, 9] -> [4, 5, 6]
+#[1, 2, 3, 4, 5, 6, 7, 8] -> [4, 5]
+
+print(L)
+if len(L) % 2 > 0 :
+    print(L[4:7])
+else :
+    print(L[4:6])
+    
+#  Phát triển để nó tự động
+# print(L)
+# if len(L) % 2 > 0 and 
+#     (L[0]+L[-1]) % 2 = 0:
+#     print(L[3:(L[0]+L[-1])/2])
+# else :
+#     print(L[3:5])
+8/88:
+#Khởi tạo lại list
+L = [1, 2, 3, 4, 5]
+print(L)
+8/89: #Index L[5] sẽ báo lỗi Out-Of-Range vì last index chỉ là 4
+8/90:
+#Index L[5] sẽ báo lỗi Out-Of-Range vì last index chỉ là 4
+#Nhưng slice sẽ không kiểm tra lỗi này
+#Nếu stop index lớn hơn last index thì slice tự động slice đến cuối list
+8/91:
+#Index L[5] sẽ báo lỗi Out-Of-Range vì last index chỉ là 4
+#Nhưng slice sẽ không kiểm tra lỗi này
+#Nếu stop index lớn hơn last index thì slice tự động slice đến cuối list
+print(L[0:1000])
+8/92:
+#Khởi tạo lại list
+L = [1, 2, 3, 4, 5]
+print(L)
+8/93: l(5)
+8/94: l(4)
+8/95: l[4]
+8/96: L[4]
+8/97: L[5]
+8/98:
+#Khởi tạo lại list
+L = [1, 2, 3, 4, 5]
+8/99:
+#Đếm số phần tử
+len(L)
+8/100:
+#Kiểm tra giá trị nào đó có trong list không
+print(L)
+print(1 in L)
+8/101:
+#Kiểm tra giá trị nào đó có trong list không
+print(L)
+print(1 in L)
+print(99 in L)
+8/102:
+#Nối 2 list
+L2 = [1, -3, 8]
+print(L + L2)
+8/103:
+#Nối 2 list
+L2 = [1, -3, 8]
+print(L - L2)
+8/104:
+#Nối 2 list
+L2 = [1, -3, 8]
+print(L + L2)
+8/105:
+#Nối 2 list
+L2 = [1, -3, 8]
+print(L + L2)
+print(L2 + L)
+8/106:
+#Tạo list mới bằng cách replicate các element đã có sẵn
+l = [1, 2]
+print(l * 4)
+8/107:
+#Sắp xép một list (nếu có thể)
+print(L2)
+print(sorted(L2))
+8/108:
+#Sắp xép một list (nếu có thể)
+print(L2)
+print(sorted(L2))
+print(sorted(L2), reverse = True)
+8/109:
+#Sắp xép một list (nếu có thể)
+print(L2)
+print(sorted(L2))
+print(sorted(L2, reverse = True))
+8/110:
+#xóa phần tử thứ 2
+print(L2)
+del L2(1)
+print(L2)
+8/111:
+#xóa phần tử thứ 2
+del L2(1)
+print(L2)
+8/112:
+#xóa phần tử thứ 2
+del L2[1]
+print(L2)
+8/113:
+#Gán element trong list thành biến(variable)
+print(L2)
+8/114:
+#Gán element trong list thành biến(variable)
+L2 = [1, -3, 8]
+print(L2)
+8/115:
+#Gán element trong list thành biến(variable)
+L2 = [1, -3, 8]
+
+y, m, d = L2
+8/116:
+#Gán element trong list thành biến(variable)
+L2 = [1, -3, 8]
+
+y, m, d = L2
+print(y), print(d)
+8/117:
+#Gán element trong list thành biến(variable)
+L3 = [10, 20, 30]
+
+y, m, d = L2
+print(y), print(d)
+8/118:
+#Gán element trong list thành biến(variable)
+L3 = [10, 20, 30]
+
+y, m, d = L2
+print(y), print(d)
+8/119:
+#Gán element trong list thành biến(variable)
+L3 = [10, 20, 30]
+
+y, m, d = L3
+print(y), print(d)
+8/120:
+#Unpack list
+L3 = [10, 20, 30]
+
+a, *b = L3
+print(a)
+print(b)
+8/121:
+#Tìm element có giá trị nhỏ nhất mà không dùng hàm min
+L4 = [10, 11, 14, 6, 8]
+print(sorted(L4))
+8/122:
+#Tìm element có giá trị nhỏ nhất mà không dùng hàm min
+L4 = [10, 11, 14, 6, 8]
+print(sorted(L4))[0]
+8/123:
+#Tìm element có giá trị nhỏ nhất mà không dùng hàm min
+L4 = [10, 11, 14, 6, 8]
+print(sorted(L4)[0])
+8/124:
+#Khởi tạo lại list
+L = [1, 2, 3, 4, 5]
+8/125:
+#Khởi tạo lại list
+L = [1, 2, 3, 4, 5]
+8/126: L.count()
+8/127: L.count(2,4)
+8/128: L.count(2,/)
+8/129: L.count(2)
+8/130: L.count(99)
+8/131: L.index(99)
+8/132: L.index(2, 0, 4)
+8/133: L.append(2)
+8/134: L.append(2)
+8/135: L.append(2,0)
+8/136:
+L.count(2)
+L.index(2,0,4)
+8/137:
+# L.count(2)
+# L.index(2,0,4)
+L.append(L)
+8/138:
+# L.count(2)
+# L.index(2,0,4)
+L.append(100)
+8/139:
+# L.count(2)
+# L.index(2,0,4)
+L.append(100,:)
+8/140:
+# L.count(2)
+# L.index(2,0,4)
+L.append(100,1)
+8/141:
+# L.count(2)
+# L.index(2,0,4)
+L.append(10)
+8/142:
+# L.count(2)
+# L.index(2,0,4)
+print(L.append(10))
+8/143:
+# L.count(2)
+# L.index(2,0,4)
+print(L.append(5))
+8/144:
+# L.count(2)
+# L.index(2,0,4)
+print(L.append(1))
+8/145: print(L)
+8/146:
+# L.count(2)
+ L.index(2,0,4)
+#print(L.append(1))
+8/147:
+# L.count(2)
+ L.index(2,0,6)
+#print(L.append(1))
+8/148:
+# L.count(2)
+ L.index(2,0,len(L))
+#print(L.append(1))
+8/149:
+# L.count(2)
+ L.index(2,0,
+#print(L.append(1))
+8/150:
+ L.count(2)
+#L.index(2,0,
+#print(L.append(1))
+8/151:
+# L.count(2)
+L.index(100,0, 13)
+#print(L.append(1))
+8/152: L[8]
+8/153:
+# L.count(2)
+L.index(100,0, 12)
+#print(L.append(1))
+8/154:
+# L.count(2)
+L.index(100,0, 7)
+#print(L.append(1))
+8/155:
+# L.count(2)
+L.index(100,0, 13)
+#print(L.append(1))
+8/156: L.extend('abc')
+8/157: L.extend('abc')
+8/158: print(L)
+8/159: L.extend('888')
+8/160: print(L)
+8/161: L.insert(2,'888')
+8/162: print(L)
+ 9/1:
+| Cột 1 | Cột 2 | Cột 3 | Cột 4 |
+| :--- | :--- | :--- | :--- |
+| .count() | B | C | D |
+| .index() | F | G | H |
+| .append() | K | L | M |
+| .extend() | K | L | M |
+| .insert() | K | L | M |
+| .pop() | K | L | M |
+| .remove() | K | L | M |
+| .clear() | K | L | M |
+| .sort() | K | L | M |
+ 9/2:
+| Cột 1 | Cột 2 | Cột 3 | Cột 4 |
+| :--- | :--- | :--- | :--- |
+| .count() | B | C | D |
+| .index() | F | G | H |
+| .append() | K | L | M |
+| .extend() | K | L | M |
+| .insert() | K | L | M |
+| .pop() | K | L | M |
+| .remove() | K | L | M |
+| .clear() | K | L | M |
+| .sort() | K | L | M |
+ 9/3:
+| Cột 1 | Cột 2 | Cột 3 | Cột 4 |
+| :--- | :--- | :--- | :--- |
+| cunt() | B | C | D |
+| index() | F | G | H |
+| append() | K | L | M |
+| extend() | K | L | M |
+| insert() | K | L | M |
+| pop() | K | L | M |
+| remove() | K | L | M |
+| clear() | K | L | M |
+| sort() | K | L | M |
+ 9/4:
+-| Cột 1 | Cột 2 | Cột 3 | Cột 4 |
+| :--- | :--- | :--- | :--- |
+| cunt() | B | C | D |
+| index() | F | G | H |
+| append() | K | L | M |
+| extend() | K | L | M |
+| insert() | K | L | M |
+| pop() | K | L | M |
+| remove() | K | L | M |
+| clear() | K | L | M |
+| sort() | K | L | M |
+ 9/5: L.pop(2)
+10/1: print(L)
+10/2:
+#Khởi tạo lại list
+L = [1, 2, 3, 4, 5]
+10/3: print(L)
+10/4: L.pop(1)
+10/5: L.pop(7)
+10/6: L.pop(4)
+10/7: L.pop(3)
+10/8: L.pop(2)
+10/9: L.pop(1)
+10/10: L.pop(0)
+10/11: L.pop(-1)
+10/12: L.pop()
+10/13:
+#Khởi tạo lại list
+L = [1, 2, 3, 4, 5]
+10/14: L.pop()
+10/15: L.pop(0)
+10/16:
+#Đếm số lần xuất hiện của value 1
+L.count(1)
+10/17:
+#Khởi tạo lại list
+L = [1, 2, 3, 4, 5]
+10/18:
+#Đếm số lần xuất hiện của value 1
+L.count(1)
+10/19:
+#Lấy index của value 5 xuất hiện đầu tiên
+L1 = [1, 2, 3, 5, 5]
+L.index(5,0,4)
+10/20:
+#Lấy index của value 5 xuất hiện đầu tiên
+L1 = [1, 2, 3, 5, 5]
+L.index(5,0,3)
+10/21:
+#Lấy index của value 5 xuất hiện đầu tiên
+L1 = [1, 2, 3, 5, 5]
+10/22: L.index(5,0,3)
+10/23: L1.index(5,0,3)
+10/24:
+#Lấy index của value 5 xuất hiện đầu tiên
+L1 = [1, 2, 3, 5, 5]
+10/25: L1.index(5,0,3)
+10/26: L1.index(5)
+10/27:
+#Lấy index của value 5 xuất hiện đầu tiên
+L1 = [1, 2, 3, 5, 5]
+L1.index(5)
+10/28: L.extend(["A","B","C"])
+10/29:
+#Khởi tạo lại list
+L = [1, 2, 3, 4, 5]
+10/30: print(L)
+10/31: L.extend(["A","B","C"])
+10/32: print(L)
+10/33: L.append(["A","B","C"])
+10/34: print(L)
+11/1: L.insert(2,99)
+11/2:
+#Khởi tạo lại list
+L = [1, 2, 3, 4, 5]
+11/3: L.insert(2,99)
+11/4:
+L.insert(2,99)
+print(L)
+11/5: L.remove(99)
+11/6: L.remove(99)
+11/7:
+L.insert(2,99)
+print(L)
+11/8:
+L.insert(2,99)
+print(L)
+11/9:
+L.remove(99)
+print(L)
+11/10:
+L.pop(0)
+print(L)
+11/11:
+L.insert(0,1)
+print(L)
+11/12:
+L.remove(99)
+print(L)
+11/13:
+L.insert(2,99)
+print(L)
+11/14:
+L.remove(99)
+print(L)
+11/15:
+L.insert(2,99)
+print(L)
+11/16:
+L.insert(2,99)
+print(L)
+11/17:
+L.insert(2,99)
+print(L)
+11/18:
+#L.remove(99)
+print(L)
+11/19:
+L.remove(99)
+print(L)
+11/20:
+#Lấy index của value 5 xuất hiện đầu tiên
+L1 = [1, 2, 3, 5, 5]
+L1.index(5)
+11/21: L.extend(["A","B","C"])
+11/22: print(L)
+11/23:
+L.insert(0,1)
+print(L)
+11/24: L.clear()
+11/25:
+L.clear()
+print(L)
+11/26:
+L.insert(0,1)
+print(L)
+11/27:
+#Lấy index của value 5 xuất hiện đầu tiên
+L1 = [1, 2, 3, 5, 5]
+L1.index(5)
+11/28: L.extend(["A","B","C"])
+11/29: print(L)
+11/30:
+L = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(L)
+11/31:
+#Lấy phần tử đầu, giữa, cuối
+print(L[0])
+11/32:
+#Lấy phần tử đầu, giữa, cuối
+print(L[0], L[[len(L)]/2]. L[-1])
+11/33:
+#Lấy phần tử đầu, giữa, cuối
+print(L[0], L[[len(L)]//2]. L[-1])
+11/34:
+#Lấy phần tử đầu, giữa, cuối
+print(L[0], L[[len(L)]//2], L[-1])
+11/35:
+#Lấy phần tử đầu, giữa, cuối
+print(L[0], L[len(L)//2], L[-1])
+11/36:
+#Tạo list rỗng và add các element vừa truy xuất vào list đó
+L2 = []
+print(L2)
+11/37:
+#Tạo list rỗng và add các element vừa truy xuất vào list đó
+L2 = []
+L2.append(1)
+11/38:
+#Tạo list rỗng và add các element vừa truy xuất vào list đó
+L2 = []
+L2.append(1)
+
+print(L2)
+11/39:
+#Tạo list rỗng và add các element vừa truy xuất vào list đó
+L2 = []
+L2.append(1)
+
+print(L2)
+11/40:
+#Tạo list rỗng và add các element vừa truy xuất vào list đó
+L2 = []
+L2.append(L[0])
+L2.append
+print(L2)
+11/41:
+#Tạo list rỗng và add các element vừa truy xuất vào list đó
+L2 = []
+L2.append(L[0])
+L2.append(L[len(L)//2])
+print(L2)
+11/42:
+#Tạo list rỗng và add các element vừa truy xuất vào list đó
+L2 = []
+L2.append(L[0])
+L2.append(L[len(L)//2])
+L2.append(L[-1])
+print(L2)
+11/43: tong = sum(L)
+11/44:
+tong = sum(L)
+print(tong)
+11/45:
+tong = sum(L2)
+print(tong)
+11/46:
+tong = sum(L2)
+max = max(L2)
+min = min(L2)
+print(tong,max,min)
+11/47:
+import statistics
+
+tong = sum(L2)
+max = max(L2)
+min = min(L2)
+mean = statistics.mean(L2)
+print(tong,max,min)
+11/48:
+import statistics
+tong = sum(L2)
+max = max(L2)
+min = min(L2)
+mean = statistics.mean(L2)
+print(tong,max,min, mean)
+11/49:
+import statistics
+tong = sum(L2)
+max = max(L2)
+min = min(L2)
+mean = statistics.mean(int(L2))
+print(tong,max,min, mean)
+11/50:
+import statistics
+tong = sum(L2)
+lon = max(L2)
+be = min(L2)
+tb = statistics.mean(L2)
+print(tong,max,min, mean)
+11/51:
+tong = sum(L2)
+lon = max(L2)
+be = min(L2)
+tb = statistics.mean(L2)
+print(tong,max,min, mean)
+11/52:
+tong = sum(L2)
+lon = max(L2)
+be = min(L2)
+tb = mean(L2)
+print(tong,max,min, mean)
+11/53:
+import numpy as np
+tong = sum(L2)
+tb = np.mean(L2)
+lon = max(L2)
+be = min(L2)
+
+print(tong,max,min, mean)
+11/54:
+import numpy as np
+
+L2 = [1, 2, 3, 4, 5]  # Example list, replace with your own list
+
+tong = sum(L2)
+tb = np.mean(L2)
+lon = max(L2)
+be = min(L2)
+
+print("Sum:", tong)
+print("Max:", lon)
+print("Min:", be)
+print("Mean:", tb)
+11/55:
+import numpy as np
+tong = sum(L2)
+tb = np.mean(L2)
+lon = max(L2)
+be = min(L2)
+print(tong,tb,lon,be)
+11/56:
+#Tạo list rỗng và add các element vừa truy xuất vào list đó
+L2 = []
+L2.append(L[0])
+L2.append(L[len(L)//2])
+L2.append(L[-1])
+print(L2)
+11/57:
+import numpy as np
+tong = sum(L2)
+tb = np.mean(L2)
+lon = max(L2)
+be = min(L2)
+print(tong,tb,lon,be)
+11/58:
+import numpy as np
+tong = sum(L2)
+tb = np.mean(L2)
+lon = max(L2)
+be = min(L2)
+print (tong, tb, lon, be)
+12/1:
+import numpy as np
+np.mean(L)
+12/2: L = [1,2,3]
+12/3:
+import numpy as np
+np.mean(L)
+11/59:
+import numpy as np
+tong = sum(L2)
+tb = np.mean(L2)
+lon = max(L2)
+be = min(L2)
+print (tong, tb, lon, be)
+11/60:
+import numpy as np
+sum(L2)
+np.mean(L2)
+max(L2)
+min(L2)
+11/61:
+#Tạo list rỗng và add các element vừa truy xuất vào list đó
+L2 = []
+L2.append(L[0])
+L2.append(L[len(L)//2])
+L2.append(L[-1])
+print(L2)
+11/62:
+import numpy as np
+sum(L2)
+np.mean(L2)
+max(L2)
+min(L2)
+11/63:
+#Tạo list rỗng và add các element vừa truy xuất vào list đó
+L2 = []
+L2.append(L[0])
+L2.append(L[len(L)//2])
+L2.append(L[-1])
+print(L2)
+
+sum(L2)
+11/64:
+#Tạo list rỗng và add các element vừa truy xuất vào list đó
+L2 = []
+L2.append(L[0])
+L2.append(L[len(L)//2])
+L2.append(L[-1])
+print(L2)
+
+sum(L2)
+import numpy as np
+np.mean(L2)
+11/65: L2
+11/66:
+L2
+import numpy as np
+tong = sum(L2)
+tb = np.mean(L2)
+lon = max(L2)
+be = min(L2)
+11/67:
+L2
+import numpy as np
+tong = sum(L2)
+tb = np.mean(L2)
+11/68:
+L2
+import numpy as np
+tong = sum(L2)
+tb = np.mean(L2)
+11/69:
+L2
+import numpy as np
+tong = sum(L2)
+tb = np.mean(L2)
+print (tong, tb)
+11/70:
+L2
+import numpy as np
+tong = sum(L2)
+tb = np.mean(L2)
+max(L2)
+print (tong, tb)
+11/71:
+#Tạo list rỗng và add các element vừa truy xuất vào list đó
+L2 = []
+L2.append(L[0])
+L2.append(L[len(L)//2])
+L2.append(L[-1])
+print(L2)
+
+max(L2)
+11/72:
+#Tạo list rỗng và add các element vừa truy xuất vào list đó
+L2 = []
+L2.append(L[0])
+L2.append(L[len(L)//2])
+L2.append(L[-1])
+print(L2)
+
+max(int(L2))
+11/73:
+#Tạo list rỗng và add các element vừa truy xuất vào list đó
+L2 = []
+L2.append(L[0])
+L2.append(L[len(L)//2])
+L2.append(L[-1])
+print(L2)
+11/74:
+L2
+import numpy as np
+tong = sum(L2)
+tb = np.mean(L2)
+
+print (tong, tb)
+11/75:
+#sort list
+L2.sorted()
+11/76:
+#sort list
+sorted(L2, reverse = True)
+11/77:
+L3 = [tong, tb]
+L.append(L3)
+print(L)
+11/78:
+L.extend(L3)
+print(L)
+11/79: L[-2:]
+11/80: L4[-2:]
+11/81:
+L4 = [1, 2, 3, 4]
+
+L_chan = []
+L_le = []
+if L4[-2:]%2 == 0:
+    L_chan.extend(L4)
+else L4[-2:]%2 > 0:
+    L_le.extend(L4)
+
+print(L_chan)
+print(L_le)
+11/82:
+L4 = [1, 2, 3, 4]
+
+L_chan = []
+L_le = []
+if L4[-2:]%2 == 0:
+    L_chan.extend(L4)
+else L4[-2:]%2 > 0:
+    L_le.extend(L4)
+
+print(L_chan)
+print(L_le)
+11/83:
+L4 = [1, 2, 3, 4]
+
+L_chan = []
+L_le = []
+if L4[-2:]%2 == 0:
+    L_chan.extend(L4)
+else:
+    L_le.extend(L4)
+
+print(L_chan)
+print(L_le)
+11/84:
+L4 = [1, 2, 3, 4]
+
+L_chan = []
+L_le = []
+if sum(L4[-2:]) %2 == 0:
+    L_chan.extend(L4)
+else:
+    L_le.extend(L4)
+
+print(L_chan)
+print(L_le)
+11/85:
+#Khởi tạo tuple
+t = (1, 2, 3, 4)
+print(t)
+print(type(t))
+11/86:
+# #Khởi tạo tuple bằng ()
+# t = (1, 2, 3, 4)
+# print(t)
+# print(type(t))
+
+#Khởi tạo tuple bằng tuple()
+t = tuple(1, 2, 3, 4)
+print(t)
+print(type(t))
+
+# #Khởi tạo tuple bằng ()
+# t = (1, 2, 3, 4)
+# print(t)
+# print(type(t))
+11/87:
+# #Khởi tạo tuple bằng ()
+# t = (1, 2, 3, 4)
+# print(t)
+# print(type(t))
+
+#Khởi tạo tuple bằng tuple()
+t = tuple([1, 2, 3, 4])
+print(t)
+print(type(t))
+
+# #Khởi tạo tuple bằng ()
+# t = (1, 2, 3, 4)
+# print(t)
+# print(type(t))
+11/88:
+# #Khởi tạo tuple bằng ()
+# t = (1, 2, 3, 4)
+# print(t)
+# print(type(t))
+
+# #Khởi tạo tuple bằng tuple()
+# t = tuple([1, 2, 3, 4])
+# print(t)
+# print(type(t))
+
+# #Khởi tạo tuple bằng ()
+t = 1, 2, 3, 4
+print(t)
+print(type(t))
+11/89:
+s = 'Hello World!'
+print(s)
+print(type(s))
+11/90:
+# Khởi tạo
+s = "Hello Wordl!"
+11/91: len(s)
+11/92: print(s[0], s[-1])
+11/93: print(s[6], s[-1])
+11/94:
+print(s[6], s[-1])
+print(s[0:4])
+11/95:
+#SLice 4 ký tự đầu và 4 ký tự cuối
+print(s[6], s[-1])
+print(s[0:4])
+print(s[-4:])
+11/96:
+#SLice đảo ngược string
+s = 'Hello'
+s[::-1]
+11/97:
+# Nối 2 string
+s = 'Hello'
+s1 = 'World
+s + s1
+11/98:
+# Nối 2 string
+s = 'Hello'
+s1 = 'World'
+s + s1
+11/99:
+# Replicate một string
+s = 'Hello'
+s * 4
+11/100:
+# Đếm số lần xuất hiện của ký tự
+s = 'Hello'
+'l' in s
+11/101:
+# Đếm số lần xuất hiện của ký tự
+s = 'Hello'
+'l' in s
+count('l') in s
+11/102:
+# Đếm số lần xuất hiện của ký tự
+s = 'Hello'
+'l' in s
+s.count('l')
+11/103: 'l' in s
+11/104:
+#Sắp xếp 
+sorted(s)
+11/105:
+#Khởi tạo string
+s = 'Python is fuN'
+print(s.uppper())
+11/106:
+#Khởi tạo string
+s = 'Python is fuN'
+print(s.upper())
+11/107:
+#Khởi tạo string
+s = 'Python is fuN'
+print(s.upper())
+print(s.lower())
+print(s.capitalize())
+11/108:
+#Khởi tạo string
+s = 'Python is fuN'
+print(s.upper())
+print(s.lower())
+print(s.capitalize())
+print(s.title())
+print(s.swapcase()) #cái nào đang in hoa thì in thường và ngược lại
+11/109:
+#Kiểm tra ký tự có phải là lowercase
+print('hello'.islower())
+11/110:
+#Kiểm tra ký tự có phải là lowercase
+print('hello'.islower())
+print('heLLo'.islower())
+11/111:
+#Kiểm tra ký tự có phải là lowercase
+print('hello'.islower())
+print('HEllo'.islower())
+print(s.isupper())
+11/112:
+#Kiểm tra ký tự có phải là lowercase
+print('hello'.islower())
+print('HEllo'.islower())
+print(s.isupper())
+print(s.title())
+11/113:
+#Kiểm tra ký tự có phải là lowercase
+print('hello'.islower())
+print('HEllo'.islower())
+print(s.isupper())
+print(s.istitle())
+11/114:
+a = 'Py'
+b = 'py'
+a.lower() == b.lower()
+11/115:
+#Kiểm tra string có bắt đầu với py ko
+print(s.startswith('Py'))
+11/116:
+#Kiểm tra string có bắt đầu với py ko
+print(s.startswith('Py'))
+print(s.startswith('alo'))
+11/117:
+#Kiểm tra string có bắt đầu với py ko
+print(s.startswith('Py'))
+print(s.startswith('alo'))
+print(s.endswith('alo'))
+print(s.endswith('fuN'))
+11/118:
+#Kiểm tra string có bắt đầu với py ko
+print(s.startswith('Py'))
+print(s.startswith('alo'))
+print(s.endswith('alo'))
+print(s.endswith('fuN'))
+
+print('ython' in s)
+11/119:
+print('ython' in s)
+print('YTHON' in s)
+11/120: - Dùng method `.find` hoặc `.rfind`. Nếu ko tìm thấy, return `-1`
+11/121: - Dùng method `.find` hoặc `.rfind`. Nếu ko tìm thấy, trả về `-1`
+11/122: - Dùng method `.find` hoặc `.rfind` , nếu ko tìm thấy, trả về `-1`
+11/123: - Dùng method `.find()` hoặc `.rfind()` , nếu ko tìm thấy, trả về `-1`
+11/124:
+#Tìm index của substring đầu tiên (từ trái sang)
+print(s.find('n'))
+11/125:
+#Tìm index của substring đầu tiên (từ trái sang)
+print(s.find('n'))
+print(s.find('G'))
+11/126:
+#Tìm index của substring đầu tiên (từ phải sang)
+print(s.rfind('n'))
+11/127:
+#Khởi tạo string
+s = 'Python is fUn'
+print(s.upper())
+print(s.lower())
+print(s.capitalize())
+print(s.title())
+print(s.swapcase()) #cái nào đang in hoa thì in thường và ngược lại
+11/128:
+#Khởi tạo string
+s = 'Python is fUn'
+print(s.upper())
+print(s.lower())
+print(s.capitalize())
+print(s.title())
+print(s.swapcase()) #cái nào đang in hoa thì in thường và ngược lại
+11/129:
+#Tìm index của substring đầu tiên (từ phải sang)
+print(s.rfind('n'))
+11/130:
+#Tìm index của substring đầu tiên (từ trái sang)
+print(s.find('n'))
+print(s.find('G'))
+11/131:
+s = """
+ t\t\
+    \t
+    """
+print(s)
+11/132:
+s = """
+ t\t\
+    \t
+    """
+print(s)
+print(s.isspace))
+11/133:
+s = """
+ t\t\
+    \t
+    """
+print(s)
+print(s.isspace())
+11/134:
+s = """
+ t\t\   
+    \t   
+    """
+print(s)
+print(s.isspace())
+11/135:
+s = """
+ t\t\   
+    \t   
+    """
+print(s)
+print(s.isspace())
+11/136:
+#Bỏ khoảng trắng thừa
+s = "   Hello   World   "
+print(s)
+11/137:
+#Bỏ khoảng trắng thừa
+s = "   Hello   World   "
+print(s)
+print(len(s))
+11/138:
+#Bỏ khoảng trắng thừa
+s = "   Hello   World   "
+print(s)
+print(len(s))
+
+s1 = s.lstrip()
+print(s1)
+print(len(s1))
+11/139:
+#Bỏ khoảng trắng thừa
+s = "   Hello   World   "
+print(s)
+print(len(s))
+
+s1 = s.lstrip()
+print(s1)
+print(len(s1))
+
+s2 = s.rstrip()
+print(s2)
+print(len(s2))
+11/140:
+#Bỏ khoảng trắng thừa
+s = "   Hello   World   "
+print(s)
+print(len(s))
+
+s1 = s.lstrip()
+print(s1)
+print(len(s1))
+
+s2 = s.rstrip()
+print(s2)
+print(len(s2))
+
+s3 = s.strip()
+print(s3)
+print(len(s3))
+11/141:
+s = "This is a text string"
+words = s.split(" ")
+11/142:
+s = "This is a text string"
+words = s.split(" ")
+print(words)
+11/143:
+# # Partition (tách) string thành 3 phần
+# - Trước separator
+# - Separator itself
+# - Sau separator
+
+s = 'Name: Loc'
+print(s.partition(":"))
+11/144:
+# # Partition (tách) string thành 3 phần
+# - Trước separator
+# - Separator itself
+# - Sau separator
+
+s = 'Name: Loc'
+print(s.partition("m"))
+11/145:
+#Nối nhiều substring thành 1 string
+#Note: elements của list/tuple phải string type
+
+words = ['This', 'is', 'a', 'text', 'string']
+s = " ".join(words)
+
+print(words)
+print(s)
+11/146:
+#Nối nhiều substring thành 1 string
+#Note: elements của list/tuple phải string type
+
+words = ['This', 'is', 'a', 'text', 'string']
+s = "_".join(words)
+
+print(words)
+print(s)
+11/147:
+# Format thông thường
+name = "Loc"
+city = 'nha que'
+print("{} o {} moi len".format(name,city))
+11/148:
+# Format 1 biến dùng lại nhiều lần
+number = 5
+print("{0} times {0} is equal to {}".format(number, number**2))
+11/149:
+# Format 1 biến dùng lại nhiều lần
+number = 5
+print("{0} times {0} is equal to {1}".format(number, number**2))
+11/150:
+#Padding and alignment
+# > Align to the right
+# < Align to the left
+# ^ Centered
+
+male = 20
+female = 30
+total = male + female
+percent_male = round(male*100/total,2)
+
+print("Number of male student: {:>10}".format(male))
+print("Number of female student: {:>10}".format(female))
+print("Percentage of male student: {:>10}%".format(percent_male))
+11/151:
+# Truncate long strings
+name = "Barrack very long Obama"
+print("{:.5})".format(name))
+11/152:
+#Format số nguyên
+month1 = 5
+month2 = 12
+
+print("Month 1: {02d}".format(month1))
+11/153:
+#Format số nguyên
+month1 = 5
+month2 = 12
+
+print("Month 1: {:02d}".format(month1))
+11/154:
+#Format số nguyên
+month1 = 5
+month2 = 12
+
+print("Month 1: {:02d}".format(month1))
+print("Month 2: {:02d}".format(month2))
+11/155:
+#Format số thực
+print("{:.2f}".format(10/3))
+11/156:
+#Format số nguyên
+month1 = 5
+month2 = 9
+
+print("Month 1: {:02d}".format(month1))
+print("Month 2: {:02d}".format(month2))
+11/157:
+#Khởi tạo dict
+d - {
+    "name" : "Jack",
+    "country" : "US",
+    "age" : 20
+}
+
+print(d)
+print(type(d))
+11/158:
+#Khởi tạo dict
+d = {
+    "name" : "Jack",
+    "country" : "US",
+    "age" : 20
+}
+
+print(d)
+print(type(d))
+11/159:
+# #Khởi tạo dict
+# d = {
+#     "name" : "Jack",
+#     "country" : "US",
+#     "age" : 20
+# }
+
+#Khởi tạo dict dùng dict()
+d = dict(
+    "name" : "Jack",
+    "country" : "US",
+    "age" : 20
+)
+print(d)
+print(type(d))
+11/160:
+# #Khởi tạo dict
+# d = {
+#     "name" : "Jack",
+#     "country" : "US",
+#     "age" : 20
+# }
+
+#Khởi tạo dict dùng dict()
+d = dict(
+    name = "Jack",
+    country = "US",
+    age = 20
+)
+print(d)
+print(type(d))
+11/161:
+#Khời tạo khi có giá trị trùng, giá trị cuối được giữ lại
+#Khởi tạo dict dùng dict()
+d = dict(
+    name = "Jack",
+    country = "US",
+    age = 20
+    name = 'John'
+)
+11/162:
+#Khời tạo khi có giá trị trùng, giá trị cuối được giữ lại
+#Khởi tạo dict dùng dict()
+d = dict(
+    name = "Jack",
+    country = "US",
+    age = 20
+    name = "John"
+)
+11/163:
+#Khời tạo khi có giá trị trùng, giá trị cuối được giữ lại
+#Khởi tạo dict dùng dict()
+d = dict(
+    name = "Jack",
+    country = "US",
+    age = 20,
+    name = "John"
+)
+11/164:
+#Khời tạo khi có giá trị trùng, giá trị cuối được giữ lại
+#Khởi tạo dict dùng dict()
+d = dict(
+    name = "Jack",
+    country = "US",
+    age = 20,
+    name = "John"
+)
+
+print(d)
+11/165:
+#Khời tạo khi có giá trị trùng, giá trị cuối được giữ lại
+#Khởi tạo dict dùng dict()
+d = {
+    "name" : "Jack",
+    "country" : "US",
+    "age" : 20,
+    "name" : "John"
+}
+
+print(d)
+11/166:
+#Khời tạo khi có giá trị trùng, giá trị cuối được giữ lại
+#Khởi tạo dict dùng dict()
+d = {
+    "name" : "Jack",
+    "country" : "US",
+    "age" : 20,
+    "name" : "John"
+}
+
+print(d)
+print(type(d))
+11/167:
+#Khởi tạo từ list/typle
+l = [["name", "Jack"], ["country","US"], ["age", 20]]
+d = dict(l)
+
+print(l)
+print(d)
+11/168:
+#Khởi tạo dùng zip của list/tuple
+keys = ["name", "country","age"]
+values = ["Jack", "US", 20]
+d = dict(zip(keys, values))
+
+print(d)
+11/169:
+#Khởi tạo dùng zip của list/tuple
+keys = ["name", "country","age"]
+values = ["Jack", "US", 20]
+d = dict(zip(keys, values))
+
+print(d)
+print(type(d))
+11/170:
+#Khởi tạo
+d = {
+    "name" : "Jack",
+    "country" : "US",
+    "age" : 20
+}
+11/171:
+#Đếm số lượng phần tử
+count(d)
+11/172:
+#Đếm số lượng phần tử
+d.count()
+11/173:
+#Đếm số lượng phần tử
+d.count(name)
+11/174:
+#Đếm số lượng phần tử
+d.count(d)
+11/175:
+#Đếm số lượng phần tử
+d.count(20)
+11/176:
+#Đếm số lượng phần tử
+len(d)
+11/177:
+#Lấy list các key
+print(list(d))
+11/178:
+#Lấy list các key
+print(list(d))
+print(list(type(d)))
+11/179:
+#Lấy list các key
+print(list(d))
+11/180:
+#Truy xuất phần tử thông qua key, nếu key ko tồn tại, raise KeyError
+print(d["name"])
+11/181:
+#Truy xuất phần tử thông qua key, nếu key ko tồn tại, raise KeyError
+print(d["name"])
+
+print(d["jobs"])
+11/182:
+#Truy xuất phần tử thông qua key, nếu key ko tồn tại, raise KeyError
+print(d["name"])
+
+#print(d["jobs"])
+11/183:
+#Thêm key mới
+d["education"] = "bachelor"
+
+print(d)
+11/184:
+#Truy xuất và chính sửa
+d["education"] = "master"
+
+print(d)
+11/185:
+#Xóa element
+del d["education"]
+
+print(d)
+11/186:
+#Pop value by key
+#Nếu key ko tồn tại sẽ pop giá trị mặc định
+#Nếu ko có giá trị nặc định, raise KeyError
+
+d = {"name" = "Jack", "age" = 20}
+print(d)
+11/187:
+#Pop value by key
+#Nếu key ko tồn tại sẽ pop giá trị mặc định
+#Nếu ko có giá trị nặc định, raise KeyError
+
+d = {"name" : "Jack", "age" : 20}
+print(d)
+11/188:
+#Pop value by key
+#Nếu key ko tồn tại sẽ pop giá trị mặc định
+#Nếu ko có giá trị nặc định, raise KeyError
+
+d = {"name" : "Jack", "age" : 20}
+print(d)
+
+element = d.pop("name")
+
+print(element)
+print(d)
+11/189:
+#Set default value cho một key nếu chưa tồn tại
+#Nếu đã tồn tại, ko làm gì cả
+
+d = {"name" : "Jack", "age" : 20}
+print(d)
+
+d.setdefault("name", "N/A")
+print(d)
+11/190:
+#Set default value cho một key nếu chưa tồn tại
+#Nếu đã tồn tại, ko làm gì cả
+
+d = {"name" : "Jack", "age" : 20}
+print(d)
+
+d.setdefault("name", "N/A")
+print(d)
+
+d.setdefault("name","N/A")
+print(d)
+11/191:
+#Set default value cho một key nếu chưa tồn tại
+#Nếu đã tồn tại, ko làm gì cả
+
+d = {"name" : "Jack", "age" : 20}
+print(d)
+
+d.setdefault("name", "N/A")
+print(d)
+
+d.setdefault("education","N/A")
+print(d)
+11/192:
+#Update (inplace) dict với một dict khác
+#Value của key trùng sẽ bị ghi đè
+
+d = {"name" : "Jack", "age" : 20}
+print(d)
+
+d2 = {"age" : "25", "education" : "master"}
+d.update(d2)
+
+print(d)
+11/193:
+### Dict view
+ - Các đối tượng trả về từ method như `d.keys()`, `d.values()`, `d.items()` là các **view objects**, nghĩa là khi đối tượng `d` thay đổi thì các view này cũng được update để phản ánh đúng trạng thái của `d`.
+11/194:
+#Ví dụ, khởi tạo dict và view tới keys
+d = {}
+d_keys = d.keys()
+
+print(d)
+print(d_keys)
+11/195:
+#Update dict và theo dõi thay đổi
+d["name"] = "Jack"
+d["age"] = 25
+
+print(d)
+print(d_keys)
+11/196:
+# Khới tạo
+s = {1, 2, 3}
+print(s)
+11/197:
+# Khới tạo
+s = {1, 2, 3}
+print(s)
+print(type(s))
+11/198:
+# Khới tạo
+s = {1, 2, 3}
+print(s)
+print(type(s))
+
+s = set([1, 2, 3, 3, 3, 3, 3])
+print(s)
+11/199:
+# Khới tạo
+# s = {1, 2, 3}
+# print(s)
+# print(type(s))
+
+s = set([1, 2, 3, 3, 3, 3, 3])
+print(s)
+11/200:
+# Khới tạo
+s1 = {1, 2, 3, 4, 5}
+s2 = {0, 1, 2, 3}
+
+#union
+s1 | s2
+11/201:
+# Khới tạo
+s1 = {1, 2, 3, 4, 5}
+s2 = {0, 1, 2, 3}
+
+#union
+s1 | s2
+
+#intersection
+s1 & s2
+11/202:
+# Khới tạo
+s1 = {1, 2, 3, 4, 5}
+s2 = {0, 1, 2, 3}
+
+#union - tất output nhưng set data type chỉ lấy unique value
+s1 | s2
+
+#intersection - giá trị trùng - giống inner join
+s1 & s2
+
+#difference
+s1 - s2
+11/203:
+# Khới tạo
+s1 = {1, 2, 3, 4, 5}
+s2 = {0, 1, 2, 3}
+
+#union - tất output nhưng set data type chỉ lấy unique value
+s1 | s2
+
+#intersection - giá trị trùng - giống inner join
+s1 & s2
+
+#difference
+s1 - s2
+s2 - s1
+11/204:
+# Khới tạo
+s1 = {1, 2, 3, 4, 5}
+s2 = {0, 1, 2, 3}
+
+#union - tất output nhưng set data type chỉ lấy unique value
+s1 | s2
+
+#intersection - giá trị trùng - giống inner join
+s1 & s2
+
+#difference
+print(s1 - s2 )
+s2 - s1
+11/205:
+# Khới tạo
+s1 = {1, 2, 3, 4, 5}
+s2 = {0, 1, 2, 3}
+
+#union - tất output nhưng set data type chỉ lấy unique value
+s1 | s2
+
+#intersection - giá trị trùng - giống inner join
+s1 & s2
+
+#difference
+print(s1 - s2 )
+print(s2 - s1)
+11/206:
+# Khới tạo
+s1 = {1, 2, 3, 4, 5}
+s2 = {0, 1, 2, 3}
+
+#union - tất output nhưng set data type chỉ lấy unique value
+s1 | s2
+
+#intersection - giá trị trùng - giống inner join
+s1 & s2
+
+#difference
+print(s1 - s2) #difference giữa s1 với s2
+print(s2 - s1) #difference giữa s2 với s1
+
+#subset
+print(s1 <= s2)
+11/207:
+# Khới tạo
+s1 = {1, 2, 3, 4, 5}
+s2 = {0, 1, 2, 3}
+
+#union - tất output nhưng set data type chỉ lấy unique value
+s1 | s2
+
+#intersection - giá trị trùng - giống inner join
+s1 & s2
+
+#difference
+#print(s1 - s2) #difference giữa s1 với s2
+#print(s2 - s1) #difference giữa s2 với s1
+
+#subset
+print(s1 <= s2)
+11/208:
+# Khới tạo
+s1 = {1, 2, 3, 4, 5}
+s2 = {0, 1, 2, 3}
+
+#union - tất output nhưng set data type chỉ lấy unique value
+s1 | s2
+
+#intersection - giá trị trùng - giống inner join
+s1 & s2
+
+#difference
+#print(s1 - s2) #difference giữa s1 với s2
+#print(s2 - s1) #difference giữa s2 với s1
+
+#subset
+s1 <= s2 #s1 ko phải là subset của s2
+11/209:
+# Khới tạo
+s1 = {1, 2, 3, 4, 5}
+s2 = {0, 1, 2, 3}
+
+#union - tất output nhưng set data type chỉ lấy unique value
+s1 | s2
+
+#intersection - giá trị trùng - giống inner join
+s1 & s2
+
+#difference
+#print(s1 - s2) #difference giữa s1 với s2
+#print(s2 - s1) #difference giữa s2 với s1
+
+#subset
+s1 <= s2 #s1 ko phải là subset của s2
+s2 <= s1
+11/210:
+# Khới tạo
+s1 = {1, 2, 3, 4, 5}
+s2 = {0, 1, 2, 3}
+
+#union - tất output nhưng set data type chỉ lấy unique value
+s1 | s2
+
+#intersection - giá trị trùng - giống inner join
+s1 & s2
+
+#difference
+#print(s1 - s2) #difference giữa s1 với s2
+#print(s2 - s1) #difference giữa s2 với s1
+
+#subset
+s1 <= s2 #s1 ko phải là subset của s2
+s2 <= s1
+
+s1 < s2
+11/211:
+# Khới tạo
+s1 = {1, 2, 3, 4, 5}
+s2 = {0, 1, 2, 3}
+
+#union - tất output nhưng set data type chỉ lấy unique value
+s1 | s2
+
+#intersection - giá trị trùng - giống inner join
+s1 & s2
+
+#difference
+#print(s1 - s2) #difference giữa s1 với s2
+#print(s2 - s1) #difference giữa s2 với s1
+
+#subset
+s1 <= s2 #s1 ko phải là subset của s2
+s2 <= s1
+
+s1 < s2
+s2 < s1
+11/212:
+# Khới tạo
+s1 = {1, 2, 3, 4, 5}
+s2 = {1, 2, 3}
+
+#union - tất output nhưng set data type chỉ lấy unique value
+s1 | s2
+
+#intersection - giá trị trùng - giống inner join
+s1 & s2
+
+#difference
+#print(s1 - s2) #difference giữa s1 với s2
+#print(s2 - s1) #difference giữa s2 với s1
+
+#subset
+s1 <= s2 #s1 ko phải là subset của s2
+s2 <= s1
+
+s1 < s2
+s2 < s1
+11/213:
+# Khới tạo
+s1 = {1, 2, 3, 4, 5}
+s2 = {1, 2, 3}
+
+#union - tất output nhưng set data type chỉ lấy unique value
+s1 | s2
+
+#intersection - giá trị trùng - giống inner join
+s1 & s2
+
+#difference
+#print(s1 - s2) #difference giữa s1 với s2
+#print(s2 - s1) #difference giữa s2 với s1
+
+#subset
+s1 <= s2 #s1 ko phải là subset của s2
+s2 <= s1
+
+s1 < s2
+11/214:
+# Khới tạo
+s1 = {1, 2, 3, 4, 5}
+s2 = {1, 2, 3}
+
+#union - tất output nhưng set data type chỉ lấy unique value
+s1 | s2
+
+#intersection - giá trị trùng - giống inner join
+s1 & s2
+
+#difference
+#print(s1 - s2) #difference giữa s1 với s2
+#print(s2 - s1) #difference giữa s2 với s1
+
+#subset
+s1 <= s2 #s1 ko phải là subset của s2
+s2 <= s1
+14/1:
+#Kiểm tra một số nguyên xem có phải là số dương hay không, nếu đúng in ra "positive"
+x = 10
+if x > 0:
+    print("positive")
+14/2:
+#Kiểm tra một số nguyên xem có phải là số dương hay không, nếu đúng in ra "positive"
+x = 10
+if x > 0:
+    print("positive")
+elif x = 0:
+    print( "x = 0")
+else:
+    print("negative")
+14/3:
+#Kiểm tra một số nguyên xem có phải là số dương hay không, nếu đúng in ra "positive"
+x = 10
+if x > 0:
+    print("positive")
+elif x == 0:
+    print( "x = 0")
+else:
+    print("negative")
+14/4:
+#Kiểm tra một số nguyên xem có phải là số dương hay không, nếu đúng in ra "positive"
+x = 0
+if x > 0:
+    print("positive")
+elif x == 0:
+    print( "x = 0")
+else:
+    print("negative")
+14/5:
+#Kiểm tra một số nguyên xem có phải là số dương hay không, nếu đúng in ra "positive"
+x = -99
+if x > 0:
+    print("positive")
+elif x == 0:
+    print( "x = 0")
+else:
+    print("negative")
+14/6:
+#Kiểm tra một số nguyên là even hay odd, nếu chẵn in "even", nếu lẻ in "odd"
+x = 3
+if x%2 > 0:
+    print("odd")
+else:
+    print("even")
+14/7:
+#Kiểm tra xem điểm có hợp lệ hay không (0-10)
+#Nếu hợp lệ, kiểm tra có qua môn hay không (pass score >=5)
+
+x = 6
+if 10 >= x > 0
+and x >= 5:
+print("pass")
+14/8:
+#Kiểm tra xem điểm có hợp lệ hay không (0-10)
+#Nếu hợp lệ, kiểm tra có qua môn hay không (pass score >=5)
+
+x = 6
+if 10 >= x > 0
+and x >= 5
+print("pass")
+14/9:
+#Kiểm tra xem điểm có hợp lệ hay không (0-10)
+#Nếu hợp lệ, kiểm tra có qua môn hay không (pass score >=5)
+
+x = 6
+if 10 >= x > 0 and 
+    x >= 5 :
+print("pass")
+14/10:
+#Kiểm tra xem điểm có hợp lệ hay không (0-10)
+#Nếu hợp lệ, kiểm tra có qua môn hay không (pass score >=5)
+
+x = 6
+k
+if 10 >= x > 0 and x >= 5 :
+    if x >= 5:
+        print("pass")
+    else:
+        print("fail")
+else:
+    print("khong hop le")
+14/11:
+#Kiểm tra xem điểm có hợp lệ hay không (0-10)
+#Nếu hợp lệ, kiểm tra có qua môn hay không (pass score >=5)
+
+x = 6
+
+if 10 >= x > 0 and x >= 5 :
+    if x >= 5:
+        print("pass")
+    else:
+        print("fail")
+else:
+    print("khong hop le")
+14/12:
+#Kiểm tra xem điểm có hợp lệ hay không (0-10)
+#Nếu hợp lệ, kiểm tra có qua môn hay không (pass score >=5)
+
+x = 6
+if 10 >= x > 0:
+    if x >= 5:
+        print("pass")
+    else:
+        print("fail")
+else:
+    print("khong hop le")
+14/13:
+#Kiểm tra xem điểm có hợp lệ hay không (0-10)
+#Nếu hợp lệ, kiểm tra có qua môn hay không (pass score >=5)
+
+x = -8
+if 10 >= x > 0:
+    if x >= 5:
+        print("pass")
+    else:
+        print("fail")
+else:
+    print("khong hop le")
+14/14:
+#Kiểm tra xem điểm có hợp lệ hay không (0-10)
+#Nếu hợp lệ, kiểm tra có qua môn hay không (pass score >=5)
+
+x = -8
+if 10 >= x > 0:
+    if x >= 5:
+        print("pass")
+    else:
+        print("fail")
+else:
+    print("so diem khong hop le")
+14/15:
+#Kiểm tra xem điểm có hợp lệ hay không (0-10)
+#Nếu hợp lệ, kiểm tra có qua môn hay không (pass score >=5)
+
+x = 0
+if 10 >= x > 0:
+    if x >= 5:
+        print("pass")
+    else:
+        print("fail")
+else:
+    print("so diem khong hop le")
+14/16:
+#Kiểm tra xem điểm có hợp lệ hay không (0-10)
+#Nếu hợp lệ, kiểm tra có qua môn hay không (pass score >=5)
+
+x = 0
+if 10 >= x >= 0:
+    if x >= 5:
+        print("pass")
+    else:
+        print("fail")
+else:
+    print("so diem khong hop le")
+14/17:
+if 10 >= x > 0 and x >= 5:
+    print("pass")
+else:
+    print("fail)
+14/18:
+x=4
+if 10 >= x > 0 and x >= 5:
+    print("pass")
+else:
+    print("fail)
+14/19:
+x = 4
+if 10 >= x > 0 and x >= 5:
+    print("pass")
+elif 10 >= x > 0 and x < 5:
+    print("fail)
+          else:
+14/20:
+x = 4
+if 10 >= x > 0:
+    print("so diem khong hop le")
+elif x >= 5:
+    print("pass")
+else:
+    print("fail")
+14/21:
+x = 4
+if 10 >= x >= 0:
+    print("so diem khong hop le")
+elif x >= 5:
+    print("pass")
+else:
+    print("fail")
+14/22:
+x = 4
+10
+if 10 >= x >= 0:
+    print("so diem khong hop le")
+elif x >= 5:
+    print("pass")
+else:
+    print("fail")
+14/23:
+x = 10
+if 10 >= x >= 0:
+    print("so diem khong hop le")
+elif x >= 5:
+    print("pass")
+else:
+    print("fail")
+14/24:
+x = 10
+if 10 <= x >= 0:
+    print("so diem khong hop le")
+elif x >= 5:
+    print("pass")
+else:
+    print("fail")
+14/25:
+x = 10
+if 10 < x < 0:
+    print("so diem khong hop le")
+elif x >= 5:
+    print("pass")
+else:
+    print("fail")
+14/26:
+#VD thực hành: Tạo một dictionary lưu điểm
+
+score = {
+    "Jack" : 9,
+    "Bill" : 4,
+    "Hillary" : 7
+}
+
+#Kiểm tra student có trong danh sách không 
+#Nếu có, tiếp tục kiểm tra xem student đó có qua môn không (pass socre >= 5)
+
+student = "Bill"
+
+if student not in score.keys():
+    print("hs ko co trong he thong")
+else:
+    print(score.values())
+14/27:
+#VD thực hành: Tạo một dictionary lưu điểm
+
+score = {
+    "Jack" : 9,
+    "Bill" : 4,
+    "Hillary" : 7
+}
+
+#Kiểm tra student có trong danh sách không 
+#Nếu có, tiếp tục kiểm tra xem student đó có qua môn không (pass socre >= 5)
+
+student = "Bill"
+
+if student not in score.keys():
+    print("hs ko co trong he thong")
+else:
+    print(student))
+14/28:
+#VD thực hành: Tạo một dictionary lưu điểm
+
+score = {
+    "Jack" : 9,
+    "Bill" : 4,
+    "Hillary" : 7
+}
+
+#Kiểm tra student có trong danh sách không 
+#Nếu có, tiếp tục kiểm tra xem student đó có qua môn không (pass socre >= 5)
+
+student = "Bill"
+
+if student not in score.keys():
+    print("hs ko co trong he thong")
+else:
+    print(student)
+14/29:
+#VD thực hành: Tạo một dictionary lưu điểm
+
+score = {
+    "Jack" : 9,
+    "Bill" : 4,
+    "Hillary" : 7
+}
+
+#Kiểm tra student có trong danh sách không 
+#Nếu có, tiếp tục kiểm tra xem student đó có qua môn không (pass socre >= 5)
+
+student = "Bill"
+
+if student not in score.keys():
+    print("hs ko co trong he thong")
+else:
+    print(student.values())
+14/30:
+#VD thực hành: Tạo một dictionary lưu điểm
+
+score = {
+    "Jack" : 9,
+    "Bill" : 4,
+    "Hillary" : 7
+}
+
+#Kiểm tra student có trong danh sách không 
+#Nếu có, tiếp tục kiểm tra xem student đó có qua môn không (pass socre >= 5)
+
+student = "Bill"
+
+if student not in score.keys():
+    print("hs ko co trong he thong")
+else:
+    print(student.pop())
+14/31:
+#VD thực hành: Tạo một dictionary lưu điểm
+
+score = {
+    "Jack" : 9,
+    "Bill" : 4,
+    "Hillary" : 7
+}
+
+#Kiểm tra student có trong danh sách không 
+#Nếu có, tiếp tục kiểm tra xem student đó có qua môn không (pass socre >= 5)
+
+student = "Bill"
+
+if student not in score.keys():
+    print("hs ko co trong he thong")
+else:
+    print(score.pop(student))
+14/32:
+#VD thực hành: Tạo một dictionary lưu điểm
+
+score = {
+    "Jack" : 9,
+    "Bill" : 4,
+    "Hillary" : 7
+}
+
+#Kiểm tra student có trong danh sách không 
+#Nếu có, tiếp tục kiểm tra xem student đó có qua môn không (pass socre >= 5)
+
+student = "Bill"
+
+if student in score.keys():
+    print(score.pop(student))
+elif score.pop(student) >= 5:
+    print("pass")
+else:
+    print("fail")
+14/33:
+#VD thực hành: Tạo một dictionary lưu điểm
+
+score = {
+    "Jack" : 9,
+    "Bill" : 4,
+    "Hillary" : 7
+}
+
+#Kiểm tra student có trong danh sách không 
+#Nếu có, tiếp tục kiểm tra xem student đó có qua môn không (pass socre >= 5)
+
+student = "Bill"
+
+if student not in score.keys():
+    print(score.pop(student))
+elif score.pop(student) >= 5:
+    print("pass")
+else:
+    print("fail")
+14/34:
+#VD thực hành: Tạo một dictionary lưu điểm
+
+score = {
+    "Jack" : 9,
+    "Bill" : 4,
+    "Hillary" : 7
+}
+
+#Kiểm tra student có trong danh sách không 
+#Nếu có, tiếp tục kiểm tra xem student đó có qua môn không (pass socre >= 5)
+
+student = "Jack"
+
+if student not in score.keys():
+    print(score.pop(student))
+elif score.pop(student) >= 5:
+    print("pass")
+else:
+    print("fail")
+14/35:
+#VD thực hành: Tạo một dictionary lưu điểm
+
+score = {
+    "Jack" : 9,
+    "Bill" : 4,
+    "Hillary" : 7
+}
+
+#Kiểm tra student có trong danh sách không 
+#Nếu có, tiếp tục kiểm tra xem student đó có qua môn không (pass socre >= 5)
+
+student = "Jack"
+
+if student not in score.keys():
+    print("hs ko co trong he thong")
+elif score.pop(student) >= 5:
+    print("pass")
+else:
+    print("fail")
+14/36:
+#VD thực hành: Tạo một dictionary lưu điểm
+
+score = {
+    "Jack" : 9,
+    "Bill" : 4,
+    "Hillary" : 7
+}
+
+#Kiểm tra student có trong danh sách không 
+#Nếu có, tiếp tục kiểm tra xem student đó có qua môn không (pass socre >= 5)
+
+student = "Jacks"
+
+if student not in score.keys():
+    print("hs ko co trong he thong")
+elif score.pop(student) >= 5:
+    print("pass")
+else:
+    print("fail")
+14/37:
+#VD thực hành: Tạo một dictionary lưu điểm
+
+score = {
+    "Jack" : 9,
+    "Bill" : 4,
+    "Hillary" : 7
+}
+
+#Kiểm tra student có trong danh sách không 
+#Nếu có, tiếp tục kiểm tra xem student đó có qua môn không (pass socre >= 5)
+
+student = "Jack"
+
+if student not in score.keys():
+    print("hs ko co trong he thong")
+elif score.pop(student) >= 5:
+    print("pass")
+else:
+    print("fail")
+14/38:
+#Exercise
+'''
+    Viết một chương trình để tính giá trị hóa đơn sau giảm giá của một cửa hàng, giá trị hóa đơn do nhân viên cửa hàng nhập,
+    -> 1 000 000 : 10%
+    -> 500 000 - 1 000 000 : 5%
+    -> < 500 000 : 2%
+'''
+x = 10
+if x > 1 000 000:
+    print(x*(1-0.1))
+14/39:
+#Exercise
+'''
+    Viết một chương trình để tính giá trị hóa đơn sau giảm giá của một cửa hàng, giá trị hóa đơn do nhân viên cửa hàng nhập,
+    -> 1 000 000 : 10%
+    -> 500 000 - 1 000 000 : 5%
+    -> < 500 000 : 2%
+'''
+x = 10
+if x > 1 000 000:
+    print(x*(1-0.1))
+else
+14/40:
+#Exercise
+'''
+    Viết một chương trình để tính giá trị hóa đơn sau giảm giá của một cửa hàng, giá trị hóa đơn do nhân viên cửa hàng nhập,
+    -> 1 000 000 : 10%
+    -> 500 000 - 1 000 000 : 5%
+    -> < 500 000 : 2%
+'''
+x = 10
+if x > 1 000 000:
+    print(x*(1-0.1))
+elif 1 000 000 > x > 500 000:
+    print(x*(1-0.05))
+else:
+    print(x*(1-0.02))
+14/41:
+#Exercise
+'''
+    Viết một chương trình để tính giá trị hóa đơn sau giảm giá của một cửa hàng, giá trị hóa đơn do nhân viên cửa hàng nhập,
+    -> 1 000 000 : 10%
+    -> 500 000 - 1 000 000 : 5%
+    -> < 500 000 : 2%
+'''
+x = 10
+if x > 1000000:
+    print(x*(1-0.1))
+elif 1 000 000 > x > 500 000:
+    print(x*(1-0.05))
+else:
+    print(x*(1-0.02))
+14/42:
+#Exercise
+'''
+    Viết một chương trình để tính giá trị hóa đơn sau giảm giá của một cửa hàng, giá trị hóa đơn do nhân viên cửa hàng nhập,
+    -> 1 000 000 : 10%
+    -> 500 000 - 1 000 000 : 5%
+    -> < 500 000 : 2%
+'''
+x = 10
+if x > 1000000:
+    print(x*(1-0.1))
+elif 1000000 > x > 500000:
+    print(x*(1-0.05))
+else:
+    print(x*(1-0.02))
+14/43:
+#Exercise
+'''
+    Viết một chương trình để tính giá trị hóa đơn sau giảm giá của một cửa hàng, giá trị hóa đơn do nhân viên cửa hàng nhập,
+    -> 1 000 000 : 10%
+    -> 500 000 - 1 000 000 : 5%
+    -> < 500 000 : 2%
+'''
+x = 200000
+if x > 1000000:
+    print(x*(1-0.1))
+elif 1000000 > x > 500000:
+    print(x*(1-0.05))
+else:
+    print(x*(1-0.02))
+14/44:
+#Exercise
+'''
+    Viết một chương trình để tính giá trị hóa đơn sau giảm giá của một cửa hàng, giá trị hóa đơn do nhân viên cửa hàng nhập,
+    -> 1 000 000 : 10%
+    -> 500 000 - 1 000 000 : 5%
+    -> < 500 000 : 2%
+'''
+x = input("Hay nhap gia tri don hang:")
+if x > 1000000:
+    print(x*(1-0.1))
+elif 1000000 > x > 500000:
+    print(x*(1-0.05))
+else:
+    print(x*(1-0.02))
+14/45:
+#Exercise
+'''
+    Viết một chương trình để tính giá trị hóa đơn sau giảm giá của một cửa hàng, giá trị hóa đơn do nhân viên cửa hàng nhập,
+    -> 1 000 000 : 10%
+    -> 500 000 - 1 000 000 : 5%
+    -> < 500 000 : 2%
+'''
+x = int(input("Hay nhap gia tri don hang:"))
+if x > 1000000:
+    print(x*(1-0.1))
+elif 1000000 > x > 500000:
+    print(x*(1-0.05))
+else:
+    print(x*(1-0.02))
+14/46: ## 2.Looping:
+14/47:
+#Exercise
+'''
+    Viết một chương trình để tính giá trị hóa đơn sau giảm giá của một cửa hàng, giá trị hóa đơn do nhân viên cửa hàng nhập,
+    -> 1 000 000 : 10%
+    -> 500 000 - 1 000 000 : 5%
+    -> < 500 000 : 2%
+'''
+x = int(input("Hay nhap gia tri don hang:"))
+if x > 1000000:
+    print(x*(1-0.1))
+elif 1000000 > x > 500000:
+    print(x*(1-0.05))
+else:
+    print(x*(1-0.02))
+
+#Better
+if x < 500000:
+    print(x*(1-0.02)
+elif x < 1000000:
+    print(x*(1-0.05)
+else:
+    print(x*(1-0.1)
+14/48:
+#Exercise
+'''
+    Viết một chương trình để tính giá trị hóa đơn sau giảm giá của một cửa hàng, giá trị hóa đơn do nhân viên cửa hàng nhập,
+    -> 1 000 000 : 10%
+    -> 500 000 - 1 000 000 : 5%
+    -> < 500 000 : 2%
+'''
+x = int(input("Hay nhap gia tri don hang:"))
+if x > 1000000:
+    print(x*(1-0.1))
+elif 1000000 > x > 500000:
+    print(x*(1-0.05))
+else:
+    print(x*(1-0.02))
+
+#Better
+x = 70000000
+if x < 500000:
+    print(x*(1-0.02)
+elif x < 1000000:
+    print(x*(1-0.05)
+else:
+    print(x*(1-0.1)
+14/49:
+#Exercise
+'''
+    Viết một chương trình để tính giá trị hóa đơn sau giảm giá của một cửa hàng, giá trị hóa đơn do nhân viên cửa hàng nhập,
+    -> 1 000 000 : 10%
+    -> 500 000 - 1 000 000 : 5%
+    -> < 500 000 : 2%
+'''
+# x = int(input("Hay nhap gia tri don hang:"))
+# if x > 1000000:
+#     print(x*(1-0.1))
+# elif 1000000 > x > 500000:
+#     print(x*(1-0.05))
+# else:
+#     print(x*(1-0.02))
+
+#Better
+x = 70000000
+if x < 500000:
+    print(x*(1-0.02)
+elif x < 1000000:
+    print(x*(1-0.05)
+else:
+    print(x*(1-0.1)
+14/50:
+#Exercise
+'''
+    Viết một chương trình để tính giá trị hóa đơn sau giảm giá của một cửa hàng, giá trị hóa đơn do nhân viên cửa hàng nhập,
+    -> 1 000 000 : 10%
+    -> 500 000 - 1 000 000 : 5%
+    -> < 500 000 : 2%
+'''
+# x = int(input("Hay nhap gia tri don hang:"))
+# if x > 1000000:
+#     print(x*(1-0.1))
+# elif 1000000 > x > 500000:
+#     print(x*(1-0.05))
+# else:
+#     print(x*(1-0.02))
+
+#Better
+x = 70000000
+if x < 500000:
+    print(x*(1-0.02)
+elif x < 1000000:
+    print(x*(1-0.05))
+else:
+    print(x*(1-0.1))
+14/51:
+#Exercise
+'''
+    Viết một chương trình để tính giá trị hóa đơn sau giảm giá của một cửa hàng, giá trị hóa đơn do nhân viên cửa hàng nhập,
+    -> 1 000 000 : 10%
+    -> 500 000 - 1 000 000 : 5%
+    -> < 500 000 : 2%
+'''
+# x = int(input("Hay nhap gia tri don hang:"))
+# if x > 1000000:
+#     print(x*(1-0.1))
+# elif 1000000 > x > 500000:
+#     print(x*(1-0.05))
+# else:
+#     print(x*(1-0.02))
+
+#Better
+x = 70000000
+if x < 500000:
+    print(x*(1-0.02))
+elif x < 1000000:
+    print(x*(1-0.05))
+else:
+    print(x*(1-0.1))
+14/52:
+#In ra 10 số nguyên đầu tiên
+for i in range(10)
+    print(i)
+14/53:
+#In ra 10 số nguyên đầu tiên
+for i in range(10:
+    print(i)
+14/54:
+#In ra 10 số nguyên đầu tiên
+for i in range(10):
+    print(i)
+14/55:
+#In ra 10 số nguyên đầu tiên
+for i in range(10):
+    print(i, end = '')
+14/56:
+# Tính tổng bình phương của 10 số nguyên tố đầu tiên
+
+total = 0
+for i in range(10):
+    total = total + i**2
+total
+14/57:
+# Đếm số ký tự viết hoa trong 1 string
+
+s = "WTO is short for World Trade Organization"
+
+c = 0
+
+for i in s:
+    if i.isuppper():
+        c = c + 1
+c
+14/58:
+# Đếm số ký tự viết hoa trong 1 string
+
+s = "WTO is short for World Trade Organization"
+
+c = 0
+
+for i in s:
+    if i.isupper():
+        c = c + 1
+c
+14/59:
+#Duyệt kèm index với enumerate
+students = ["Jack","Bill","Jane"]
+for i, x in enumerate(students):
+    print("Student {} is {}".format(i + 1, x)
+14/60:
+#Duyệt kèm index với enumerate
+students = ["Jack","Bill","Jane"]
+for i, x in enumerate(students):
+    print("Student {} is {}".format(i + 1, x))
+14/61:
+#Duyệt dict keys
+score = {
+    "Jack" : 9,
+    "Bill" : 4,
+    "Hillary" : 7
+}
+for k in scores:
+    print(k)
+14/62:
+#Duyệt dict values
+for v in scores.values():
+    print(v)
+14/63:
+#Duyệt dict keys
+scores = {
+    "Jack" : 9,
+    "Bill" : 4,
+    "Hillary" : 7
+}
+for k in scores:
+    print(k)
+14/64:
+#Duyệt dict values
+for v in scores.values():
+    print(v)
+14/65:
+#Duyệt dict items
+for k, v in scores.items():
+    print("Student {} has score of {}".format(k,v))
+14/66:
+#In ra tam giác
+for i in range(0, 10): #duyệt từ 0 đến 9
+    for j in rannge(i,10) #ứng với mỗi i duyệt tiếp từ 0 đến 9
+    print(j, end = "")
+    print("")
+14/67:
+#In ra tam giác
+for i in range(0, 10): #duyệt từ 0 đến 9
+    for j in rannge(i,10): #ứng với mỗi i duyệt tiếp từ 0 đến 9
+    print(j, end = "")
+    print("")
+14/68:
+#In ra tam giác
+for i in range(0, 10): #duyệt từ 0 đến 9
+    for j in rannge(i,10): #ứng với mỗi i duyệt tiếp từ 0 đến 9
+        print(j, end = "")
+    print("")
+14/69:
+#In ra tam giác
+for i in range(0, 10): #duyệt từ 0 đến 9
+    for j in rannge(i,10): #ứng với mỗi i duyệt tiếp từ 0 đến 9
+        print(j, end = " ")
+    print("")
+14/70:
+#In ra tam giác
+for i in range(0, 10): #duyệt từ 0 đến 9
+    for j in rannge(i, 10): #ứng với mỗi i duyệt tiếp từ 0 đến 9
+        print(j, end = " ")
+    print("")
+14/71:
+#In ra tam giác
+for i in range(0, 10): #duyệt từ 0 đến 9
+    for j in rannge(i, 10): #ứng với mỗi i duyệt tiếp từ 0 đến 9
+        print(j, end = " ")
+    print(" ")
+14/72:
+#In ra tam giác
+for i in range(0, 10): #duyệt từ 0 đến 9
+    for j in rannge(i, 10): #ứng với mỗi i duyệt tiếp từ 0 đến 9
+        print(j, end = " ")
+    print("")
+14/73:
+#In ra tam giác
+for i in range(0, 10): #duyệt từ 0 đến 9
+    for j in rannge(i, 10): #ứng với mỗi i duyệt tiếp từ 0 đến 9
+        print(j, end = " ")
+    print("")
+14/74:
+#In ra tam giác
+for i in range(0, 10): #duyệt từ 0 đến 9
+    for j in rannge(i, 10): #ứng với mỗi i duyệt tiếp từ 0 đến 9
+        print(j, end = " ")
+    print ("")
+14/75:
+for i in range(0, 10): #duyệt từ 0 đến 9
+    for j in rannge(i, 10): #ứng với mỗi i duyệt tiếp từ 0 đến 9
+        print(j, end = " ")
+    print ("")
+14/76:
+#In ra tam giác
+for i in range(0, 10): #duyệt từ 0 đến 9
+    for j in range(i, 10): #ứng với mỗi i duyệt tiếp từ 0 đến 9
+        print(j, end = " ")
+    print ("")
+14/77:
+# Dùng trong for duyệt 1 sequence
+s = "This is a string"
+14/78: # Thực hiện VD trên với while
+14/79:
+# Dùng trong for duyệt 1 sequence
+s = "This is a string"
+for i in s:
+    print(i)
+14/80:
+# Dùng trong for duyệt 1 sequence
+s = "This is a string"
+for i in s:
+    print(i, end = ' ')
+14/81:
+# Thực hiện VD trên với while
+i = 0
+while i < len(s):
+    print(s[i])
+    i = i + 1
+14/82:
+# Thực hiện VD trên với while
+i = 0
+while i < len(s):
+    print(s[i])
+    i = i + 1
+    i += 1
+14/83:
+# Thực hiện VD trên với while
+i = 0
+while i < len(s):
+    print(s[i])
+    i += 1
+14/84:
+# Thực hiện VD trên với while
+i = 0
+while i < len(s):
+    print(s[i], end = ' ')
+    i += 1
+14/85:
+#Tính tổng một list số nguyên và làm rỗng list khi tính xong
+l = [1, 2, 3, 4, 0, -2]
+print(l)
+
+total = 0
+
+while l:
+    total += l.pop()
+
+print(total)
+print(l)
+14/86:
+#Tính tổng một list số nguyên và làm rỗng list khi tính xong
+l = [1, 2, 3, 4, 0, -2]
+print(l)
+
+total = 0
+
+while l:
+    total += l.pop()
+
+print(total)
+print(l)
+14/87:
+#Tính tổng một list số nguyên và làm rỗng list khi tính xong
+l = [1, 2, 3, 4, 0, -2]
+total = 0
+
+while l:
+    total += l.pop()
+
+print(total)
+print(l)
+14/88:
+# In ra các chữ số của một số nguyên theo chiều ngược lại
+#VD số ban đầu 12345678, số in ra 87654321
+
+num = 12345678
+
+while num > 0:
+    r = num % 10
+    num = num//10
+
+print(r, end = "")
+14/89:
+# In ra các chữ số của một số nguyên theo chiều ngược lại
+#VD số ban đầu 12345678, số in ra 87654321
+
+num = 12345
+
+while num > 0:
+    r = num % 10
+    num = num//10
+
+print(r, end = "")
+14/90:
+# In ra các chữ số của một số nguyên theo chiều ngược lại
+#VD số ban đầu 12345678, số in ra 87654321
+
+num = 12345
+print(num)
+
+while num > 0:
+    r = num % 10
+    num = num // 10
+
+print(r, end = "")
+14/91:
+num = 12344567
+
+str(num)[::-1]
+14/92:
+num = 12344567
+
+int(str(num)[::-1])
+14/93:
+# In ra số chẵn đầu tiên của list(nếu tìm thấy) và dừng vòng lặp
+# Đồng thời in ra số thứ tự của iteration ở mỗi bước (bắt đầu từ 1)
+l = [1,3,-15,4,8,-2,7]
+l2 = list(range(1,10,2))
+
+#test với l
+for i in l:
+    if i % 2 == 0:
+        print(i)
+        break
+14/94:
+# In ra số chẵn đầu tiên của list(nếu tìm thấy) và dừng vòng lặp
+# Đồng thời in ra số thứ tự của iteration ở mỗi bước (bắt đầu từ 1)
+l = [1,3,-15,4,8,-2,7]
+l2 = list(range(1,10,2))
+
+#test với l
+for i in l2:
+    if i % 2 == 0:
+        print(i)
+        break
+14/95:
+# In ra số chẵn đầu tiên của list(nếu tìm thấy) và dừng vòng lặp
+# Đồng thời in ra số thứ tự của iteration ở mỗi bước (bắt đầu từ 1)
+l = [1,3,-15,4,8,-2,7]
+l2 = list(range(1,10,2))
+
+#test với l
+for i in l1:
+    if i % 2 == 0:
+        print(i)
+        break
+14/96:
+# In ra số chẵn đầu tiên của list(nếu tìm thấy) và dừng vòng lặp
+# Đồng thời in ra số thứ tự của iteration ở mỗi bước (bắt đầu từ 1)
+l = [1,3,-15,4,8,-2,7]
+l2 = list(range(1,10,2))
+
+#test với l
+for i in l:
+    if i % 2 == 0:
+        print(i)
+        break
+14/97:
+#VD trên (không dùng continue)
+l = [1,3,-15,4,-2,0,-8]
+
+total = 0
+for x in l:
+    if x > 0:
+        total += x
+
+print(total)
+14/98:
+#cho 1 list, chỉ tính tổng các số dương
+l = [1,3,-15,4,-2,0,-8]
+
+total = 0
+for i in l:
+    if i > 0:
+        print(total += i + 1)
+14/99:
+#cho 1 list, chỉ tính tổng các số dương
+l = [1,3,-15,4,-2,0,-8]
+
+total = 0
+for i in l:
+    if i > 0:
+        print(total += + 1)
+14/100:
+#cho 1 list, chỉ tính tổng các số dương
+l = [1,3,-15,4,-2,0,-8]
+
+total = 0
+for i in l:
+    if i > 0:
+        print(total += 1)
+14/101:
+#cho 1 list, chỉ tính tổng các số dương
+l = [1,3,-15,4,-2,0,-8]
+
+total = 0
+for i in l:
+    if i > 0:
+        print(total )
+14/102:
+#cho 1 list, chỉ tính tổng các số dương
+l = [1,3,-15,4,-2,0,-8]
+
+total = 0
+for i in l:
+    if i > 0:
+        print(total + 1)
+14/103:
+#cho 1 list, chỉ tính tổng các số dương
+l = [1,3,-15,4,-2,0,-8]
+
+total = 0
+for i in l:
+    if i > 0:
+        print(total = i + 1)
+14/104:
+#cho 1 list, chỉ tính tổng các số dương
+l = [1,3,-15,4,-2,0,-8]
+
+total = 0
+for i in l:
+    if i > 0:
+        print(i + 1)
+14/105:
+#cho 1 list, chỉ tính tổng các số dương
+l = [1,3,-15,4,-2,0,-8]
+
+total = 0
+for i in l:
+    if i > 0:
+        print(sum(i))
+14/106:
+#VD trên (không dùng continue)
+l = [1,3,-15,4,-2,0,-8]
+
+total = 0
+for x in l:
+    if i > 0:
+        total += i
+    else: continue
+
+print(total)
+14/107:
+#VD trên (không dùng continue)
+l = [1,3,-15,4,-2,0,-8]
+
+total = 0
+for x in l:
+    if i >= 0:
+        total += i
+    else: continue
+
+print(total)
+14/108:
+#VD trên (không dùng continue)
+l = [1,3,-15,4,-2,0,-8]
+
+total = 0
+for x in l:
+    if x > 0:
+        total += x
+
+print(total)
+14/109:
+#cho 1 list, chỉ tính tổng các số dương
+l = [1,3,-15,4,-2,0,-8]
+
+total = 0
+for i in l:
+    if i > 0:
+        print(total += i)
+14/110:
+#cho 1 list, chỉ tính tổng các số dương
+l = [1,3,-15,4,-2,0,-8]
+
+total = 0
+for i in l:
+    if i >= 0:
+        print(total += i)
+14/111:
+#cho 1 list, chỉ tính tổng các số dương
+l = [1,3,-15,4,-2,0,-8]
+
+total = 0
+for i in l:
+    if i >= 0:
+        total += i
+    else:
+        continue
+14/112:
+#cho 1 list, chỉ tính tổng các số dương
+l = [1,3,-15,4,-2,0,-8]
+
+total = 0
+for i in l:
+    if i >= 0:
+        total += i
+    else:
+        continue
+
+print(total)
+14/113:
+id = [11,6,4,15,21,26,'machine',10]
+
+id[0]
+14/114:
+id = [11,6,4,15,21,26,'machine',10]
+
+id[1]
+14/115:
+id = [11,6,4,15,21,26,'machine',10]
+
+id[0:1]
+14/116:
+id = [11,6,4,15,21,26,'machine',10]
+
+id[0:1:1]
+14/117:
+id = [11,6,4,15,21,26,'machine',10]
+
+id[0][0]
+14/118:
+str(id = [11,6,4,15,21,26,'machine',10])
+
+id[0][0]
+14/119:
+#Exercise 1:
+'''
+Cho list l lưu id của các đơn hàng trong 1 ngày  
+= [11,6,4,15,21,26,'machine',10]
+- Tạo một list gồm các đơn hàng gia dụng (id bắt đầu từ số 1)
+- Tính tổng số đơn hàng không thuộc nhóm gia dụng
+- Tìm và in ra phần tử không phải là id đơn hàng (isnumeris)
+
+'''
+
+id = [11,6,4,15,21,26,'machine',10]
+for i in id:
+    if str(i).startwith('1'):
+        id.append(i)
+
+id
+14/120:
+#Exercise 1:
+'''
+Cho list l lưu id của các đơn hàng trong 1 ngày  
+= [11,6,4,15,21,26,'machine',10]
+- Tạo một list gồm các đơn hàng gia dụng (id bắt đầu từ số 1)
+- Tính tổng số đơn hàng không thuộc nhóm gia dụng
+- Tìm và in ra phần tử không phải là id đơn hàng (isnumeris)
+
+'''
+
+id = [11,6,4,15,21,26,'machine',10]
+g = []
+for i in id:
+    if str(i).startwith('1'):
+        g.append(i)
+
+g
+14/121:
+#Exercise 1:
+'''
+Cho list l lưu id của các đơn hàng trong 1 ngày  
+= [11,6,4,15,21,26,'machine',10]
+- Tạo một list gồm các đơn hàng gia dụng (id bắt đầu từ số 1)
+- Tính tổng số đơn hàng không thuộc nhóm gia dụng
+- Tìm và in ra phần tử không phải là id đơn hàng (isnumeris)
+
+'''
+
+id = [11,6,4,15,21,26,'machine',10]
+g = []
+for i in id:
+    if str(i).startwith('1'):
+        g.append(i)
+g
+14/122:
+#Exercise 1:
+'''
+Cho list l lưu id của các đơn hàng trong 1 ngày  
+= [11,6,4,15,21,26,'machine',10]
+- Tạo một list gồm các đơn hàng gia dụng (id bắt đầu từ số 1)
+- Tính tổng số đơn hàng không thuộc nhóm gia dụng
+- Tìm và in ra phần tử không phải là id đơn hàng (isnumeris)
+
+'''
+
+id = [11,6,4,15,21,26,'machine',10]
+g = []
+for i in id:
+    if str(i).startswith('1'):
+        g.append(i)
+g
+14/123:
+#Exercise 1:
+'''
+Cho list l lưu id của các đơn hàng trong 1 ngày  
+= [11,6,4,15,21,26,'machine',10]
+- Tạo một list gồm các đơn hàng gia dụng (id bắt đầu từ số 1)
+- Tính tổng số đơn hàng không thuộc nhóm gia dụng
+- Tìm và in ra phần tử không phải là id đơn hàng (isnumeris)
+
+'''
+14/124:
+# #Exercise 1:
+# '''
+# Cho list l lưu id của các đơn hàng trong 1 ngày  
+# = [11,6,4,15,21,26,'machine',10]
+# - Tạo một list gồm các đơn hàng gia dụng (id bắt đầu từ số 1)
+# - Tính tổng số đơn hàng không thuộc nhóm gia dụng
+# - Tìm và in ra phần tử không phải là id đơn hàng (isnumeris)
+
+# '''
+14/125:
+id = [11,6,4,15,21,26,'machine',10]
+g = []
+for i in id:
+    if str(i).startswith('1'):
+        g.append(i)
+g
+14/126:
+total = 0
+for i in l:
+    if str(i).startswith('1'):
+        continue
+    total += 1
+
+total
+14/127:
+for i in l:
+    if str(i).isnumeric() == False:
+        print(i)
+14/128:
+total = 0
+for i in l:
+    if str(i).startswith('1'):
+        continue
+    total += 1
+
+total
+14/129:
+# Generate squares <= 100
+l = [x**2 for x in range(11)]
+print(l)
+14/130:
+# Generate squares <= 100 of even number only
+l = [x**2 for x in range(11) if x%2 == 0]
+print(l)
+14/131:
+word_list = ["this","is","a","list","of","word"]
+
+word_list.count()
+14/132:
+word_list = ["this","is","a","list","of","word"]
+
+len(word_list)
+14/133:
+word_list = ["this","is","a","list","of","word"]
+
+word_list.count("")
+14/134:
+#Count number of characters for each word
+word_list = ["this","is","a","list","of","word"]
+[ len(i)  for i in word_list]
+14/135:
+#Extract tokens that are numbers from a string (isnumeric)
+text = "I am 20 years old and earn 1000000 USD annually"
+
+[i  for i in text if str(i) isnumeric()]
+14/136:
+#Extract tokens that are numbers from a string (isnumeric)
+text = "I am 20 years old and earn 1000000 USD annually"
+
+[i  for i in text if str(i).isnumeric()]
+14/137:
+#Extract tokens that are numbers from a string (isnumeric)
+text = "I am 20 years old and earn 1000000 USD annually"
+
+[i  for i in text.split() if str(i).isnumeric()]
+14/138:
+#Generate x: x^2 pairs for x <= 10
+d = {x: x**2 for x in range(11)}
+print (d)
+14/139:
+#Generate x: x^2 pairs for x <= 10 for even numbers only
+d = {x: x**2 for x in range(11) if x%2 == 0}
+print (d)
+14/140:
+#Generate a dict of position: value pairs from a list
+word_list = ["this","is","a","list","of","word"]
+d = {i: x for i, x in enumerate(word_list)}
+print(d)
+14/141:
+# Count number of characters for earch word
+word_list = ["this","is","a","list","of","word"]
+d = {len(i)  for i in word_list.split()}
+14/142:
+# Count number of characters for earch word
+word_list = ["this","is","a","list","of","word"]
+d = {len(i)  for i in word_list}
+14/143:
+# Count number of characters for earch word
+word_list = ["this","is","a","list","of","word"]
+{len(i)  for i in word_list}
+14/144:
+# Count number of characters for earch word
+word_list = ["this","is","a","list","of","word"]
+[len(i)  for i in word_list]
+14/145:
+#Generate lowercase: uppercase pairs
+word_list = ["this","is","a","list","of","word"]
+{str(i):str(i) for i in word_list}
+14/146:
+#Generate lowercase: uppercase pairs
+word_list = ["this","is","a","list","of","word"]
+{str(i):str(i).upper() for i in word_list}
+17/1: enumerate(student)
+17/2:
+#Duyệt kèm index với enumerate
+students = ["Jack","Bill","Jane"]
+for i, x in enumerate(students):
+    print("Student {} is {}".format(i + 1, x))
+17/3: enumerate(student)
+17/4: enumerate(students)
+17/5:
+students = ["Jack","Bill","Jane"]
+
+enumerate(students)
+17/6:
+#In ra tam giác
+for i in range(0, 10): #duyệt từ 0 đến 9
+    for j in range(i, 10): #ứng với mỗi i duyệt tiếp từ 0 đến 9
+        print(j, end = " ")
+    print ("")
+17/7:
+#In ra tam giác
+for i in range(0, 10): #duyệt từ 0 đến 9
+    # for j in range(i, 10): #ứng với mỗi i duyệt tiếp từ 0 đến 9
+    #     print(j, end = " ")
+    print ("")
+17/8:
+'''
+    Cho list giá trị đơn hàng trong ngày:
+        [100, 150, 80, 160, 250]
+    Sử dụng vòng lặp for phân loại list trên thành 3 list: <100, 100-200, >=200
+'''
+l = [100, 150, 80, 160, 250]
+l1 = []
+l2 = []
+l3 = []
+
+for i in l:
+    if i < 100:
+        l1.append(i)
+    elif i < 200:
+        l2.append(i)
+    else: i >= 200:
+        l3.append(i)
+
+print(l1)
+print(l1)
+17/9:
+'''
+    Cho list giá trị đơn hàng trong ngày:
+        [100, 150, 80, 160, 250]
+    Sử dụng vòng lặp for phân loại list trên thành 3 list: <100, 100-200, >=200
+'''
+l = [100, 150, 80, 160, 250]
+l1 = []
+l2 = []
+l3 = []
+
+for i in l:
+    if i < 100:
+        l1.append(i)
+    elif i < 200:
+        l2.append(i)
+    else i >= 200:
+        l3.append(i)
+
+print(l1)
+print(l3)
+print(l3)
+17/10:
+'''
+    Cho list giá trị đơn hàng trong ngày:
+        [100, 150, 80, 160, 250]
+    Sử dụng vòng lặp for phân loại list trên thành 3 list: <100, 100-200, >=200
+'''
+l = [100, 150, 80, 160, 250]
+l1 = []
+l2 = []
+l3 = []
+
+for i in l:
+    if i < 100:
+        l1.append(i)
+    elif i < 200:
+        l2.append(i)
+    else:
+        l3.append(i)
+
+print(l1)
+print(l3)
+print(l3)
+17/11:
+'''
+    Cho list giá trị đơn hàng trong ngày:
+        [100, 150, 80, 160, 250]
+    Sử dụng vòng lặp for phân loại list trên thành 3 list: <100, 100-200, >=200
+'''
+l = [100, 150, 80, 160, 250]
+l1 = []
+l2 = []
+l3 = []
+
+for i in l:
+    if i < 100:
+        l1.append(i)
+    elif i >= 200:
+        l2.append(i)
+    else:
+        l3.append(i)
+
+print(l1)
+print(l3)
+print(l3)
+17/12:
+'''
+    Cho list giá trị đơn hàng trong ngày:
+        [100, 150, 80, 160, 250]
+    Sử dụng vòng lặp for phân loại list trên thành 3 list: <100, 100-200, >=200
+'''
+l = [100, 150, 80, 160, 250]
+l1 = []
+l2 = []
+l3 = []
+
+for i in l:
+    if i < 100:
+        l1.append(i)
+    elif i >= 200:
+        l2.append(i)
+    else:
+        l3.append(i)
+
+print(l1)
+print(l3)
+print(l3)
+17/13:
+'''
+    Cho dict tên khách ahng2 ứng với sđt:
+        {
+        'Ngoc' : 0123489668,
+        'Chuong' : 0365689980,
+        'Tuan' : 00000000
+        }
+    Dùng comprehension tạo một list gồm 6 số cuối sđt của các khách hàng
+'''
+test_dict =        
+        {
+        'Ngoc' : 0123489668,
+        'Chuong' : 0365689980,
+        'Tuan' : 0000000000
+        } 
+res = [str(::-6) for i in test_dict.values()]
+print(res)
+17/14:
+'''
+    Cho dict tên khách ahng2 ứng với sđt:
+        {
+        'Ngoc' : 0o123489668,
+        'Chuong' : 0o365689980,
+        'Tuan' : 0o0000000
+        }
+    Dùng comprehension tạo một list gồm 6 số cuối sđt của các khách hàng
+'''
+test_dict =        
+        {
+        'Ngoc' : 0123489668,
+        'Chuong' : 0365689980,
+        'Tuan' : 0000000000
+        } 
+res = [str(::-6) for i in test_dict.values()]
+print(res)
+17/15:
+'''
+    Cho dict tên khách ahng2 ứng với sđt:
+        {
+        'Ngoc' : 0123489668,
+        'Chuong' : 0365689980,
+        'Tuan' : 00000000
+        }
+    Dùng comprehension tạo một list gồm 6 số cuối sđt của các khách hàng
+'''
+test_dict =        
+        {
+        'Ngoc' : 0o123489668,
+        'Chuong' : 0o365689980,
+        'Tuan' : 0o000000000
+        } 
+res = [str(::-6) for i in test_dict.values()]
+print(res)
+17/16:
+'''
+    Cho dict tên khách ahng2 ứng với sđt:
+        {
+        'Ngoc' : 0123489668,
+        'Chuong' : 0365689980,
+        'Tuan' : 00000000
+        }
+    Dùng comprehension tạo một list gồm 6 số cuối sđt của các khách hàng
+'''
+test_dict =        
+        {
+        'Ngoc' : 0o123489668,
+        'Chuong' : 0o365689980,
+        'Tuan' : 0o000000000
+        } 
+res = [str(k)[-6:] for i in test_dict.values()]
+print(res)
+17/17:
+'''
+    Cho dict tên khách ahng2 ứng với sđt:
+        {
+        'Ngoc' : 0123489668,
+        'Chuong' : 0365689980,
+        'Tuan' : 00000000
+        }
+    Dùng comprehension tạo một list gồm 6 số cuối sđt của các khách hàng
+'''
+test_dict =        
+        {
+        'Ngoc' : 0o123489668,
+        'Chuong' : 0o36568998,
+        'Tuan' : 0o000000000
+        } 
+res = [str(k)[-6:] for i in test_dict.values()]
+print(res)
+17/18:
+'''
+    Cho dict tên khách ahng2 ứng với sđt:
+        {
+        'Ngoc' : 0123489668,
+        'Chuong' : 0365689980,
+        'Tuan' : 00000000
+        }
+    Dùng comprehension tạo một list gồm 6 số cuối sđt của các khách hàng
+'''
+test_dict =        
+        {
+        'Ngoc' : 123489668,
+        'Chuong' : 36568998,
+        'Tuan' : 000000000
+        } 
+res = [str(k)[-6:] for i in test_dict.values()]
+print(res)
+17/19:
+'''
+    Cho dict tên khách ahng2 ứng với sđt:
+        {
+        'Ngoc' : 0123489668,
+        'Chuong' : 0365689980,
+        'Tuan' : 00000000
+        }
+    Dùng comprehension tạo một list gồm 6 số cuối sđt của các khách hàng
+'''
+test_dict = {
+        'Ngoc' : 123489668,
+        'Chuong' : 36568998,
+        'Tuan' : 000000000
+        } 
+res = [str(k)[-6:] for i in test_dict.values()]
+print(res)
+17/20:
+'''
+    Cho dict tên khách ahng2 ứng với sđt:
+        {
+        'Ngoc' : 0123489668,
+        'Chuong' : 0365689980,
+        'Tuan' : 00000000
+        }
+    Dùng comprehension tạo một list gồm 6 số cuối sđt của các khách hàng
+'''
+test_dict = {
+        'Ngoc' : 123489668,
+        'Chuong' : 36568998,
+        'Tuan' : 000000000
+        } 
+res = [str(i)[-6:] for i in test_dict.values()]
+print(res)
+17/21:
+'''
+    Cho dict tên khách ahng2 ứng với sđt:
+        {
+        'Ngoc' : 0123489668,
+        'Chuong' : 0365689980,
+        'Tuan' : 00000000
+        }
+    Dùng comprehension tạo một list gồm 6 số cuối sđt của các khách hàng
+'''
+test_dict = {
+        'Ngoc' : 123489668,
+        'Chuong' : 36568998,
+        'Tuan' : 12354654650
+        } 
+res = [str(i)[-6:] for i in test_dict.values()]
+print(res)
+17/22:
+'''
+    Thiết kế hàm tính lợi nhuận của đơn hàng
+    Đầu vào là dict: {'G12' : 500, 'M15' : 200, 'C20' : 1000000}
+    Kết quả trả ra là dict: {'G12' : ..LN, 'M15' : ..LN, 'C20' : ..LN}
+    Biết chi phí ứng với từng dòng sản phẩm như sau: G -> 20%, M -> 30%, C -> 35%
+'''
+
+d1 = {'G12' : 500, 'M15' : 200, 'C20' : 1000000}
+d2 = {}
+for i in d1:
+    if str(i).startswith('G'):
+        d3 = {'G12' : int(i.values()*.8)
+d3
+17/23:
+'''
+    Thiết kế hàm tính lợi nhuận của đơn hàng
+    Đầu vào là dict: {'G12' : 500, 'M15' : 200, 'C20' : 1000000}
+    Kết quả trả ra là dict: {'G12' : ..LN, 'M15' : ..LN, 'C20' : ..LN}
+    Biết chi phí ứng với từng dòng sản phẩm như sau: G -> 20%, M -> 30%, C -> 35%
+'''
+
+d1 = {'G12' : 500, 'M15' : 200, 'C20' : 1000000}
+d2 = {}
+for i in d1:
+    if str(i).startswith('G'):
+        d3 = {'G12' : int(i.values()*.8)}
+d3
+17/24:
+'''
+    Thiết kế hàm tính lợi nhuận của đơn hàng
+    Đầu vào là dict: {'G12' : 500, 'M15' : 200, 'C20' : 1000000}
+    Kết quả trả ra là dict: {'G12' : ..LN, 'M15' : ..LN, 'C20' : ..LN}
+    Biết chi phí ứng với từng dòng sản phẩm như sau: G -> 20%, M -> 30%, C -> 35%
+'''
+
+d1 = {'G12' : 500, 'M15' : 200, 'C20' : 1000000}
+d2 = {}
+for i in d1:
+    if str(i).startswith('G'):
+        d3 = {'G12' : int(d1.values()*.8)}
+d3
+17/25:
+'''
+    Thiết kế hàm tính lợi nhuận của đơn hàng
+    Đầu vào là dict: {'G12' : 500, 'M15' : 200, 'C20' : 1000000}
+    Kết quả trả ra là dict: {'G12' : ..LN, 'M15' : ..LN, 'C20' : ..LN}
+    Biết chi phí ứng với từng dòng sản phẩm như sau: G -> 20%, M -> 30%, C -> 35%
+'''
+
+d1 = {'G12' : 500, 'M15' : 200, 'C20' : 1000000}
+d2 = {}
+for i in d1:
+    if str(i).startswith('G'):
+        d3 = {'G12' : int(d1.values())*.8}
+d3
+17/26:
+'''
+    Thiết kế hàm tính lợi nhuận của đơn hàng
+    Đầu vào là dict: {'G12' : 500, 'M15' : 200, 'C20' : 1000000}
+    Kết quả trả ra là dict: {'G12' : ..LN, 'M15' : ..LN, 'C20' : ..LN}
+    Biết chi phí ứng với từng dòng sản phẩm như sau: G -> 20%, M -> 30%, C -> 35%
+'''
+
+d1 = {'G12' : 500, 'M15' : 200, 'C20' : 1000000}
+d1.values()
+
+# d2 = {}
+# for i in d1:
+#     if str(i).startswith('G'):
+#         d3 = {'G12' : int(d1.values())*.8}
+# d3
+17/27:
+'''
+    Thiết kế hàm tính lợi nhuận của đơn hàng
+    Đầu vào là dict: {'G12' : 500, 'M15' : 200, 'C20' : 1000000}
+    Kết quả trả ra là dict: {'G12' : ..LN, 'M15' : ..LN, 'C20' : ..LN}
+    Biết chi phí ứng với từng dòng sản phẩm như sau: G -> 20%, M -> 30%, C -> 35%
+'''
+
+d1 = {'G12' : 500, 'M15' : 200, 'C20' : 1000000}
+d2 = {}
+for i in d1:
+    if str(i).startswith('G'):
+        d3 = {'G12' : int(500*.8)}
+    if str(i).startswith('M'):
+        d4 = {'M15' : int(200*.7)}
+    if str(i).startswith('C'):
+        d5 = {'C20' : int(1000000*.65)}
+d2.update(d3)
+d2.update(d4)
+d2.update(d5)
+d2
+17/28:
+'''
+    Cho list tên khách ahng2: ['Tuan', 'Manh', 'Cuong', 'Lan']
+    Cho dict tên khách ahng2 ứng với giá trị các đơn hàng: {'Tuan':100, 'Manh':300, 'Cuong':200, 'Lan':50}
+    Sử dụng nested loop để in ra tổng giá trị đơn hàng ứng với từng khách hàng
+'''
+l_kh = ['Tuan', 'Manh', 'Cuong', 'Lan']
+dict_kh = {'Tuan':100, 'Manh':300, 'Cuong':200, 'Manh':50}
+l = list(dict_kh)
+for i in range(len(l_kh)):
+    for j in range(len(l)):
+        if l_kh[i] == l[j]:
+            for k,v in dict_kh.items():
+                if k == l_kh[1]:
+                    print("Don hang cua anh/chi: {}, co gia tri la:{}".format(k,v))
+18/1: import numpy as np
+18/2:
+# 1. From a list
+l = [1, 2, 3, 4]
+a = np.array(l)
+
+print(a)
+print(type(a))
+print(a.dtype)
+18/3:
+# 2. From a tuple
+t = (1, 2, 3, 4)
+a = np.array(t)
+
+print(a)
+print(type(a))
+print(a.dtype)
+18/4:
+t = (1, 2, 3, 'a')
+a = np.array(t)
+
+a
+18/5:
+# Using numpy.arange()
+a = np.arange()
+
+print(a)
+print(type(a))
+print(a.dtype)
+18/6:
+# Using numpy.arange()
+a = np.arange(9)
+
+print(a)
+print(type(a))
+print(a.dtype)
+18/7:
+# 4. Multi-dimensional array
+a = np.array([[1,2],[3,4])
+
+print(a)
+print(type(a))
+print(a.dtype)
+18/8:
+# 4. Multi-dimensional array
+a = np.array([[1,2],[3,4]})
+
+print(a)
+print(type(a))
+print(a.dtype)
+18/9:
+# 4. Multi-dimensional array
+a = np.array([[1,2],[3,4]])
+
+print(a)
+print(type(a))
+print(a.dtype)
+18/10:
+# Try to modify an array (OK)
+a = np.arange(9)
+print(a)
+
+a[0] = 99
+print(a)
+18/11:
+# Try to modify an array'size (Error)
+a = np.arange(9)
+print(a)
+
+del a[0]
+18/12:
+# Convert bool to int
+a = np.array([True, False, 1, 2])
+print(a)
+print(a.dtype)
+18/13:
+# Convert in to string
+a = np.array([1, 2, "a"])
+
+print(a)
+print(a.dtype)
+18/14:
+# Other method to create arrays
+a = np.zeros((2,2))
+print(a)
+18/15:
+# # Other method to create arrays
+# a = np.zeros((2,2))
+# print(a)
+18/16:
+# # Other method to create arrays
+a = np.zeros((2,2))   
+print(a)              
+
+b = np.ones((1,2))
+print(b)
+
+c = np.full((2,2), 7)
+print(c)
+18/17:
+# # Other method to create arrays
+a = np.zeros((2,2))   
+print(a)              
+
+b = np.ones((1,2))
+print(b)
+
+c = np.full((2,2), 7)
+print(c)
+
+d = np.eye(2)
+print(d)
+18/18:
+a = np.array([1,2,3])
+b = np.array([[1,2],[3,4]])
+18/19:
+#Size
+print(a.size)
+print(len(a))
+18/20:
+#Size
+print(a.size)
+print(len(a))
+
+print(b.size)
+print(len(b))
+18/21:
+# dtype
+print(a.dtype)
+print(b.dtype)
+18/22:
+# shape
+print(a.shape)
+print(b.shape)
+18/23:
+# dimension
+print(a.ndim)
+print(b.ndim)
+18/24: a = np.arange(12)
+18/25:
+a = np.arange(12)
+print(a)?
+18/26:
+a = np.arange(12)
+print(a)
+18/27:
+# 1st element
+print(a[0[)
+18/28:
+# 1st element
+print(a[0])
+18/29:
+# 1st element
+print(a[0])
+
+# last element
+print(a[-1])
+
+# 1st to 3rd
+print(a[:3])
+
+# 3rd to last
+print(a[3:)
+18/30:
+# 1st element
+print(a[0])
+
+# last element
+print(a[-1])
+
+# 1st to 3rd
+print(a[:3])
+
+# 3rd to last
+print(a[3:])
+18/31:
+a = np.array([[1,2,3,4], [5,6,7,8,], [9,10,11,12]])
+print(a[:2, 1:3])
+18/32:
+# Note: try with order = "F"
+a = np.arrange(9).reshape((3,3))
+print(a)
+18/33:
+# Note: try with order = "F"
+a = np.arange(9).reshape((3,3))
+print(a)
+18/34:
+# Element at 0,0
+print(a[0,0])
+
+# First row
+print(a[0])
+
+# last row 
+print(a[-1])
+
+# First column
+print(a[:,0])
+
+# last column
+print(a[:,-1])
+
+# First and Last column
+print(a[:,[0,-1])
+18/35:
+# Element at 0,0
+print(a[0,0])
+
+# First row
+print(a[0])
+
+# last row 
+print(a[-1])
+
+# First column
+print(a[:,0])
+
+# last column
+print(a[:,-1])
+
+# First and Last column
+print(a[:,[0,-1]])
+18/36:
+# Element at 0,0
+print(a[0,0])
+
+# First row
+print(a[0]) #print(a[0,:])l
+
+# last row 
+print(a[-1])
+18/37:
+# First column
+print(a[:,0])
+
+# last column
+print(a[:,-1])
+
+# First and Last column
+print(a[:,[0,-1]])
+
+#Everything
+print(a[:,:])
+18/38:
+import numpy as np
+
+x = np.array([[1,2],[3,4]], dtype = np.float64)
+y = np.array([[5,6],[7,8]], dtype = np.float64)
+print(x)
+print(y)
+18/39:
+# Elementwise sum ; both produce the array
+print(x+y)
+print(np.add(x,y))
+18/40:
+# Elementwise difference ; both produce the array
+print(x - y)
+print(np.subtract(x,y))
+18/41:
+# Elementwise product ; both produce the array
+print(x * y)
+print(np.multiply(x,y))
+18/42:
+# Elementwise square root; product the array
+print(np.sqrt(x))
+18/43:
+# Elementwise square root; product the array
+print(round(np.sqrt(x),2)
+18/44:
+# Elementwise square root; product the array
+print(np.sqrt)
+18/45:
+# Elementwise square root; product the array
+print(np.sqrt(x))
+18/46:
+import numpy as np
+
+x = np.array([[1,2],[3,4]])
+y = np.array([[5,6],[7,8]])
+
+v = np.array([9,10])
+w = np.array([11,12])
+18/47:
+# Inner product of vectors; both produce 219
+print(v.dot(w))
+print(np.dot(x,v))
+18/48:
+# Inner product of vectors; both produce 219
+print(v.dot(w))
+print(np.dot(v,w))
+18/49:
+# Matrix / vector product; both produce the rank 1 array [29 67]
+print(x.dot(v))
+print(np.dot(x,v))
+
+#(1*9 + 2*10 , 3*9 + 4*10)
+18/50:
+# Matrix / Matrix product; both produce the rank 2 array
+print(x.dot(y))
+print(np.dot(x,y))
+18/51:
+x = np.array([1,2],[3,4])
+
+print(np.sum(x))   #compute all elements; output = 10
+print(np.sum(x, axis = 0))   #compute sum of each column; output = [4,6]
+print(np.sum(x, axis = 1))   #compute sum of each row, output = [3,7]
+18/52:
+x = np.array([[1,2],[3,4]])
+
+print(np.sum(x))   #compute all elements; output = 10
+print(np.sum(x, axis = 0))   #compute sum of each column; output = [4,6]
+print(np.sum(x, axis = 1))   #compute sum of each row, output = [3,7]
+18/53:
+x = np.array([[1,2],[3,4]])
+
+print(x)
+
+print(x.T)
+18/54:
+# Note that taking the transpose of a rank 1 array does nothing
+v = np.array([1,2,3])
+print(v)
+print(v.T)/
+18/55:
+# Note that taking the transpose of a rank 1 array does nothing
+v = np.array([1,2,3])
+print(v)
+print(v.T)
+18/56: import timeit
+18/57: a = np.arange(10)
+18/58:
+a = np.arange(10)
+print(a)
+18/59:
+# Add
+print(a + 10)
+print(timeit.time(setup = 'import numpy as np', stmt = 'np.arange(10) + 10'))
+18/60:
+# Add
+print(a + 10)
+print(timeit.time(setup = 'import numpy as np', stmt = 'np.arange(10) + 10')
+18/61:
+# Add
+print(a + 10)
+print(timeit.time(setup = 'import numpy as np', stmt = 'np.arange(10) + 10'))
+18/62:
+# Add
+print(a + 10)
+print(timeit.timeit(setup = 'import numpy as np', stmt = 'np.arange(10) + 10'))
+18/63:
+# Nếu dùng pure Python
+print([x + 10 for x in a])
+print(timeit.timeit(setup = 'import numpy as np', stmt = '[x + 10 for x in np.arange(10)]'))
+18/64:
+# Subtract
+print(a - 8)
+
+# Multiply
+print(a * 10)
+18/65:
+# Subtract
+print(a - 8)
+
+# Multiply
+print(a * 10)
+
+# Exponential
+print(a ** 10)
+18/66:
+# Subtract
+print(a - 8)
+
+# Multiply
+print(a * 10)
+
+# Exponential
+print(a ** 2)
+18/67:
+# Subtract
+print(a - 8)
+
+# Multiply
+print(a * 10)
+
+# Exponential
+print(a ** 3)
+18/68:
+# Note: phần tử arrat có thể khác vì dùng random
+a = np.random.randint(-10, 10, size = 10)
+print(a)
+18/69:
+# Masking a > 0
+print(a > 0)
+18/70:
+# Dùng masking để filter
+mask = a > 0
+print(a[mask])
+18/71:
+# Dùng masking để filter
+mask = a > 0
+print(sorted(a[mask]))
+18/72:
+# Dùng masking để filter
+mask = a > 0
+print(a[mask])
+print(sorted(a[mask]))
+18/73:
+# Dùng masking để filter (2)
+print(a[a > 0])
+18/74:
+# Lấy các số chẵn
+print(a[a % 2 ==0])
+18/75:
+# Lấy các số không âm
+print(a[a >= 0])
+18/76:
+mask = a > 5
+print(mask)
+18/77:
+# Kiểm tra với mọi element (all)
+print(np.all(a > 0))
+18/78:
+# Kiểm tra tồn tại (any)
+print(np.array(a > 0))
+18/79:
+# Kiểm tra tồn tại (any)
+print(np.any(a > 0))
+18/80:
+a = np.arange(11)
+print(a)
+18/81:
+a = np.arange(11)
+print(a)
+
+#Min
+print(a.min())
+18/82:
+a = np.arange(11)
+print(a)
+
+#Min
+print(a.min())
+print(np.min(a))
+18/83:
+a = np.arange(11)
+print(a)
+
+#Min
+print(a.min())
+print(np.min(a))
+
+#Max
+print(a.max())
+print(np.max(a))
+18/84:
+a = np.arange(11)
+print(a)
+
+#Min
+print(a.min())
+print(np.min(a))
+
+#Max
+print(a.max())
+print(np.max(a))
+
+#Mean
+print(a.mean())
+print(np.mean(a))
+18/85:
+a = np.arange(11)
+print(a)
+
+#Min
+print(a.min())
+print(np.min(a))
+
+#Max
+print(a.max())
+print(np.max(a))
+
+#Mean
+print(a.mean())
+print(np.mean(a))
+
+#Median
+print(a.median())
+print(np.median(a))
+18/86:
+a = np.arange(11)
+print(a)
+
+#Min
+print(a.min())
+print(np.min(a))
+
+#Max
+print(a.max())
+print(np.max(a))
+
+#Mean
+print(a.mean())
+print(np.mean(a))
+
+#Median
+print(np.median(a))
+18/87:
+a = np.arange(11)
+print(a)
+
+#Min
+print(a.min())
+print(np.min(a))
+
+#Max
+print(a.max())
+print(np.max(a))
+
+#Mean
+print(a.mean())
+print(np.mean(a))
+
+#Median
+print(np.median(a))
+
+#Standard deviation
+print(np.std(a))
+18/88: printnp.desribe(a))
+18/89: print(np.desribe(a))
+18/90: a = np.arange(100).reshape(8,10)
+18/91: a = np.arange(100).reshape(8,)
+18/92: a = np.arange(100).reshape(8)
+18/93: a = np.arange(100).reshape(8,8)
+18/94: a = np.arange(100).reshape(5,5)
+18/95: a = np.arange(100).reshape(10,10)
+18/96:
+a = np.arange(100).reshape(10,10)
+print(a)
+18/97:
+#Mean row-wise (across rows)
+print(a.mean(axis = 0))
+18/98:
+#Mean row-wise (across rows)
+print(a.mean(axis = 1))
+18/99:
+#Mean row-wise (across rows)
+print(a.mean(axis = 0))
+
+#column
+print(a.mean(axis = 1))
+18/100:
+'''
+    Create a 1D array of numbers from 0 to 9
+18/101:
+'''
+    Create a 1D array of numbers from 0 to 9
+'''
+import numpy as np
+ar = np.array(10)
+ar
+18/102:
+'''
+    Create a 1D array of numbers from 0 to 9
+'''
+import numpy as np
+ar = np.arange(10)
+ar
+18/103:
+'''
+    Create a 1D array of numbers from 0 to 9
+'''
+import numpy as np
+a = np.arange(10)
+a
+18/104:
+'''
+    Extract all odd numbers from arr
+    Replace all odd numbers in arr with -1
+'''
+a [a % 2 > 0]
+18/105:
+'''
+    Extract all odd numbers from arr
+    Replace all odd numbers in arr with -1
+'''
+a [a % 2 > 0] = -1
+18/106:
+'''
+    Extract all odd numbers from arr
+    Replace all odd numbers in arr with -1
+'''
+a [a % 2 > 0] = -1
+print(a)
+18/107:
+''' 
+    Convert a 1D arrat to a 2D arrat with 2 rows
+'''
+a.reshape(2,5)
+print(a)
+18/108:
+''' 
+    Convert a 1D arrat to a 2D arrat with 2 rows
+'''
+a.reshape((2,5))
+print(a)
+18/109:
+''' 
+    Convert a 1D arrat to a 2D arrat with 2 rows
+'''
+a.reshape((2,5))
+a
+18/110:
+'''
+    Get the common items between a and b using intersect1d
+    a = np.array([1,2,3,2,3,4,3,4,5,6])
+    b = np.array([7,2,10,2,7,4,9,4,9,8])
+'''
+a = np.array([1,2,3,2,3,4,3,4,5,6])
+b = np.array([7,2,10,2,7,4,9,4,9,8])
+np.intersect1d(a,b)
+18/111:
+'''
+    From array a, remove all items present in array b using setfidd1d
+    a = np.array([1,2,3,4,5])
+    b = np.array([5,6,7,8,9])
+'''
+a1 = np.array([1,2,3,4,5])
+b1 = np.array([5,6,7,8,9])
+np.setdiff(a1,b1)
+18/112:
+'''
+    From array a, remove all items present in array b using setfidd1d
+    a = np.array([1,2,3,4,5])
+    b = np.array([5,6,7,8,9])
+'''
+a1 = np.array([1,2,3,4,5])
+b1 = np.array([5,6,7,8,9])
+np.setdiff1d(a1,b1)
+18/113:
+'''
+    Get all items between 5 and 10 a
+    a = np.array([2,6,1,9,10,3,27])
+'''
+a = np.array([2,6,1,9,10,3,27])
+x = a[a<10]
+y = a[a>5]
+np.intersect1d(x,y)
+18/114:
+'''
+    Swap columns 1 and 2 in the array ar
+    ar = np.arange(9).reshape(3,3)
+'''
+ar = np.arange(9).reshape(3,3)
+print(ar)
+
+ar[:,[0,1]] = ar [:,[1,0]]
+ar
+18/115:
+'''
+    Swap columns 1 and 2 in the array ar
+    ar = np.arange(9).reshape(3,3)
+'''
+ar = np.arange(9).reshape(3,3)
+print(ar)
+
+ar[:,[0,1]] = ar [:,[2,0]]
+ar
+18/116:
+'''
+    Swap columns 1 and 2 in the array ar
+    ar = np.arange(9).reshape(3,3)
+'''
+ar = np.arange(9).reshape(3,3)
+print(ar)
+
+ar[:,[0,2]] = ar [:,[1,0]]
+ar
+18/117:
+'''
+    Swap columns 1 and 2 in the array ar
+    ar = np.arange(9).reshape(3,3)
+'''
+ar = np.arange(9).reshape(3,3)
+print(ar)
+
+ar[:,[0,1]] = ar [:,[1,0]]
+ar
+18/118:
+'''
+    Swap columns 1 and 2 in the array ar
+    ar = np.arange(9).reshape(3,3)
+'''
+ar = np.arange(9).reshape(3,3)
+print(ar)
+
+ar[:,[0,1]]
+ar
+18/119:
+'''
+    Get all items between 5 and 10 a
+    a = np.array([2,6,1,9,10,3,27])
+'''
+a = np.array([2,6,1,9,10,3,27])
+x = a[a<10]
+y = a[a>5]
+np.intersect1d(x,y)
+
+a1 = a[a>5 & a=<10]
+print(a1)
+18/120:
+'''
+    Get all items between 5 and 10 a
+    a = np.array([2,6,1,9,10,3,27])
+'''
+a = np.array([2,6,1,9,10,3,27])
+x = a[a<10]
+y = a[a>5]
+np.intersect1d(x,y)
+
+a1 = a[(a>5) & (a=<10)]
+print(a1)
+18/121:
+'''
+    Get all items between 5 and 10 a
+    a = np.array([2,6,1,9,10,3,27])
+'''
+a = np.array([2,6,1,9,10,3,27])
+x = a[a<10]
+y = a[a>5]
+np.intersect1d(x,y)
+
+a1 = a[(a>5) & (a=<10)]
+print(a1)
+18/122:
+'''
+    Get all items between 5 and 10 a
+    a = np.array([2,6,1,9,10,3,27])
+'''
+a = np.array([2,6,1,9,10,3,27])
+x = a[a<10]
+y = a[a>5]
+np.intersect1d(x,y)
+
+a[(a>5) & (a=<10)]
+18/123:
+'''
+    Swap columns 1 and 2 in the array ar
+    ar = np.arange(9).reshape(3,3)
+'''
+ar = np.arange(9).reshape(3,3)
+print(ar)
+
+ar[:,[0,1]] = ar [:,[1,0]]
+ar
+18/124:
+'''
+    Swap columns 1 and 2 in the array ar
+    ar = np.arange(9).reshape(3,3)
+'''
+ar = np.arange(9).reshape(3,3)
+print(ar)
+
+ar[:,[0,2]] = ar [:,[2,0]]
+ar
+18/125: ar[:,[1,0,2]]
+18/126:
+'''
+    Reserse the rows of a 2D array ar above
+'''
+ar[::-1]
+18/127:
+'''
+    Find the mean, median, standard deviation of iris's sepallenth (1st)
+    url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
+    iris = np.genfromtxt(url, delimiter = ',', dtype = 'object')
+    sepallength = np.genfromtxt(url, delimiter = ',' , dtype = 'float', usecols = [0])
+'''
+url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
+iris = np.genfromtxt(url, delimiter = ',', dtype = 'object')
+sepallength = np.genfromtxt(url, delimiter = ',' , dtype = 'float', usecols = [0])
+
+sepallength
+18/128: print(np.mean(sepallength, axis = 0))
+18/129:
+print(np.mean(sepallength, axis = 0))
+print(np.mean(sepallength))
+print(np.median(sepallength))
+print(np.std(sepallength))
+18/130:
+print(np.mean(sepallength, axis = 1))
+print(np.mean(sepallength))
+print(np.median(sepallength))
+print(np.std(sepallength))
+18/131:
+print(np.mean(sepallength, axis = 0))
+print(np.mean(sepallength))
+print(np.median(sepallength))
+print(np.std(sepallength))
+18/132:
+'''
+    Compute the maximun fro each row in the given array
+    a = np.random.randint(1,10, [5,3])
+'''
+a = np.random.randint(1,10, [5,3])
+np.max(a,axis = 1)
+18/133:
+'''
+    Compute the maximun fro each row in the given array
+    a = np.random.randint(1,10, [5,3])
+'''
+a = np.random.randint(1,10, [5,3])
+print(a)
+np.max(a,axis = 1)
+20/1:
+import pandas as pd
+pd.__version__
+20/2: <img src="pandas_intro2.png">
+20/3: <img src="pandas_intro2.png">
+20/4: <img src="pandas_series.png">
+20/5: <img src="pandas_series.png">
+21/1: <img src="pandas_series.png">
+22/1:
+from IPython.display import Image
+Image(filename='pandas_series.png')
+27/1:
+
+import os
+import pathlib
+import sys
+
+app = r'C:\Users\Admin\Desktop\learn Python\Lecture 3 Control Flow'
+os.chdir(str(pathlib.Path(app).parent))
+sys.path = [os.getcwd()] + sys.path[1:]
+
+from panel.io.jupyter_executor import PanelExecutor
+executor = PanelExecutor(app, 'eyJzZXNzaW9uX2lkIjogIkxrNlJ2Yjl4NXhsb0RDQU9xa0NMTDdIOGZYV1NlSDlQTWJqOW9oQmhYeGNNIiwgInNlc3Npb25fZXhwaXJ5IjogMTcxOTg5Njk3OSwgIl9fYmtfX3psaWJfIjogImVOck5WdHR5MmtnUV9SVVZUNXNzbDdub2d1eHliZG5HWUp3SUFnWmtLRmVsNWlZeFJyZElBZ3RDX24xSEFzZnhycDNkUjhQTDlPa3pNOTJubXg2LTEwanFyME1SNVZudFJQdi1vNjdWbG9Kd2tWWm03VHJPY3JXb0JURWp3VklaSjIzMXFTbldaUnhGZ3VVeWprcl9Tb2lrUVFLNUVhWHZWckRHNWJJeEphWHJ2amFJODliNWg0dVVSUHktZHJvNXU2LTE3eFh0dm5hNVRPTlFyc01qQ3BGNXdCM0owamlMdlZ5NzRyNzQxZnZpOUlZVFV4bUk4cEtfd0V2UGw0RGtYcHlHaHdCY0dmSDRNVHRzbnlaLXFoSnM5S05Nc0hVcUdtUHhiUzJ5S3Y4YUxCbWRLUC01bm1ZaWJaejc0Z0E1OFU0R0FXa1pUYUQ5Y1R4VkcwdzBDSnJnVkZPQXFaOXFoYWxfME02VEpCQ3VvSjlrM2pLdzFjU205c2VuNjRuenVhNEZjaVcwbm1Dci1JTldLU0JhS3JjbUtMX2FMZkZJS3AtMnFQU2ZmV1U0NTR5SnBBb2xGMFhlV3VaaFVDZnFLc2xJV1lwV1VTSl9GdjlFdy1EMDJ4bG8yblVaRWwtMHlFWjZ4LVdqb01rVG1rUi1fV1ByWTBWdHZ6Z2drMzRrZUVNVWJFa2lYNmg2VUZ6UnJDZlp1eUpueThhdHpLdHlaQ1FValRpVnZveGVFcHlZVjRSSWhlQ1RYTHowbG1KWDFZUXY4WTQ0ZEtIMFVuWHdzdzZOcTRqRlhFWi02ZlIzTXFsclhIaXE5S0t1MGJTdTdiS2NfOEwtckdKZnEweEx0b2dhMDl1NmlJNjZiT1FoNjBObnh5dFprZFlxbnFoTTVXZjdOOHIyUDBON2VBTDJFSnhBQzFxNmhYVVQ3UkUtZVlPLWg3WjVJclkza0tIWmxvYmRmSEhiTl91WF9jSnhyM2JEeVVwM09sek93eEZZVEp6SDRXU3F6OE1yWXhCMnc0VTdCY29QNXR0LTFyLThXYzlkR1BRZllyLV82cTRwTWd6cTJwQnRMN3JjN2E1NWJ4bjA1YVBmRDhjSnd4ZlpfQzd3bnUtNnVhQ2h2Ull1M1BBN3h4X2Z6WlkwR3NmS1Y1NmIwREFBeE8xbWJIdmdqZ180QTBYRmhrbUY5UXhJZTRXOWJ3Tk9oYnBZV0taTktMRXdSdHpEaG9lUUoyd0VpQWt0dzBLV0tTRG5qRUxkb05UMGtPMTVGdlFNeU5tcDlyWElVa19waDNWS0xjSEpucGc2NHFiSElHdHp6d0NXT2c4SXZXMGF3dkFZQjJ6X1UySjhxcjB1c0syR3c0dUtHQ2JDNERjVnNmY0k2SzlVNUdibFBEaHcwWm1EUWE4Yk9PNUlxVF9DdzhrNW5ELU1INXpPSEMwNnFtcWRiakM4X1cxRkJndVhMLWVvU0hodktqOWZuc3RGTDlpeFhyRVVNX3RfN3lHdW9kYkJrbDQ3Y2lqUDVXZ0tLbnlPN0l6aXZzSXUxdHd0TW05MGRxWXliME1tYkl0NWJZNEp3eGJraUVDZElVNGgwUTFDaUtxUmlhQ0JHVU5LYldyYUZ2RWdCNktzcVk3VmpIMWRYUnY4UzEzTDF2VzMxYldCVWhlODF1LTZNMW1FZzk0c2ROenhhckR6bGJwOVBIUkh1MkZuWlRpZEtWNDhqSkNELXR1Rl9LOS16d1BhNjY2T19ic2lkNE5IWlJ0M3lGaFNkM3BReXpVMk5BcHlpbWU3X3RVTUVqVEw1dTc0LUJzSjF1UnVuTXpkWW5jOHYzdkFCeHZhczdjbFJxTlpScV9CMmQ0RDJHaHpvdzJ4aFNraXBtcEtJQXpFQUNVMmFYdlFhTnRVMklEckJzVGMwQm5HbnRwaUFkWDcyTEpScFN3Sms2LUVNNTNwWjdScmZnR2ZuRVZ5TVJ4NVg0Tm9jb2tmNXJqWmJFSUo0MVFQN2JCYVpWbS1YaDNIZnZrbXMyb21IZDdrTjhaTTVSTkZJdE9LVjcxMUNjbVhUMnNXaC1IeEdTdE5Ib2RFUms5V1NJckdjVEtXNXVGbGZMS1dlWjdFVWJCOXNqZnEzOEh4M2FfSUtwYnNPUGlyWUtzZi1mc0o1NDBoOE00RHRNSDdDZkM1Zjk5SlREOS1fQTNQT0VNSyJ9', '/panel-preview')
+executor.render()
+26/1: %history -g -f anyfilename
+22/2: import pandas ad pd
+22/3: import pandas as pd
+22/4:
+s = pd.series([1,"John", 3.5, "Hey"])
+s
+22/5:
+s = pd.Series([1,"John", 3.5, "Hey"])
+s
+22/6:
+# First value
+s[0]
+
+# All value
+s.values
+22/7:
+# First value
+print(s[0])
+
+# All value
+s.values
+22/8:
+s2 = pd.Series([1,"John", 3.5, "Hey"], index = ["a","b","c","d"])
+s2
+22/9:
+#Indexing 'b'
+s2['b']
+22/10:
+#Indexing 'b'
+s2['b']
+
+#All index
+s2.index
+22/11:
+#Indexing 'b'
+print(s2['b'])
+
+#All index
+s2.index
+22/12:
+score = {"Jane":90, "Bill":80, "Elon":85, "Tom":75, "Tim": 95}
+
+#convert to Series
+names = pd.Series(score)
+names
+22/13:
+#Find Tim score
+name['Tim']
+22/14:
+#Find Tim score
+names['Tim']
+22/15:
+#Filter score >= 85
+names[>=85]
+22/16:
+#Filter score >= 85
+names[names >= 85]
+22/17:
+# Replace Tom score ->60
+names['Tom'] = 60
+22/18:
+# Replace Tom score ->60
+names['Tom'] = 60
+names
+22/19:
+# Replace all value <= 80 with 83
+names[names <= 80] = 83
+names
+22/20:
+# Check if Tom in names
+'Tom' in names
+22/21:
+# Check Can in names
+'Can' in names
+22/22:
+# Scale score to range 10
+names / 10
+22/23:
+# ^2 score
+name ** 2
+22/24:
+# ^2 score
+names ** 2
+22/25:
+# Check if value is null
+names is null
+22/26:
+# Check if value is null
+names.isnull()
+22/27: import pandas as pd
+22/28: games = pd.read_csv("vgsales.csv")
+22/29:
+games = pd.read_csv("vgsales.csv")
+
+game.head()
+22/30:
+games = pd.read_csv("vgsales.csv")
+
+games.head()
+22/31:
+games = pd.read_csv("vgsales.csv")
+
+games
+22/32:
+# Check data type of each column
+games.dtype
+22/33:
+# Check data type of each column
+games.dtypes
+22/34: # Quick view Genre column (descriptive statistics)
+22/35:
+# Quick view Genre column (descriptive statistics)
+games['Genre'].describe
+22/36:
+# Quick view Genre column (descriptive statistics)
+games['Genre'].describe()
+22/37:
+# Count frequence of each value in column
+games['Genre'].value_counts()
+22/38:
+# Normalize column Genre in value count
+# Đưa data về một khoảng để so sánh với nhau, vì các column data có thể có đơn vị khác nhau, cần đưa về cùng đơn vị để so sánh, gọi là normalize data
+games['Genre'].normal()
+22/39:
+# Normalize column Genre in value count
+# Đưa data về một khoảng để so sánh với nhau, vì các column data có thể có đơn vị khác nhau, cần đưa về cùng đơn vị để so sánh, gọi là normalize data
+games['Genre'].value_counts(normalize = True)
+22/40: type(games['Genre'].value_counts())
+22/41:
+# Value counts top 5
+games['Genre'].value_counts().head()
+22/42:
+# Value counts top 5
+games['Genre'].value_counts().head(5)
+
+# Value counts bottom 5
+games['Genre'].value_counts().tail(5)
+22/43:
+# View unique values of Genre column
+games['Genre'].unique()
+22/44: games['Genre'].nunique()
+22/45: games['Genre'].nunique()
+22/46:
+# Crosstab Genre vs Year
+pd.crosstab(games['Genre'],games['Year'])
+22/47:
+# Crosstab Genre vs Year
+pd.crosstab(games['Genre'],games['Year'].astype(int))
+22/48:
+# Crosstab Genre vs Year
+pd.crosstab(games['Genre'],games['Year']fillna(0).astype(int))
+22/49:
+# Crosstab Genre vs Year
+pd.crosstab(games['Genre'],games['Year'].fillna(0).astype(int))
+22/50: pd.set_option('display.max_column', None)
+22/51:
+# Display toàn bộ bảng dữ liệu
+pd.set_option('display.max_column', None)
+
+pd.crosstab(games['Genre'],games['Year'].fillna(0).astype(int))
+22/52:
+# Genre -> objects -> categorical data
+# Global_sales -> number -> numeric data
+
+# Describe num col Global_sales
+games['Global_sales'].describe
+22/53:
+# Genre -> objects -> categorical data
+# Global_sales -> number -> numeric data
+
+# Describe num col Global_sales
+games['Global_Sales'].describe
+22/54:
+# Genre -> objects -> categorical data
+# Global_sales -> number -> numeric data
+
+# Describe num col Global_sales
+games['Global_Sales'].describe()
+22/55:
+# mean col Global_Sales
+games['Global_Sales'].mean()
+22/56:
+# Viz history of column year (xem data phân bổ trong năm nào nhiều)
+# để explore chưa phải để trình bày
+games['Year'].plot(kind = 'hist')
+22/57:
+#Counts values
+games.Year.value_counts()
+22/58:
+#Count values by Genre
+games.Genre.value_counts()
+22/59:
+#Chart để xem nhanh
+games['Genre'].value_counts().plot(kind = 'bar')
+22/60:
+from IPython.display import Image
+Image(filename='pandas_dataframe.png')
+22/61: import pandas as pd
+22/62:
+data = {
+    "name" : ["Bill","Tom","Tim","John","Alex","Vanessa","Kate"],
+    "score" : [90,80,85, 75, 95, 60 ,65],
+    "sport" : ["wresling", "footbal", "skiing", "swimming", "tennis", "karate", "surfing"],
+    "sex" : ["M","M","M","M","F","F","F"]
+}
+22/63:
+# create dataframe fron dict data
+df = pd.DataFrame(data)
+22/64:
+# create dataframe fron dict data
+df = pd.DataFrame(data)
+df
+22/65:
+# define order of column = ["name", "sport", "sex", "score"]
+df = pd.DataFrame(data, columns = ["name", "sport","sex","score"]
+22/66:
+# define order of column = ["name", "sport", "sex", "score"]
+df = pd.DataFrame(data, columns = ["name", "sport","sex","score"])
+df
+22/67: df.head(4)
+22/68: df.head(6)
+22/69:
+# Create new col columns = ["name","sport","gender", "score","age"]
+df = pd.DataFrame(data, columns = ["name","sport","gender", "score","age"])
+df
+22/70:
+# Reindex index = ["one","two", "three", "four", "five", "six", "seven"]
+df = pd.DataFrame(data, index = ["one","two", "three", "four", "five", "six", "seven"],
+                  columns = ["name","sport","gender", "score","age"])
+df
+22/71:
+# View specific column
+print(df['sport'])
+print(df.sport)
+22/72:
+# View nhiều column
+df['name', 'sport']
+22/73:
+# View nhiều column
+df['name','sport']
+22/74:
+# View nhiều column
+df[['name','sport']]
+22/75:
+# Điều kiện age = 18
+df[df['age'] == 18]
+22/76:
+# Điều kiện age = 18
+df[df['name'] == 'Bill']
+22/77:
+# insert tuổi vào cột age
+values = [18,19,20,18,17,17,18]
+df['age'] = values
+df
+22/78:
+# Tạo 1 cột mới 
+
+for i in df['score']:
+    if i > 70:
+        print('True')
+    else:
+        print('False')
+22/79:
+# Tạo 1 cột mới 
+
+df['pass'] = for i in df['score']:
+    if i > 70:
+        print('True')
+    else:
+        print('False')
+22/80:
+# Tạo 1 cột mới 
+
+bool = 
+for i in df['score']:
+    if i > 70:
+        print('True')
+    else:
+        print('False')
+22/81:
+# Tạo 1 cột mới 
+
+df['pass'] = df['score'] >= 70
+df
+22/82:
+#xóa cột pass
+del df['pass']
+df
+22/83:
+scores = {
+    "math" : {"A":85, "B":90, "C":95},
+    "physics" : {"A":90, "B":80, "C":75}
+}
+scores
+22/84:
+scores = {
+    "math" : {"A":85, "B":90, "C":95},
+    "physics" : {"A":90, "B":80, "C":75}
+}
+scores_df = pd.DataFrame(scores)
+scores_df
+22/85:
+# Transpose score
+scores_df.T
+22/86:
+import pandas as pd
+import numpt as np
+22/87:
+import pandas as pd
+import numpy as np
+22/88:
+s1 = pd.Seires(np.arange(4), index = ["a","c","d","e"])
+s2 = pd.Series(np.arange(5), index = ["a","c","e","f","g"])
+print(s1)
+22/89:
+s1 = pd.Series(np.arange(4), index = ["a","c","d","e"])
+s2 = pd.Series(np.arange(5), index = ["a","c","e","f","g"])
+print(s1)
+22/90:
+s1 = pd.Series(np.arange(4), index = ["a","c","d","e"])
+s2 = pd.Series(np.arange(5), index = ["a","c","e","f","g"])
+print(s1)
+print(s2)
+22/91:
+# s1 + s2
+s1 + s2
+22/92:
+df1 = pd.DataFrame(
+    np.arange(6).reshape(2,3),
+    columns = list("ABC"),
+    index = ["Tim","Tom"])
+df1 = pd.DataFrame(
+    np.arange(9).reshape(3,3),
+    columns = list("ACD"),
+    index = ["Tim","Kate","Tom"])
+print(df1)
+print(df2)
+22/93:
+df1 = pd.DataFrame(
+    np.arange(6).reshape(2,3),
+    columns = list("ABC"),
+    index = ["Tim","Tom"])
+df2 = pd.DataFrame(
+    np.arange(9).reshape(3,3),
+    columns = list("ACD"),
+    index = ["Tim","Kate","Tom"])
+print(df1)
+print(df2)
+22/94:
+# Plus df1 with df2
+df1 + df2
+22/95: df1.add(df2,fill_value = 0)
+22/96:
+# devide 1 -> df1
+1/df1
+22/97:
+# df1 multiple by 3
+df1 *3
+22/98:
+s = df2.iloc[1]
+s
+22/99: df2 - s
+22/100:
+print(df2)
+df2 - s
+22/101:
+df = pd.DataFrame(
+    np.random.randn(4,3),
+    columns = list("ABC"),
+    index = ["Kim","Susan","Tim","Tom"]
+)
+df
+22/102:
+lambda max x - min x
+f = lambda x: max(x) = min(x)
+22/103:
+lambda max x - min x
+f = lambda x: max(x) - min(x)
+22/104:
+#lambda max x - min x
+f = lambda x: max(x) - min(x)
+22/105:
+# apply lambda
+df['A'].apply(f)
+22/106:
+# apply lambda
+df.apply(f)
+22/107:
+# apply lambda
+df.apply(f)
+df
+22/108:
+# apply to row
+df.apply(f, axis = 1)
+22/109:
+# def ** 2
+def m2(x):
+    return x**2
+22/110: df.apply(pw2)
+22/111: df.apply(m2)
+29/1:
+import pandas as pd
+import numpy as np
+29/2:
+s = pd.Series(range(5), index = ["e","d","a","b","c"])
+s
+29/3:
+# sort index
+s.sort_index()
+29/4:
+df = pd.DataFrame(
+    np.arange(12).reshape(3,4),
+    index = ["two","one","three"],
+    columns = ["d","a","b","c"]
+)
+df
+29/5:
+# sort_index df
+df.sort_index()
+29/6:
+# sort column
+df.sort_index(axis = 1)
+29/7:
+# sort descending
+df.sort_index(axis = 1, ascending = False)
+29/8:
+s2 = pd.Series([5, np.nan, 3, -1, 9])
+s2
+29/9: s2.sort_values()
+29/10:
+df2 = pd.DataFrame(
+    {"a": [5,3,-1,9],
+     "b": [1,-2,0,5]}
+)
+df2
+29/11:
+# sort value by column b
+df2.sort_values('b')
+29/12:
+# sort value by column b, a
+df2.sort_values('b','a')
+29/13:
+# sort value by column b, a
+df2.sort_values(['b','a'])
+29/14:
+import pandas as pd
+import numpy as np
+29/15:
+df = pd.read_csv("supermarket_sales_nan.csv")
+df
+29/16: ## Practice
+29/17: df = pd.read_csv("supermarket_sales_nan.csv")
+29/18: df.head()
+29/19:
+# print unique values of Branch, City, Customer type, Product line
+df['Branch'].unique()
+29/20:
+# print unique values of Branch, City, Customer type, Product line
+df['Branch','City'].unique()
+29/21:
+# print unique values of Branch, City, Customer type, Product line
+df['Branch'].unique()
+29/22:
+# print unique values of Branch, City, Customer type, Product line
+print(df['Branch'].unique())
+29/23: # select distinct in sql
+29/24: # descriptive statistics for col Quantity
+29/25: # column to list
+29/26: # Sort col Year desc
+29/27: # Sort data by col Customer type
+29/28:
+# print unique values of Branch, City, Customer type, Product line
+df['Branch'].unique()
+29/29:
+for c in ['Branch', 'City']:
+    print('column {}:'.format(c), df[c].unique())
+29/30:
+# select distinct in sql
+df[['Branch','City','Customer type']].drop_duplicates()
+29/31:
+# select distinct in sql
+df[['Branch','City','Customer type','Product line']].drop_duplicates()
+29/32:
+# select distinct in sql
+df[['Branch','City','Customer type']].drop_duplicates()
+29/33:
+for c in ['Branch', 'City','Customer type','Product line']:
+    print('column {}:'.format(c), df[c].unique())
+29/34:
+# descriptive statistics for col Quantity
+df['Quantity'].describe()
+29/35:
+# column to list 
+# trường hợp muốn list nhiều tên cột 
+df.columns_to_list()
+29/36:
+# column to list 
+# trường hợp muốn list nhiều tên cột 
+df.columns.to_list()
+29/37:
+# print info summary of data
+df.info()
+29/38:
+# describe for numeric column
+num_col = df.select_dtypes(['int64','float64'])
+num_col.describe()
+29/39: df['gross income']
+29/40: df['Unit price','Quantity','Tax 5%', 'Total', 'cogs', 'gross margin percentage','gross income','Rating'].to_numeric()
+29/41: df[['Unit price','Quantity','Tax 5%', 'Total', 'cogs', 'gross margin percentage','gross income','Rating']].to_numeric()
+29/42: df[['Unit price','Quantity','Tax 5%', 'Total', 'cogs', 'gross margin percentage','gross income','Rating']].astype(float64)
+29/43: df[['Unit price','Quantity','Tax 5%', 'Total', 'cogs', 'gross margin percentage','gross income','Rating']].astype(flt)
+29/44: pd.to_numeric(['Unit price','Quantity','Tax 5%', 'Total', 'cogs', 'gross margin percentage','gross income','Rating'])
+29/45: pd.to_numeric(['Unit price','Quantity','Tax 5%', 'Total', 'cogs', 'gross margin percentage','gross income','Rating']).fillna(0)
+29/46: pd.to_numeric(['Quantity','Tax 5%', 'Total', 'cogs', 'gross margin percentage','gross income','Rating'])
+29/47: pd.to_numeric(['Unit price','Quantity','Tax 5%', 'Total', 'cogs', 'gross margin percentage','gross income','Rating'],error = 'coerce')
+29/48: pd.to_numeric(['Unit price','Quantity','Tax 5%', 'Total', 'cogs', 'gross margin percentage','gross income','Rating'],errors = 'coerce')
+29/49:
+pd.to_numeric(['Unit price','Quantity','Tax 5%', 'Total', 'cogs', 'gross margin percentage','gross income','Rating'],errors = 'coerce')
+
+df.info()
+29/50: pd.to_numeric(['Unit price','Quantity','Tax 5%', 'Total', 'cogs', 'gross margin percentage','gross income','Rating'],errors = 'ignore')
+29/51:
+pd.to_numeric(['Unit price','Quantity','Tax 5%', 'Total', 'cogs', 'gross margin percentage','gross income','Rating'],errors = 'ignore')
+
+df.info()
+29/52: df.astype(int)
+29/53:
+#df.astype(int)
+
+df.info()
+29/54:
+# Calculate total Quantity
+df['Quantity'].sum()
+29/55:
+# Calculte profit
+df['Total'] * df['gross margin percentage']
+29/56:
+# convert column "a" to int64 dtype 
+df = df.astype({"Tax 5%": float, 
+                "Total": float,
+               })
+29/57:
+# convert column "a" to int64 dtype 
+df = df.astype({"Tax 5%": int, 
+                "Total": float,
+               })
+29/58:
+# convert column "a" to int64 dtype 
+df = df.astype({"Tax 5%": int, 
+                "Total": int,
+               })
+29/59:
+# convert column "a" to int64 dtype 
+df = df.astype({"Tax 5%": int, 
+                "Total": int
+               })
+29/60: df = pd.read_csv("supermarket_sales_nan.xlsx")
+29/61:
+df = pd.read_csv("supermarket_sales_nan.csv")
+df
+29/62:
+df = pd.read_csv("supermarket_sales_nan.xlsx")
+df
+29/63:
+df = pd.read_csv("supermarket_sales_nan.csv")
+df
+29/64: df = pd.read_csv("supermarket_sales_nan.csv")
+29/65:
+# print top 5
+df.head()
+29/66:
+# print unique values of Branch, City, Customer type, Product line
+df['Branch'].unique()
+29/67:
+for c in ['Branch', 'City','Customer type','Product line']:
+    print('column {}:'.format(c), df[c].unique())
+29/68:
+# descriptive statistics for col Quantity
+df['Quantity'].describe()
+29/69:
+# print info summary of data
+df.info()
+29/70: df = pd.read_csv("supermarket_sales_nan.csv")
+29/71:
+# print top 5
+df.head()
+29/72:
+# print info summary of data
+df.info()
+29/73: df.info()
+29/74:
+# describe for numeric column
+num_col = df.select_dtypes(['int64','float64'])
+num_col.describe()
+29/75:
+# Calculte profit
+df['Total'] * df['gross margin percentage']
+29/76:
+# Sort col Year desc
+df['Date'].sort_values(ascending = False)
+29/77:
+# Sort col Year desc
+df['Date'].astype(datetime)
+df['Date'].sort_values(ascending = False)
+29/78:
+# Sort col Year desc
+df['Date'].astype(datetime64)
+df['Date'].sort_values(ascending = False)
+29/79:
+# Sort col Year desc
+df['Date'].astype(datetime64[ns])
+df['Date'].sort_values(ascending = False)
+29/80:
+# Sort col Year desc
+df['Date'].astype('datetime64[ns]')
+df['Date'].sort_values(ascending = False)
+29/81:
+# Sort col Year desc
+df['Date'].sort_values()
+29/82:
+# Sort data by col Customer type
+df.sort_values('Customer type')
+29/83:
+# Sort values by Branch, Date
+df.sort_values(['Branch','Date'])
+29/84:
+# Calculate Total value for Branch A
+df[df['Branch'] == 'A']
+29/85:
+# Calculate Total value for Branch A
+df[df['Branch'] == 'A']['Total'].sum()
+29/86:
+import pandas as pd
+import numpy as np
+29/87:
+df = pd.DataFrame(
+    [[2.4,np.nan], [6.3, -5.4], [np.nan, np.nan], [0.75 , -1.3]],
+    index = ["a","b","c","d"],
+    columns = ["one","two"]
+)
+df
+29/88: df.sum()
+29/89: df.sum(axis = 1)
+29/90: df.mean(axis = 1)
+29/91: df.indexmax()
+29/92: df.indxmax()
+29/93: df.idxmax()
+29/94: df.idxmin()
+29/95: df.cumsum()
+29/96: df.describe()
+29/97:
+import pandas as pd
+import numpy as np
+29/98:
+s = pd.Series(["Sam",np.nan,"Tim","Kim"])
+s
+29/99:
+# check is null
+s.isnull()
+29/100:
+# check is not null
+s.notnull()
+29/101:
+s[3] = None
+s.isnull()
+29/102:
+# drop null
+s.dropna()
+29/103:
+from numpy import nan as NA
+df = pd.DataFrame(
+    [1,2,3],
+    [4,NA,5],
+    [NA,NA,NA]
+)
+df
+29/104:
+from numpy import nan as NA
+df = pd.DataFrame([
+    [1,2,3],
+    [4,NA,5],
+    [NA,NA,NA]
+])
+df
+29/105: df.dropna()
+29/106: df.dropna(how='all')
+29/107: df
+29/108: df.fillna(0)
+29/109: df.fillna({0:15,1:25,2:35})
+29/110: df[1].mode()
+29/111:
+df.fillna(df[1].mode())
+
+# có thể fill giá trị khác như mean, mode
+#
+29/112:
+df.fillna(df[1].mode())
+
+# có thể fill giá trị khác như mean, mode
+#
+29/113:
+df.fillna(df[2].mode())
+
+# có thể fill giá trị khác như mean, mode
+#
+29/114:
+df.fillna(0)
+
+# có thể fill giá trị khác như mean, mode
+# df.fillna(df[2].mode())
+29/115: df.fillna(0, inplace = True)
+29/116: df
+29/117: df.fillna(method = 'ffill')
+29/118: df.fillna(method = 'obj.ffill')
+29/119: df.fillna(method = 'ffill')
+29/120: df.fillna(method = 'FillnaOptions')
+29/121: df.fillna(method = 'bfill')
+29/122:
+dt = pd.Series([1,0,NA,5])
+dt
+29/123: dt.fillna(dt.mean())
+29/124: df.fillna(method = 'ffill')
+29/125: df.fillna(method='ffill')
+29/126: df.ffill()
+29/127: df.ffill(99)
+29/128: df.ffill()
+29/129: df.bfill()
+29/130: df.fillna(df.mean())
+29/131: df
+29/132:
+df = pd.DataFrame([
+    [1,2,3],
+    [4,NA,5],
+    [NA,NA,NA]
+])
+29/133: df.fillna(method='ffill')
+29/134: df.fillna(df.mean())
+29/135:
+import pandas as pd
+
+df = pd.DataFrame({
+    "a" : ["one", "two"] * 3,
+    "b" : [1,1,2,3,2,3]
+})
+df
+29/136: df.duplicate()
+29/137: df.duplicated()
+29/138: df.drop)=_duplicated()
+29/139: df.drop_duplicated()
+29/140: df.drop_duplicates()
+29/141:
+df["c"] = range(6)
+df
+29/142: df.duplicated(["a","b"], keep = 'last')
+29/143:
+df = pd.DataFrame({
+    "name" : ["Tim","tom","Sam","kate","Kim"],
+    "scores" : [60,50,70,80,40]
+})
+df
+29/144:
+classes = {
+    "Tim":"A"
+    "tom":"A"
+    "Sam":"B"
+    "kate":"B"
+    "Kim":"B"
+}
+29/145:
+classes = {
+    "Tim":"A"
+    "Tom":"A"
+    "Sam":"B"
+    "kate":"B"
+    "Kim":"B"
+}
+29/146:
+classes = {
+    "Tim":"A",
+    "Tom":"A",
+    "Sam":"B",
+    "kate":"B",
+    "Kim":"B"
+}
+29/147:
+classes = {
+    "Tim":"A",
+    "tom":"A",
+    "Sam":"B",
+    "kate":"B",
+    "Kim":"B"
+}
+29/148:
+# create branch column map to classes
+name = df['names'].str.capitalize()
+name
+29/149:
+df = pd.DataFrame({
+    "names" : ["Tim","tom","Sam","kate","Kim"],
+    "scores" : [60,50,70,80,40]
+})
+df
+29/150:
+# create branch column map to classes
+name = df['names'].str.capitalize()
+name
+29/151:
+df['branch'] = n.map(classes)
+df
+29/152:
+df['branch'] = name.map(classes)
+df
+29/153:
+classes = {
+    "Tim":"A",
+    "Tom":"A",
+    "Sam":"B",
+    "Kate":"B",
+    "Kim":"B"
+}
+29/154:
+df['branch'] = name.map(classes)
+df
+29/155:
+s=  pd.Series([80,70,90,60])
+s
+29/156:
+import numpy as np
+#replace 70 with nan
+s.replace(70,np.nan)
+29/157: s.replace([]70,60,[np.nan,0])
+29/158: s.replace([70,60],[np.nan,0])
+29/159:
+s.replace({
+    90:100,
+    60:0
+})
+29/160:
+df = pd.DataFrame(
+    np.arange(12).reshape(3,4),
+    index = [0,1,2],
+    columns = ['tim','tom','kim','sam']
+)
+df
+29/161:
+s = pd.Series(['one','two','three'])
+df.index = df.index.map(s)
+df
+29/162:
+#renaem index -> title, coll -> upper
+df.rename(index = str.title, columns = str.upper)
+29/163:
+# rename col sam -> kate
+df.rename(columns = {'sam':'kate'}, inplace = True)
+df
+29/164:
+sc = [30,80,40,90,60,45,95,75,55,100,65,85]
+x = [20,40,60,80,100]
+y = pd.cut(sc,x)
+y
+29/165: y.codes
+29/166: y.categories
+29/167: pd.value_counts(y)
+29/168: pd.Series(y).value_counts()
+29/169:
+y = pd.cut(sc,x,right = False)
+y
+29/170:
+nm = ['low','medium','high','very high']
+pd.cut(sc,x,labels = mn)
+29/171:
+nm = ['low','medium','high','very high']
+pd.cut(sc,x,labels = nm)
+29/172: pd.cut(sc,10)
+29/173:
+data = np.random.randn(100)
+c = pd.cut(data,4)
+c
+29/174: pd.Series(c).value_counts()
+29/175:
+data = pd.DataFrame({
+    'letter' : ['c','b','a','b','b','a'],
+    'number' : range(6)
+})
+data
+29/176: pd.get_dummies(data('letter'))
+29/177: pd.get_dummies(data['letter'])
+32/1: <img src="pandas2_intro.png">
+32/2:
+from IPython.display import Image
+Image(filename='pandas2_intro.png')
+32/3:
+import pandas as pd
+import numpy as np
+32/4:
+d1 = pd.DataFrame({
+    'key' : ['a','b','c','d','e'],
+    'num1' : range(6)
+})
+
+d2 = pd.DataFrame({
+    'key' : ['b','c','e','f'],
+    'num2' : range(4)
+})
+
+print(d1)
+print(d2)
+32/5:
+d1 = pd.DataFrame({
+    'key' : ['a','b','c','d','e'],
+    'num1' : range(6)
+})
+
+d2 = pd.DataFrame({
+    'key' : ['b','c','e','f'],
+    'num2' : range(4)
+})
+32/6:
+d1 = pd.DataFrame({
+    'key' : ['a','b','c','c','d','e'],
+    'num1' : range(6)
+})
+
+d2 = pd.DataFrame({
+    'key' : ['b','c','e','f'],
+    'num2' : range(4)
+})
+32/7:
+d1 = pd.DataFrame({
+    'key' : ['a','b','c','c','d','e'],
+    'num1' : range(6)
+})
+
+d2 = pd.DataFrame({
+    'key' : ['b','c','e','f'],
+    'num2' : range(4)
+})
+
+print(d1)
+print(d2)
+32/8: # pandas merge d1 d2 with key
+32/9: # pandas merge d1 d2 without key
+32/10:
+d3 = pd.DataFrame({
+    'key1' : ['a','b','c','c','d','e'],
+    'num1' : range(6)
+})
+d4 = pd.DataFrame({
+    'key2' : ['b','c','e','f'],
+    'num1' : range(4)
+})
+32/11:
+# pandas merge d1 d2 with key
+pd.merge(d1,d2,on='key'
+32/12:
+# pandas merge d1 d2 with key
+pd.merge(d1,d2,on='key')
+32/13:
+# pandas merge d1 d2 without key
+# without 'on' khi tên của 2 cột chung giống nhau
+pd.merge(d1,d2)
+32/14: pd.left_merge(d1,d2,on='key')
+32/15: pd.merge(d1,d2,left_on='key')
+32/16: # pandas merge with left on, right on
+32/17: # outer join d1, d2
+32/18: # left join
+32/19: # right join
+32/20:
+# pandas merge with left on, right on
+pd.merge(d3,d4,left_on='key1',right_on='key2')
+32/21:
+# full outer join d1, d2
+pd.merge(d1,d2,on='key', how='outer')
+32/22:
+# left join
+pd.merge(d1,d2,on='key', how='left')
+32/23:
+# right join
+pd.merge(d1,d2,on='key', how='right')
+32/24:
+d1  =pd.DataFrame({
+    'key1' : ['a','b','c','c','d','e'],
+    'num1' : range(6),
+    'count' : ['one','three','two','one','one','two']
+})
+
+d2 = pd.DataFrame({
+    'key2' : ['b','c','e','f'],
+    'num1' : range(4),
+    'count' : ['one','two','two','two']
+})
+32/25:
+df1  =pd.DataFrame({
+    'key1' : ['a','b','c','c','d','e'],
+    'num1' : range(6),
+    'count' : ['one','three','two','one','one','two']
+})
+
+df2 = pd.DataFrame({
+    'key2' : ['b','c','e','f'],
+    'num1' : range(4),
+    'count' : ['one','two','two','two']
+})
+32/26:
+df1  =pd.DataFrame({
+    'key1' : ['a','b','c','c','d','e'],
+    'num1' : range(6),
+    'count' : ['one','three','two','one','one','two']
+})
+
+df2 = pd.DataFrame({
+    'key2' : ['b','c','e','f'],
+    'num1' : range(4),
+    'count' : ['one','two','two','two']
+})
+print(df1)
+print(df2)
+32/27:
+df1  =pd.DataFrame({
+    'key' : ['a','b','c','c','d','e'],
+    'num1' : range(6),
+    'count' : ['one','three','two','one','one','two']
+})
+
+df2 = pd.DataFrame({
+    'key' : ['b','c','e','f'],
+    'num1' : range(4),
+    'count' : ['one','two','two','two']
+})
+print(df1)
+print(df2)
+32/28:
+# full outer key: key, count (trên 2 primary key)
+pd.merge(d1,d2,left_on=['key','count'],rigt_on = ['key','count']
+32/29:
+# full outer key: key, count (trên 2 primary key)
+pd.merge(d1,d2,left_on=['key','count'],rigt_on = ['key','count'])
+32/30:
+# full outer key: key, count (trên 2 primary key)
+pd.merge(d1,d2,left_on=['key','count'],right_on = ['key','count'])
+32/31:
+df1  =pd.DataFrame({
+    'key' : ['a','b','c','c','d','e'],
+    'num1' : range(6),
+    'count' : ['one','three','two','one','one','two']
+})
+
+df2 = pd.DataFrame({
+    'key' : ['b','c','e','f'],
+    'num1' : range(4),
+    'count' : ['one','two','two','two']
+})
+print(df1)
+print(df2)
+32/32:
+df1  =pd.DataFrame({
+    'key' : ['a','b','c','c','d','e'],
+    'num1' : range(6),
+    'count' : ['one','three','two','one','one','two']
+})
+
+df2 = pd.DataFrame({
+    'key' : ['b','c','e','f'],
+    'num1' : range(4),
+    'count' : ['one','two','two','two']
+})
+print(df1)
+print(df2)
+32/33:
+# full outer key: key, count (trên 2 primary key)
+pd.merge(d1,d2,left_on=['key','count'],right_on = ['key','count'])
+32/34:
+# full outer key: key, count (trên 2 primary key)
+pd.merge(df1,df2,left_on=['key','count'],right_on = ['key','count'])
+32/35:
+# full outer key: key, count (trên 2 primary key)
+print(pd.merge(df1,df2,left_on=['key','count'],right_on = ['key','count']))
+32/36:
+# full outer key: key, count (trên 2 primary key)
+print(pd.merge(df1,df2,left_on=['key','count'],right_on = ['key','count']))
+
+pd.merge(df1,df2, on='key',how='outer')
+32/37:
+# join with suffixes (hậu tố)
+pd.merge(df1,df2,
+         on = 'key',
+         suffixes = ('_data1', '_data2'))
+32/38:
+df1  =pd.DataFrame({
+    'letter' : ['a','a','b','b','a','c'],
+    'num1' : range(6)
+})
+
+df2 = pd.DataFrame({
+    'value' : [3,5,7],
+    index : ['a','b','c']
+})
+print(df1)
+print(df2)
+32/39:
+df1  =pd.DataFrame({
+    'letter' : ['a','a','b','b','a','c'],
+    'num1' : range(6)
+})
+
+df2 = pd.DataFrame({
+    "value" : [3,5,7],
+    index : ['a','b','c']
+})
+print(df1)
+print(df2)
+32/40:
+df1  =pd.DataFrame({
+    'letter' : ['a','a','b','b','a','c'],
+    'num1' : range(6)
+})
+
+df2 = pd.DataFrame({
+    "value" : [3,5,7],
+    index = ['a','b','c']
+})
+print(df1)
+print(df2)
+32/41:
+df1  =pd.DataFrame({
+    'letter' : ['a','a','b','b','a','c'],
+    'num' : range(6)
+})
+
+df2 = pd.DataFrame({
+    "value" : [3,5,7]},
+    index = ['a','b','c']
+)
+print(df1)
+print(df2)
+32/42:
+# right_index
+pd.merge(df1,df2,
+         left_on='letter'.
+         right_index = True)
+32/43:
+# right_index
+pd.merge(df1,df2,
+         left_on='letter',
+         right_index = True)
+32/44:
+right = pd.DataFrame(
+    [[1,2],[3,4],[5,6]],
+    index = ['a','c','d'],
+    columns = ['Tom','Tim']
+)
+
+left = pd.DataFrame(
+    [[7,8],[9,10],[11,12],[13,14],
+     index = ['a','b','e','f'],
+     columns = ['Sam','Kim']
+)
+print(left)
+print(right)
+32/45:
+right = pd.DataFrame(
+    [[1,2],[3,4],[5,6]],
+    index = ['a','c','d'],
+    columns = ['Tom','Tim']
+)
+
+left = pd.DataFrame(
+    [[7,8],[9,10],[11,12],[13,14]],
+     index = ['a','b','e','f'],
+     columns = ['Sam','Kim']
+)
+print(left)
+print(right)
+32/46:
+# merge with full index (ý là 2 bên merge bằng index)
+pd.merge(left, right,
+         left_index = True,
+         right_index = True)
+32/47: left.join(right)
+32/48: left.join(right,how='outer')
+32/49:
+pd.merge(left, right,
+         left_index = True,
+         right_index = True,
+         how = 'outer')
+32/50:
+data = pd.DataFrame(
+    [1,3],[5,7],[9,11],
+    index = ['a','b','f'],
+    columns = ['Alex','Keta']
+)
+32/51:
+data = pd.DataFrame(
+    [[1,3],[5,7],[9,11]],
+    index = ['a','b','f'],
+    columns = ['Alex','Keta']
+)
+32/52:
+# join multiple df without common key
+right.join([right,data])
+32/53:
+# join multiple df without common key
+left.join([right,data])
+32/54:
+seq = np.arange(20),reshape(4,5)
+seq
+32/55:
+seq = np.arange(20).reshape(4,5)
+seq
+32/56: # numpy concatenate seq seq col
+32/57:
+# numpy concatenate seq seq col
+np.concatenate([seq,seq],axis=1)
+32/58:
+# numpy concatenate seq seq row
+np.concatenate([seq,seq],axis=0)
+32/59:
+data1 = pd.Series([0,1], index = ['a','b'])
+data2 = pd.Series([2,3,4], index = ['c','d','e'])
+data3 = pd.Series([5,6], index = ['f','g'])
+
+print(data1)
+print(data1)
+32/60:
+data1 = pd.Series([0,1], index = ['a','b'])
+data2 = pd.Series([2,3,4], index = ['c','d','e'])
+data3 = pd.Series([5,6], index = ['f','g'])
+
+print(data1)
+print(data2)
+print(data3)
+32/61:
+# pandas concat data 1 2 3
+np.concatenate(data1,data2,data3)
+32/62:
+# pandas concat data 1 2 3
+pd.concat(data1,data2,data3)
+32/63:
+# pandas concat data 1 2 3
+pd.concat([data1,data2,data3])
+32/64:
+# pandas concat data 1 2 3 col
+pd.concat([data1,data2,data3],axis = 1)
+32/65:
+data4 = pd.Series([10,11,12], index = ['a','b','c'])
+
+pd.concat([data1,data4],axis=1,join='inner')
+32/66:
+data4 = pd.Series([10,11,12], index = ['a','b','c'])
+
+pd.concat([data1,data4],axis=1,join='outer')
+32/67:
+x = pd.concat(
+    [data1, data2, data4],
+    keys = ['one','two','three']
+)
+x
+32/68:
+x = pd.concat(
+    [data1, data2, data4],
+    keys = ['one','two','three'],
+    axis = 1
+)
+x
+32/69:
+df1 = pd.DataFrame(
+    np.arange(6).reshape(3,2),
+    index = ['a','b','c']
+    columns = ['one','two']
+)
+df2 = pd.DataFrame(
+    np.arange(4).reshape(2,2),
+    index = ['a','c']
+    columns = ['three','four']
+)
+print(df1)
+print(df2)
+32/70:
+df1 = pd.DataFrame(
+    np.arange(6).reshape(3,2),
+    index = ['a','b','c']
+    columns = ['one','two']
+)
+df2 = pd.DataFrame(
+    np.arange(4).reshape(2,2),
+    index = ['a','c'],
+    columns = ['three','four']
+)
+print(df1)
+print(df2)
+32/71:
+df1 = pd.DataFrame(
+    np.arange(6).reshape(3,2),
+    index = ['a','b','c'],
+    columns = ['one','two']
+)
+df2 = pd.DataFrame(
+    np.arange(4).reshape(2,2),
+    index = ['a','c'],
+    columns = ['three','four']
+)
+print(df1)
+print(df2)
+32/72:
+df1 = pd.DataFrame(
+    np.arange(6).reshape(3,2),
+    index = ['a','b','c'],
+    columns = ['one','two']
+)
+df2 = pd.DataFrame(
+    np.arange(4).reshape(2,2),
+    index = ['a','c'],
+    columns = ['three','four']
+)
+print(df1)
+print(df2)
+32/73:
+pd.concat(
+    [df1,df2],
+    axis = 1,
+    keys = ['s1','s2'],
+    sort = False
+)
+32/74:
+pd.concat(
+    [df1,df2],
+    axis = 1,
+    
+    sort = False
+)
+32/75:
+pd.concat(
+    [df1,df2],
+    axis = 1,
+    keys = ['s1','s2'],
+    sort = False
+)
+32/76:
+s1 = pd.Series(
+    np.arange(4), index = list("abcd"))
+s2 = pd.Series(
+    np.arange(6,9), index = list("cde"))
+
+print(s1)
+print(s2)
+32/77:
+data2 = pd.concat(
+    [s1,s2],
+    keys = ["bir","iki"]
+)
+data2
+32/78:
+# unstack
+data2.unstack()
+32/79: data2.unstack().stack(dropna = True)
+32/80: data2.unstack().stack(dropna = False)
+32/81:
+data2 = pd.concat(
+    [s1,s2],
+    keys = ["bir","iki"]
+)
+data2
+
+#nested
+32/82: data2.unstack().stack()
+32/83:
+stock = pd.DataFrame({
+    'fruit': ['apple','plum','grape'] * 2,
+    'color' : ['purple','yellow'] * 3,
+    'piece' : [3,4,5,6,1,2]
+})
+stock
+32/84: stock.sort_values(by = ['fruit','color'])
+32/85:
+stock['value'] = np.random.randn(len(stock))
+stock
+32/86:
+# pivot to weide table
+pd.pivot('stock')
+32/87:
+# pivot to weide table
+pd.pivot('stock','color')
+32/88:
+# pivot to weide table
+stock.pivot()
+32/89:
+# pivot to weide table
+stock.pivot(index = 'fruit', columns = 'color', values = 'piece')
+32/90:
+p = stock.pivot('fruit','color')
+p
+32/91:
+p = stock.pivot('fruit','color','piece')
+p
+32/92:
+p = stock.pivot(index = 'fruit',columns = 'color',values = ['piece','value'])
+p
+32/93: p['value']
+32/94: data = pd.DataFrame({})
+32/95:
+data = pd.DataFrame({
+    'lesson' : ['maht','stat','bio'],
+    'Sam' : [50,60,70],
+    'Kim' : [80,70,90],
+    'Tom' : [60,70,85]
+})
+data
+32/96:
+# pandas melt to long table
+group = pd.melt(data,['lesson'])
+group
+32/97:
+data = group.pivot(
+    'lesson','variable','value'
+)
+data
+32/98:
+data = group.pivot(
+    index = 'lesson',
+    columns = 'variable',
+    values = 'value'
+)
+data
+32/99: data.reset_index()
+32/100:
+df = pd.DataFrame({
+    'key1' : list('aabbab'),
+    'key2' : ['one','two','three'] * 2,
+    'data1' : np.random.randn(6),
+    'data2' : np.random.randn(6)
+})
+df
+32/101:
+group = df['data1'].groupby(df['key1')
+group
+32/102:
+group = df['data1'].groupby(df['key1'])
+group
+32/103: group.mean()
+32/104:
+ave = df['data1'].groupby(df['key1'],df['key2']).mean()
+ave
+32/105:
+print(group.mean())
+print(group.count())
+32/106:
+print(group.mean())
+print(group.count())
+print(group.max())
+print(group.min())
+32/107:
+ave = df['data1'].groupby([df['key1'], df['key2']]).mean()
+ave
+32/108: ave.unstack()
+32/109: df.groupby('key1').mean()
+32/110: df.groupby(['key1']).mean()
+32/111: df.groupby("key1").mean()
+32/112: df['data1'].groupby("key1").mean()
+32/113: df['data1'].groupby(df["key1"]).mean()
+32/114: df.groupby(df["key1"]).mean()
+32/115: df['data1'].groupby(df["key1"]).mean()
+32/116: df['data1','data2'].groupby(df["key1"]).mean()
+32/117: df['data1'].groupby(df["key1"]).mean()
+32/118: ## Select a column or a subset of columns
+32/119: df
+32/120:
+# mean of data 1 by key1
+df.groupby('key1')['data1'].mean()
+32/121: # mean of data1 by key1, key2
+32/122:
+# mean of data1 by key1, key2
+df.groupby(['key1','key2'])['data1'].mean()
+32/123:
+# mean of data1, data2 by key1
+df.groupby('key1')[['data1','data2']].meam()
+32/124:
+# mean of data1, data2 by key1
+df.groupby('key1')[['data1','data2']].mean()
+32/125:
+# mean of data1, data2 by key1, key2
+df.groupby(['key1','key2'])[['data1','data2']].mean()
+32/126:
+# mean of data1, data2 by key1, key2
+df.groupby(['key1','key2'])[['data1','data2']].mean().unstack()
+32/127:
+# mean of data1, data2 by key1, key2
+df.groupby(['key1','key2'])[['data1','data2']].mean()
+32/128: df.groupby(['key1','key2'])[['data1','data2']].mean().unstack()
+32/129:
+data = pd.DataFrame(
+    np.random.randn(4,5),
+    columns = [list = ("AAABB"),[1,2,3,1,2]]
+)
+32/130:
+data = pd.DataFrame(
+    np.random.randn(4,5),
+    columns = [list("AAABB"),[1,2,3,1,2]]
+)
+32/131:
+data = pd.DataFrame(
+    np.random.randn(4,5),
+    columns = [list("AAABB"),[1,2,3,1,2]]
+)
+data
+32/132: data.groupby(level = 'letter',axis = 1).sum()
+32/133:
+data = pd.DataFrame(
+    np.random.randn(4,5),
+    columns = [list("AAABB"),[1,2,3,1,2]]
+)
+data.columns,name = ['letter','number']
+data
+32/134:
+data = pd.DataFrame(
+    np.random.randn(4,5),
+    columns = [list("AAABB"),[1,2,3,1,2]]
+)
+32/135:
+data.columns,name = ['letter','number']
+data
+32/136:
+data.columns.name = ['letter','number']
+data
+32/137:
+data.columns.names = ['letter','number']
+data
+32/138: data.groupby(level = 'letter',axis = 1).sum()
+36/1: game = pd.read_csv(vgsales.csv)
+36/2:
+import pandas as pd
+import numpy as np
+36/3: game = pd.read_csv(vgsales.csv)
+36/4: game = pd.read_csv(Desktop/learn Python/vgsales.csv)
+36/5: game = pd.read_csv(Data/vgsales.csv)
+36/6: game = pd.read_csv("vgsales.csv")
+36/7: game.info()
+36/8:
+# print top 5
+game.head()
+36/9:
+# describe data
+game.describe()
+36/10:
+# average Global_Sales
+game['Global_Sales']
+36/11:
+# average Global_Sales
+game['Global_Sales'].mean()
+36/12: pd.mean('Global_Sales')
+36/13:
+# total Global Sales of each genre
+game['Global_Sales'].groupby(game['Genre'])
+36/14:
+# total Global Sales of each genre
+global_sales_groupby = game['Global_Sales'].groupby(game['Genre'])
+36/15: print(global_sales_groupby.mean())
+36/16: print(global_sales_groupby.sum())
+36/17: print(global_sales_groupby.sum().sorted())
+36/18: print(global_sales_groupby.sum().sort_value())
+36/19: print(global_sales_groupby.sum().sort_values())
+36/20: print(global_sales_groupby.sum().sort_values(ascending = False))
+36/21: print(global_sales_groupby.mean().sort_values(ascending = False))
+36/22: print(global_sales_groupby.median().sort_values(ascending = False))
+36/23: group = game.groupby('Genre')
+36/24:
+group = game.groupby('Genre')
+group.mean()
+36/25: global_sales_groupby.sum().sort_values(ascending = False).plot(kind = bar)
+36/26: global_sales_groupby.sum().sort_values(ascending = False).plot(kind = 'bar')
+36/27: global_sales_groupby.sum().sort_values(ascending = False).plot(kind = 'barchart')
+36/28: global_sales_groupby.sum().sort_values(ascending = False).plot(kind = 'chart')
+36/29: global_sales_groupby.sum().sort_values(ascending = False).plot(kind = 'pie')
+36/30: global_sales_groupby.sum().sort_values(ascending = False).plot(kind = 'scatter')
+36/31: global_sales_groupby.sum().sort_values(ascending = False).plot(kind = 'box')
+36/32: global_sales_groupby.sum().sort_values(ascending = False).plot(kind = 'barh')
+36/33: global_sales_groupby.sum().plot(kind = 'barh')
+36/34: global_sales_groupby.sum().sort_values(ascending = False).plot(kind = 'barh')
+36/35: global_sales_groupby.sum().sort_values(ascending = True).plot(kind = 'barh')
+36/36:
+game[[
+    'NA Sales',
+    'EU Sales',
+    'JP Sales']].groupby('Genre').sum().sort_values(ascending = False).plot(kind = barh)
+36/37:
+game[[
+    'NA_Sales',
+    'EU_Sales',
+    'JP_Sales']].groupby('Genre').sum().sort_values(ascending = False).plot(kind = barh)
+36/38:
+game[[
+    'NA_Sales',
+    'EU_Sales',
+    'JP_Sales']].groupby(game['Genre']).sum().sort_values(ascending = False).plot(kind = barh)
+36/39:
+g =game[[
+    'NA_Sales',
+    'EU_Sales',
+    'JP_Sales']].groupby(game['Genre']).sum().sort_values(ascending = False)
+36/40:
+g = game[[
+    'NA_Sales',
+    'EU_Sales',
+    'JP_Sales']].groupby(game['Genre']).sum()
+36/41:
+g = game[[
+    'NA_Sales',
+    'EU_Sales',
+    'JP_Sales']].groupby(game['Genre'])
+36/42: g.sum()
+36/43: g.sum().sort_values(ascending = False)
+36/44: g.sum().sort_values(by= 'NA_Sales',ascending = False)
+36/45: g.sum().sort_values(by=['NA_Sales','EU_Sales','JP_Sales'],ascending = False)
+36/46: g.sum().sort_values(by=['NA_Sales','EU_Sales','JP_Sales'],ascending = False).plot(kind = barh)
+36/47: g.sum().sort_values(by=['NA_Sales','EU_Sales','JP_Sales'],ascending = False).plot(kind = bar)
+36/48: g.sum().sort_values(by=['NA_Sales','EU_Sales','JP_Sales'],ascending = False).plot(kind = chart)
+36/49: g.sum().sort_values(by=['NA_Sales','EU_Sales','JP_Sales'],ascending = False).plot(kind = scatter)
+36/50: g.sum().sort_values(by=['NA_Sales','EU_Sales','JP_Sales'],ascending = False).plot(kind = 'barh')
+36/51: g.sum().sort_values(by=['NA_Sales','EU_Sales','JP_Sales'],ascending = False).plot(kind = 'bar')
+36/52: print(global_sales_groupby.median().sort_values(ascending = False).reset_index())
+36/53: print(global_sales_groupby.median().sort_values(ascending = False))
+36/54:
+'''
+    Merge bảng mean_sale và publish_year, key là tựa game
+'''
+36/55:
+'''
+    Tạo bảng mean_sale: ghi nhận doanh thu trung bình của 4 thị trường NA, EU, JP, Other theo từng tựa game
+'''
+mean_sale = game[['NA_Sales','EU_Sales','JP_Sales','Other_Sales']]
+mean_sale
+36/56: game['Name'].describe()
+36/57:
+'''
+    Tạo bảng mean_sale: ghi nhận doanh thu trung bình của 4 thị trường NA, EU, JP, Other theo từng tựa game
+'''
+mean_sale = game[['NA_Sales','EU_Sales','JP_Sales','Other_Sales']].groupby(game['Genre'])
+mean_sale.mean()
+36/58:
+'''
+    Tạo bảng mean_sale: ghi nhận doanh thu trung bình của 4 thị trường NA, EU, JP, Other theo từng tựa game
+'''
+mean_sale = game[['NA_Sales','EU_Sales','JP_Sales','Other_Sales']].groupby(game['Genre'])
+mean_sale.mean().sort_values(by=['NA_Sales','EU_Sales','JP_Sales','Other_Sales'], ascending = False)
+36/59:
+'''
+    Tạo bảng mean_sale: ghi nhận doanh thu trung bình của 4 thị trường NA, EU, JP, Other theo từng tựa game
+'''
+mean_sale = game[['NA_Sales','EU_Sales','JP_Sales','Other_Sales']].groupby(game['Genre'])
+mean_sale.mean().sort_values(by= game['Global_Sales'].sum(), ascending = False)
+36/60:
+'''
+    Tạo bảng mean_sale: ghi nhận doanh thu trung bình của 4 thị trường NA, EU, JP, Other theo từng tựa game
+'''
+mean_sale = game[['NA_Sales','EU_Sales','JP_Sales','Other_Sales']].groupby(game['Genre'])
+mean_sale.mean().sort_values(by=['NA_Sales'], ascending = False )
+36/61: game.head()
+36/62: game.head(1)
+36/63:
+'''
+    Tạo bảng mean_sale: ghi nhận doanh thu trung bình của 4 thị trường NA, EU, JP, Other theo từng tựa game
+'''
+mean_sale = game[['NA_Sales','EU_Sales','JP_Sales','Other_Sales']].groupby(game['Name'])
+mean_sale.mean().sort_values(by=['NA_Sales'], ascending = False )
+36/64: game.bot(1)
+36/65: game.bottom(1)
+36/66: game.head(1)
+36/67: game['Name'].describe()
+36/68:
+'''
+    Tạo bảng publish_year: ghi nhận năm phát hàng của từng tựa game
+'''
+publish_year = game['Year'].groupby(game['Name'])
+publish_year.min()
+36/69:
+'''
+    Tạo bảng publish_year: ghi nhận năm phát hàng của từng tựa game
+'''
+publish_year = game['Year'].groupby(game['Name'])
+publish_year.min().isnull()
+36/70:
+'''
+    Tạo bảng publish_year: ghi nhận năm phát hàng của từng tựa game
+'''
+publish_year = game['Year'].groupby(game['Name'])
+publish_year.min().isnull().sum()
+36/71:
+'''
+    Merge bảng mean_sale và publish_year, key là tựa game
+'''
+pd.merge(
+    mean_sale, publish_year,
+    key = 'Name'    
+)
+36/72:
+'''
+    Merge bảng mean_sale và publish_year, key là tựa game
+'''
+pd.merge(
+    mean_sale, publish_year   
+)
+36/73:
+'''
+    Tạo bảng mean_sale: ghi nhận doanh thu trung bình của 4 thị trường NA, EU, JP, Other theo từng tựa game
+'''
+mean_sale = game[['NA_Sales','EU_Sales','JP_Sales','Other_Sales']].groupby(game['Name'].mean().sort_values(by=['NA_Sales'], ascending = False)
+36/74:
+'''
+    Tạo bảng mean_sale: ghi nhận doanh thu trung bình của 4 thị trường NA, EU, JP, Other theo từng tựa game
+'''
+mean_sale = game[['NA_Sales','EU_Sales','JP_Sales','Other_Sales']].groupby(game['Name']).mean().sort_values(by=['NA_Sales'], ascending = False)
+36/75:
+'''
+    Merge bảng mean_sale và publish_year, key là tựa game
+'''
+pd.merge(
+    mean_sale, publish_year   
+)
+36/76:
+'''
+    Tạo bảng publish_year: ghi nhận năm phát hàng của từng tựa game
+'''
+publish_year = game['Year'].groupby(game['Name']).min()
+publish_year.min().isnull().sum()
+36/77:
+'''
+    Tạo bảng publish_year: ghi nhận năm phát hàng của từng tựa game
+'''
+publish_year = game['Year'].groupby(game['Name']).min()
+#publish_year.min().isnull().sum()
+36/78:
+'''
+    Tạo bảng publish_year: ghi nhận năm phát hàng của từng tựa game
+'''
+publish_year = game['Year'].groupby(game['Name']).min()
+publish_year.min().isnull().sum()
+36/79:
+'''
+    Tạo bảng publish_year: ghi nhận năm phát hàng của từng tựa game
+'''
+publish_year = game['Year'].groupby(game['Name']).min()
+#publish_year.min().isnull().sum()
+36/80:
+'''
+    Merge bảng mean_sale và publish_year, key là tựa game
+'''
+pd.merge(
+    mean_sale, publish_year   
+)
+36/81:
+'''
+    Merge bảng mean_sale và publish_year, key là tựa game
+'''
+pd.merge(
+    mean_sale, publish_year,
+    left_on = 'Year',
+    right_on = 'Year'
+)
+36/82:
+'''
+    Merge bảng mean_sale và publish_year, key là tựa game
+'''
+pd.merge(
+    mean_sale, publish_year,
+    left_on = 'Name',
+    right_on = 'Name'
+)
+36/83:
+'''
+    Tạo bảng sale gồm các cột Name, NA_Sales, EU_Sales, JP_Sales, Other_Sales
+    Chuyển bảng sale từ dạng wide về dạng long table
+'''
+game[['Name','NA_Sales','EU_Sales','JP_Sales','Other_Sales']]
+36/84:
+'''
+    Tạo bảng sale gồm các cột Name, NA_Sales, EU_Sales, JP_Sales, Other_Sales
+    Chuyển bảng sale từ dạng wide về dạng long table
+'''
+4ae = game[['Name','NA_Sales','EU_Sales','JP_Sales','Other_Sales']]
+36/85:
+'''
+    Tạo bảng sale gồm các cột Name, NA_Sales, EU_Sales, JP_Sales, Other_Sales
+    Chuyển bảng sale từ dạng wide về dạng long table
+'''
+games = game[['Name','NA_Sales','EU_Sales','JP_Sales','Other_Sales']]
+36/86: games.melt()
+36/87: pd.melt(games)
+36/88:
+'''
+    Tạo bảng sale gồm các cột Name, NA_Sales, EU_Sales, JP_Sales, Other_Sales
+    Chuyển bảng sale từ dạng wide về dạng long table
+'''
+games = game[['Name','NA_Sales','EU_Sales','JP_Sales','Other_Sales']]
+games
+36/89: pd.melt(games,'Name')
+36/90:
+df = pd.DataFrame({
+    'class' : list('ABC')*4,
+    'lesson' : ['math','stat']*6,
+    'sex' : list('MFMM')*3,
+    'sibling' : [1,2,3]*4,
+    'score' : np.arange(40,100,5)
+})
+36/91:
+df = pd.DataFrame({
+    'class' : list('ABC')*4,
+    'lesson' : ['math','stat']*6,
+    'sex' : list('MFMM')*3,
+    'sibling' : [1,2,3]*4,
+    'score' : np.arange(40,100,5)
+})
+df
+36/92: df.groupby('lesson')
+36/93: df.groupby('lesson')['score'].mean()
+36/94: df.groupby('lesson').mean()
+36/95: df.groupby('lesson')
+36/96: df.groupby('lesson').min()
+36/97: df.groupby('lesson').max()
+36/98: df.groupby('lesson').count()
+36/99: df.groupby('lesson').sum()
+36/100: df.groupby('lesson').mean()
+36/101: df.groupby('lesson')['score'].mean()
+36/102: df.group(['lesson','class'])['score'].aggregate('mean')
+36/103: df.groupby(['lesson','class'])['score'].aggregate('mean')
+36/104: df.groupby(['lesson','class'])['score'].aggregate('mean').unstack()
+36/105: df.groupby(['lesson','class'])['score'].aggregate('mean')
+36/106: df.groupby(['lesson','class'])['score'].aggregate('mean').unstack()
+36/107:
+df.pivot_table(
+    index = ['class','lesson'],
+    column = 'sex',
+    values = ['sibling','score']
+)
+36/108:
+df.pivot_table(
+    index = ['class','lesson'],
+    columns = 'sex',
+    values = ['sibling','score']
+)
+36/109:
+df.pivot_table(
+    index = ['class','lesson'],   # hàng - row
+    columns = 'sex',              # cột - columns
+    values = ['sibling','score']  # giá trị điền vào - values
+)
+36/110:
+df.pivot_table(
+    ['sibling','score'],
+    index = ['class','lesson'],
+    columns = 'sex',
+    margins = True
+)
+36/111:
+df.pivot_table(
+    ['sibling','score'],
+    index = ['class','lesson'],
+    columns = 'sex',
+    fill_value = 0
+)
+36/112:
+# pandas crosstab df sibling and lesson
+pd.crosstab([df.sibling,df.lesson], df.sex)
+36/113: 'hello'.upper()
+36/114: name = pd.Series(data)
+36/115: data = ['tim','Kate','SUSan',np.nan,'aLEX']
+36/116: name = pd.Series(data)
+36/117: name.str.capitalize()
+36/118:
+df = pd.DataFrame(
+    np.random.randn(3,2),
+    columns = ['Column A','Column B'],
+    index = range(3)
+)
+36/119: df.columns
+36/120:
+df = pd.DataFrame(
+    np.random.randn(3,2),
+    columns = ['Column A','Column B'],
+    index = range(3)
+)
+df
+36/121: df.columns.str.lower().str.replace(' ','_')
+36/122:
+s = pd.Series(['a_b_c','c_d_d',np.nan,'f_g_h'])
+s
+36/123: s.str.split('_').str(1)
+36/124: s.str.split('_').str[1]
+36/125:
+s.str.split('_')
+s
+36/126:
+money = pd.Series(['15','-$20','$3000'])
+money
+36/127:
+film = pd.read_csv('http:/bit.ly/imdbratings')
+film.head()
+36/128:
+film = pd.read_csv('https:/bit.ly/imdbratings')
+film.head()
+36/129: pd.to_datetime(date)
+36/130:
+date = ['2019-01-05','jan 6, 2019',
+       '7/05/2019','2019/01/9','20190110']
+36/131: pd.to_datetime(date)
+36/132: pd.to_datetime('03/05/2019')
+36/133: pd.to_datetime('05/03/2019',dayfirst = True)
+38/1:
+
+import os
+import pathlib
+import sys
+
+app = r'C:\Users\Admin\Desktop\learn Python\Lecture 3 Control Flow'
+os.chdir(str(pathlib.Path(app).parent))
+sys.path = [os.getcwd()] + sys.path[1:]
+
+from panel.io.jupyter_executor import PanelExecutor
+executor = PanelExecutor(app, 'eyJzZXNzaW9uX2lkIjogIjVKTkxHMDc0djc0VlM0ZUt4d2NtV0ZOSE9JTlhyMTZtajhZYVJodDRORlNZIiwgInNlc3Npb25fZXhwaXJ5IjogMTcyMDE2Mzg3MiwgIl9fYmtfX3psaWJfIjogImVOck5WVzF2NGpnUV9pc1JuN1o3Qk93a3pndFZkV3BwYWRNdXNMUkFXbFJwWlR0T2NFbWNiQklvc1BTX3J4TmdXMDdINlQ0MlVTVFB6T1BKekRQajhhOGF6c0o1ekVTUjExcktyN2U2VXBzeTdMT3NFbXMzU1Y3SVJTMUtLSTZtVW1qWjhxbEpWRHNSZ3RHQ0o2SzB6eGhMVlJ6eEJTdHRENHlxN2FrNndxWHB1ZFpMaXViNXlVV0doZjljTzEyY1BkZnNad2w3cnJXbldSTHplYnpUUXMzYzZydWNaa21lQklWeTVZZnNvX1hBdTlwTkNJOVktWk9fd2FIbGU0U0xJTW5pYlFBZUYzN3ltbS0zajlJd2t3bXFyc2dabldkTXZXY181eXl2OHFfQkVuRXBpal9yVWM0eTlUeGtXMVUzV2ZNb3drM1VBTXFYblZlbE4xUWdhSUJUUlNwTTQxUlptc2FKY3A2bUVmTVl1ZU5GRS1sV1F6ZVZMM2Mzdy02M3VoTHhHVk91R1owbEowckZBR3ZLM0JxZ2ZKVUhIT0NNNzdmSTlOOXRaVGpubExLMENxVmd5Nkk1TGVLb2p1V3ZPTVZsS1pyTFV2UFg4cF9hT0RyOWVRWWFUcDNIT0dSTnZPREJidm5LU0xyWHBpS3NmMjEtcmFEMmdZT2NoNEw1S2x2U0tSWWhrX1VnZWdXejlyUjNXRUduNmdNdnFuTGtPR1pxa3ZHUWkwTkFOX0VyZ0pBaGhMaGdoOWFTN0txYThGQl95YlpkeUlOTU9uN25RYjBTTlBHNUNFdGp1T1pwWGZGWklFdlA2Z3JKNnNvNkxfd1A2Rzh5OXJuTXRFUXpvWTRlNmt6c2VGbndiZGJiems1bXZBTE5aVHlpVE9WUC02dTI3UURaak5vR3RzQUdnaGEwb0lVc3h6QzBqYWEzam16WWFBQzAyT29XVW0yOEluR25tRHk0cHR0MmplNXdFdmV1eDNIWHU1XzExaUhvRDEyOTd3M1dfY3NaNmw2TzlNbkxRT3RxN21yQzNkeHQzODZmUEJpNUwwbm96anB6b2lGRVBBZlMxVVhIOTRxSVhIZG0wbS1KbS1ISDNxdVUwYU9HcHNRYjhUNF81d01QTFlpSUNxS1AxLTdWR0dKdG5EOTU5NUhMWDBNM2p1YjQ4VDU5OHBicm5mX09WdDlia0d0blZlcUlHT2ZrQnB4dEFxQWoyMGMyMUMyZGFOaWtQZ0FNYVJRUTdHQTdnTWgyQ0hPQWJ5Q28tOGlndWg3SUxSWkFoT2lXby1ueVBDdl9TcFJ0SHpJcldUT1JCY0ZSWm0zN0NMTzN2T2ZkUnIzTEFaZ01yOVpQTDFkQVpqcnJEd2RRTW96a0I3cmFhTjI3ZEplOTFYOHk2MDRlYnd2OGVQSDZfNW1kUmpTR0tiMjVPTWFzZTVSWkUxcUdGUVNCVDRodEVJdm9QakVNWmdhTW1wUkNKMEMyUWFGbC14aHB0c09vNUJZd3lUa0N2a1lBaE9Xa1ZINHM4eXc0MHphV1JRaWowTjhReDhITVpIWUFOSVNsVXgtWmpxMmJRSE1ndEh5TGJFcWlvV0VZU000dUhLY19zRThOYXB5Ump2a2QzSFVuNlVWX0VQeUl4TEN0dnp6cGpVWURjZzA0UERXMEQ2dnRnQ3B2RDFxZG51M3RjZVE0VkRhMlRIbFc0YXFwbk9KaXVsX1RKSTUzQTdjVV9TVEdYT3lsR0NfVjNSa3V4ZTBNMzB2VG9rZ1RFYTMyOGtMZVk3c2JxZ0xMV1BMZGlLcUNQZEpWbnlmQXFwcWZKNXozOXZna01iMjlfUWJ3QWFjNiJ9', '/panel-preview')
+executor.render()
+   1: %history -g -f anyfilename
